@@ -92,6 +92,10 @@ h1.display {
   text-decoration: none; font-weight: 600; font-size: 0.95rem;
 }
 .badge.soft { background: transparent; color: var(--accent-deep); border: 1.5px solid var(--line); }
+.badge-store { display: inline-flex; align-items: center; transition: opacity 0.2s ease; }
+.badge-store img { display: block; height: 56px; width: auto; }
+.badge-store:hover { opacity: 0.8; }
+main.doc .badge-store img { height: 48px; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; padding: 26px 0 40px; }
 .card {
