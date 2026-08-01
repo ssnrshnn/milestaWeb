@@ -124,6 +124,21 @@ main.doc a { color: var(--accent-deep); }
   color: var(--ink-soft); font-size: 0.95rem;
 }
 
+table.facts { border-collapse: collapse; width: 100%; margin: 6px 0 10px; }
+table.facts th, table.facts td {
+  text-align: left; vertical-align: top; padding: 9px 12px;
+  border-bottom: 1px solid var(--line); font-size: 0.97rem;
+}
+table.facts th { color: var(--ink-soft); font-weight: 600; white-space: nowrap; width: 1%; }
+table.facts a { color: var(--accent-deep); }
+
+.shots {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px; margin: 14px 0 6px;
+}
+.shots a { display: block; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 18px rgba(60, 45, 30, 0.12); }
+.shots img { display: block; width: 100%; height: auto; }
+
 footer.site {
   border-top: 1px solid var(--line);
   padding: 26px 0 40px; margin-top: 30px;
