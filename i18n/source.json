@@ -1,0 +1,2135 @@
+[
+ {
+  "id": "627424bf2225",
+  "source": "Milesta — Milestones & Life Journal",
+  "contexts": [
+   "index.html title",
+   "index.html meta og:title",
+   "index.html meta twitter:title"
+  ]
+ },
+ {
+  "id": "c0c7dc85321c",
+  "source": "A private, local-first life journal for iOS. Your life, one milestone at a time.",
+  "contexts": [
+   "index.html meta description",
+   "index.html meta og:description",
+   "index.html meta twitter:description"
+  ]
+ },
+ {
+  "id": "177520f2aaf0",
+  "source": "Milesta — a winding path with three coloured milestone waypoints, beside the tagline “Your life, one milestone at a time.”",
+  "contexts": [
+   "index.html meta og:image:alt",
+   "support.html meta og:image:alt",
+   "privacy.html meta og:image:alt",
+   "terms.html meta og:image:alt",
+   "press.html meta og:image:alt"
+  ]
+ },
+ {
+  "id": "0a4470d64e9d",
+  "source": "Skip to content",
+  "contexts": [
+   "index.html a.skip",
+   "support.html a.skip",
+   "privacy.html a.skip",
+   "terms.html a.skip",
+   "press.html a.skip"
+  ]
+ },
+ {
+  "id": "5b6825d3c67a",
+  "source": "Site",
+  "contexts": [
+   "index.html nav.site-nav @aria-label",
+   "support.html nav.site-nav @aria-label",
+   "privacy.html nav.site-nav @aria-label",
+   "terms.html nav.site-nav @aria-label",
+   "press.html nav.site-nav @aria-label"
+  ]
+ },
+ {
+  "id": "f32d5a3b17e6",
+  "source": "Support",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "support.html span.grad-text",
+   "privacy.html a",
+   "terms.html a",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "cf01481f626d",
+  "source": "Privacy",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html a",
+   "press.html th"
+  ]
+ },
+ {
+  "id": "a55a275aa676",
+  "source": "Terms",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "5c3175413bb7",
+  "source": "Impressum",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "cf60c5ebf680",
+  "source": "For iPhone & iPad",
+  "contexts": [
+   "index.html p.eyebrow-pill.intro"
+  ]
+ },
+ {
+  "id": "033bd977d411",
+  "source": "<0>Your life,</0> <1>one milestone</1> <2>at a time.</2>",
+  "contexts": [
+   "index.html h1#hero-title.display"
+  ]
+ },
+ {
+  "id": "24eb40ad2d69",
+  "source": "A private life journal. Your biggest moments line up on a winding path, and every month, half-year and year comes back as a Wrapped-style recap you’ll want to share.",
+  "contexts": [
+   "index.html p.hero-lede.intro"
+  ]
+ },
+ {
+  "id": "a9096aaab40f",
+  "source": "Download on the App Store",
+  "contexts": [
+   "index.html img @alt",
+   "support.html img @alt"
+  ]
+ },
+ {
+  "id": "8fb35e3c1420",
+  "source": "See an example year",
+  "contexts": [
+   "index.html a.btn-ghost"
+  ]
+ },
+ {
+  "id": "257fa99e085f",
+  "source": "No account",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "9956f75fd586",
+  "source": "No cloud",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "df76b5bc094a",
+  "source": "No ads",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "13d22d63a9fa",
+  "source": "Milesta year posters in the Aurora, Sunset, Noir, Linen and Classic styles, turning slowly on a carousel. Some show the year as a gallery of photos, others as a winding path.",
+  "contexts": [
+   "index.html div.drum-scene @aria-label"
+  ]
+ },
+ {
+  "id": "502b6f856e2c",
+  "source": "New in the next update",
+  "contexts": [
+   "index.html span.next-update"
+  ]
+ },
+ {
+  "id": "b003a34194a3",
+  "source": "Year posters in six styles. Example images made with sample data.",
+  "contexts": [
+   "index.html span.stage-note"
+  ]
+ },
+ {
+  "id": "3bd59df745a8",
+  "source": "Pause animations",
+  "contexts": [
+   "index.html button.motion-toggle @aria-label",
+   "index.html button.motion-toggle.tapes-toggle @aria-label"
+  ]
+ },
+ {
+  "id": "959e5e06322c",
+  "source": "Monthly recaps",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "90e14a1847fc",
+  "source": "6-month recaps",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "62aa0796c770",
+  "source": "Year posters",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "a0f8750cd88c",
+  "source": "Month cards",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "58bbd24c0296",
+  "source": "Story replay",
+  "contexts": [
+   "index.html li",
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "b4510362a5c5",
+  "source": "Insights",
+  "contexts": [
+   "index.html li",
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "c0866312d0f3",
+  "source": "Six poster and card styles: Classic, Sunset, Noir, Aurora, Linen and Glow.",
+  "contexts": [
+   "index.html p.sr-only"
+  ]
+ },
+ {
+  "id": "130cd7fe3334",
+  "source": "Classic",
+  "contexts": [
+   "index.html li.ts.ts-classic",
+   "index.html button#tab-classic.style-tab",
+   "index.html figcaption"
+  ]
+ },
+ {
+  "id": "181bcd5760fd",
+  "source": "Sunset",
+  "contexts": [
+   "index.html li.ts.ts-sunset",
+   "index.html button#tab-sunset.style-tab"
+  ]
+ },
+ {
+  "id": "c34fc1721f5a",
+  "source": "Noir",
+  "contexts": [
+   "index.html li.ts.ts-noir",
+   "index.html button#tab-noir.style-tab"
+  ]
+ },
+ {
+  "id": "eeee9b76ec5d",
+  "source": "Aurora",
+  "contexts": [
+   "index.html li.ts.ts-aurora",
+   "index.html button#tab-aurora.style-tab"
+  ]
+ },
+ {
+  "id": "74a1ce7db379",
+  "source": "Linen",
+  "contexts": [
+   "index.html li.ts.ts-linen",
+   "index.html button#tab-linen.style-tab"
+  ]
+ },
+ {
+  "id": "d5545dea16e6",
+  "source": "Glow",
+  "contexts": [
+   "index.html li.ts.ts-glow"
+  ]
+ },
+ {
+  "id": "2dff58ea6e89",
+  "source": "The path",
+  "contexts": [
+   "index.html p.kicker"
+  ]
+ },
+ {
+  "id": "359a83d7bafc",
+  "source": "It starts with <0>one</0> milestone.",
+  "contexts": [
+   "index.html h2#path-title.h2"
+  ]
+ },
+ {
+  "id": "286551afc4b1",
+  "source": "A new job. A first home. A finish line. Give a moment a date, a place and a few photos, and it takes its place on a winding path you can scroll back through, newest at the top.",
+  "contexts": [
+   "index.html p.lede"
+  ]
+ },
+ {
+  "id": "802c0a18e546",
+  "source": "Capture it",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "305d5a52a343",
+  "source": "Add a milestone in seconds, or save a note or a link from any app through the share sheet.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "e92475e54c87",
+  "source": "Watch it grow",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "5b64151058a5",
+  "source": "Every milestone becomes a waypoint on your path, on iPhone and iPad, in light or dark.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "8a7a41fb7550",
+  "source": "Relive it",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "0fc9073208e7",
+  "source": "Recaps, posters and story replay bring the moments back, whenever you like.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "51d3402c694a",
+  "source": "Your first 20 milestones are free; Premium lifts the limit.",
+  "contexts": [
+   "index.html p.fine"
+  ]
+ },
+ {
+  "id": "17591a991887",
+  "source": "Milesta’s home screen: today at the top asks “What’s your next milestone?”, then milestones by month along a winding path, like “Dad retired — surprise party” and “The studio’s first big launch”. Beside it, sample milestones with photos: adopting a beagle, the keys to a first apartment, and a Christmas weekend in Rome.",
+  "contexts": [
+   "index.html div.path-phone-wrap @aria-label"
+  ]
+ },
+ {
+  "id": "a876b2c18441",
+  "source": "<0>Adopted Miso — best decision ever</0><1>Jul 30</1>",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "b760dcfd5ce5",
+  "source": "<0>Keys to our first own apartment</0><1>May 30</1>",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "cf0416f3f526",
+  "source": "<0>Christmas weekend in Rome</0><1>Dec 26</1>",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "94792cd2f9ff",
+  "source": "Example images made with sample data.",
+  "contexts": [
+   "index.html p.caption.path-caption",
+   "index.html p.caption"
+  ]
+ },
+ {
+  "id": "9b52abcb9053",
+  "source": "Recaps",
+  "contexts": [
+   "index.html p.kicker"
+  ]
+ },
+ {
+  "id": "7d4a0b662282",
+  "source": "Every year, <0>Wrapped.</0>",
+  "contexts": [
+   "index.html h2#year-title.h2"
+  ]
+ },
+ {
+  "id": "1a2b10e2ef7c",
+  "source": "When a month or a year closes, it comes back as something worth sharing. Monthly, 6-month and yearly recaps gather how many, where, and the moments that made it.",
+  "contexts": [
+   "index.html p.lede"
+  ]
+ },
+ {
+  "id": "9b26e103b7d3",
+  "source": "<0>Example year</0>made with sample data",
+  "contexts": [
+   "index.html p.example-flag"
+  ]
+ },
+ {
+  "id": "109448d45cda",
+  "source": "The year",
+  "contexts": [
+   "index.html p.stat-eyebrow"
+  ]
+ },
+ {
+  "id": "963333b27460",
+  "source": "<0>51</0><1>milestones</1><2>51 milestones</2>",
+  "contexts": [
+   "index.html p.stat-figure"
+  ]
+ },
+ {
+  "id": "6e1dcb00fa96",
+  "source": "<0>Milesta</0><1>Example</1>",
+  "contexts": [
+   "index.html p.stat-foot"
+  ]
+ },
+ {
+  "id": "56a1607f1f83",
+  "source": "On the map",
+  "contexts": [
+   "index.html p.stat-eyebrow"
+  ]
+ },
+ {
+  "id": "7d2e257d1fcb",
+  "source": "<0>13</0><1>places</1><2>13 places</2>",
+  "contexts": [
+   "index.html p.stat-figure"
+  ]
+ },
+ {
+  "id": "ac4792cfd486",
+  "source": "Streak",
+  "contexts": [
+   "index.html p.stat-eyebrow"
+  ]
+ },
+ {
+  "id": "37d3b554336c",
+  "source": "<0>21</0><1>month streak</1><2>a 21-month streak</2>",
+  "contexts": [
+   "index.html p.stat-figure"
+  ]
+ },
+ {
+  "id": "094c097f3b07",
+  "source": "This year",
+  "contexts": [
+   "index.html p.stat-eyebrow"
+  ]
+ },
+ {
+  "id": "a8b9ce4ddbd1",
+  "source": "<0>12</0><1>milestones so far</1><2>12 milestones so far this year</2>",
+  "contexts": [
+   "index.html p.stat-figure"
+  ]
+ },
+ {
+  "id": "cce88f913c56",
+  "source": "Example numbers from Milesta’s sample data. Your recaps count your own milestones. Your latest monthly recap is free; every recap comes with Premium.",
+  "contexts": [
+   "index.html p.caption.center"
+  ]
+ },
+ {
+  "id": "69423d8a752c",
+  "source": "Your year, ready to share.",
+  "contexts": [
+   "index.html h2#posters-title.h2"
+  ]
+ },
+ {
+  "id": "55d85bf62d21",
+  "source": "Your recaps become posters and cards, in light and dark styles, with your photos included. Pick a layout: a gallery of your best photos, or the whole year as a winding path.",
+  "contexts": [
+   "index.html p.lede"
+  ]
+ },
+ {
+  "id": "04165d494eef",
+  "source": "Try a style",
+  "contexts": [
+   "index.html p#style-label.tabs-label"
+  ]
+ },
+ {
+  "id": "e377438b0e24",
+  "source": "Year poster, Gallery layout, Aurora style: 2025, 51 milestones and 13 places, with photos of the biggest moments and the year at a glance.",
+  "contexts": [
+   "index.html button#tab-aurora.style-tab @data-alt-gallery",
+   "index.html img#poster-gallery-img @alt"
+  ]
+ },
+ {
+  "id": "18aaace1017a",
+  "source": "Year poster, Path layout, Aurora style: 2025’s 51 milestones along a winding path, with photo stops for the biggest moments.",
+  "contexts": [
+   "index.html button#tab-aurora.style-tab @data-alt-path",
+   "index.html img#poster-path-img @alt"
+  ]
+ },
+ {
+  "id": "a3ca018b0301",
+  "source": "Year poster, Gallery layout, Sunset style: 2023, 12 milestones and 2 places, shown with icons because that year has no photos.",
+  "contexts": [
+   "index.html button#tab-sunset.style-tab @data-alt-gallery"
+  ]
+ },
+ {
+  "id": "63c0247f6fcc",
+  "source": "Year poster, Path layout, Sunset style: 2023’s 12 milestones along a winding path.",
+  "contexts": [
+   "index.html button#tab-sunset.style-tab @data-alt-path"
+  ]
+ },
+ {
+  "id": "3a9af1df1314",
+  "source": "Year poster, Gallery layout, Noir style: 2025, 51 milestones and 13 places, in black and white with full-colour photos.",
+  "contexts": [
+   "index.html button#tab-noir.style-tab @data-alt-gallery"
+  ]
+ },
+ {
+  "id": "809d6ee4db1f",
+  "source": "Year poster, Path layout, Noir style: 2025’s 51 milestones as white dots along a dark, winding path.",
+  "contexts": [
+   "index.html button#tab-noir.style-tab @data-alt-path"
+  ]
+ },
+ {
+  "id": "995cfa6d5689",
+  "source": "Year poster, Gallery layout, Linen style: 2025, 51 milestones and 13 places, on light paper.",
+  "contexts": [
+   "index.html button#tab-linen.style-tab @data-alt-gallery"
+  ]
+ },
+ {
+  "id": "bdd157422799",
+  "source": "Year poster, Path layout, Linen style: 2025’s 51 milestones along a winding path on light paper.",
+  "contexts": [
+   "index.html button#tab-linen.style-tab @data-alt-path"
+  ]
+ },
+ {
+  "id": "64f8b777956a",
+  "source": "Year poster, Gallery layout, Classic style: 2025, 51 milestones and 13 places, in warm terracotta.",
+  "contexts": [
+   "index.html button#tab-classic.style-tab @data-alt-gallery"
+  ]
+ },
+ {
+  "id": "c66f69bd3997",
+  "source": "Year poster, Path layout, Classic style: 2025’s 51 milestones along a winding path in warm terracotta.",
+  "contexts": [
+   "index.html button#tab-classic.style-tab @data-alt-path"
+  ]
+ },
+ {
+  "id": "b3dfa516622e",
+  "source": "Plus Glow, pink into violet: six styles in all. The Sunset examples show a quieter year without photos, where icons stand in for pictures.",
+  "contexts": [
+   "index.html p.fine"
+  ]
+ },
+ {
+  "id": "519e39132bb9",
+  "source": "Path",
+  "contexts": [
+   "index.html figcaption.poster-tag"
+  ]
+ },
+ {
+  "id": "9c30a3485a58",
+  "source": "Gallery",
+  "contexts": [
+   "index.html figcaption.poster-tag"
+  ]
+ },
+ {
+  "id": "34ee0c69cb15",
+  "source": "Every month, in one card.",
+  "contexts": [
+   "index.html h3.h3"
+  ]
+ },
+ {
+  "id": "bc476b21cdb4",
+  "source": "A calendar of your milestones and the moments that made the month, photos and all.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "13184aa4dd1c",
+  "source": "Five monthly recap cards",
+  "contexts": [
+   "index.html div.month-rail @aria-label"
+  ]
+ },
+ {
+  "id": "9907d3b909a1",
+  "source": "March 2025 monthly card, Classic style: 3 milestones, with a photo of a piano for “Played my first full song on the piano”.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "eb00a3efb7b8",
+  "source": "June 2025 monthly card, Sunset style: 10 milestones, with photos of cherry blossoms in Kyoto, a stack of books and a wedding.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "e99e6969d4a8",
+  "source": "September 2025 monthly card, Noir style: 6 milestones, including a sister’s wedding and a surprise weekend in Vienna.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "aa70f79a1e39",
+  "source": "November 2025 monthly card, Aurora style: 1 milestone, “Wrote the hundredth page of my novel”.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "67d25eccc98e",
+  "source": "June 2025 monthly card, Linen style: the same month on light paper.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "e11a896e3d2f",
+  "source": "Sharing posters and cards comes with Premium. Example images made with sample data.",
+  "contexts": [
+   "index.html p.caption.center"
+  ]
+ },
+ {
+  "id": "9601d106481e",
+  "source": "Everything in Milesta",
+  "contexts": [
+   "index.html p.kicker"
+  ]
+ },
+ {
+  "id": "8cc95d9920f0",
+  "source": "Everything your story needs.",
+  "contexts": [
+   "index.html h2#bento-title.h2"
+  ]
+ },
+ {
+  "id": "537ba0afb5c4",
+  "source": "Your year at a glance, your streaks, your busiest months, your categories and your places.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "271ca0243010",
+  "source": "Your milestone count and days on the path are free; full insights come with Premium.",
+  "contexts": [
+   "index.html p.tile-fine"
+  ]
+ },
+ {
+  "id": "0f4f4242ec97",
+  "source": "What Insights shows",
+  "contexts": [
+   "index.html ul.feature-chips @aria-label"
+  ]
+ },
+ {
+  "id": "ea4e0b40bbbe",
+  "source": "Year at a glance",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "0de6ad7df077",
+  "source": "Streaks",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "ab769c8448d8",
+  "source": "Busiest months",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "6ccb60071be8",
+  "source": "Categories",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "0cd3597453ab",
+  "source": "Places",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "ae6ac87992e2",
+  "source": "Insights in the Midnight palette: 79 milestones since Jan 10, 2023, 1,359 days on the path, 12 this year and 18 photos, this year’s milestones as dots by month, and a 21-month streak.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "49703b1c7314",
+  "source": "Press play and your journey returns full screen, one milestone at a time. Tall photos fill the screen; wide ones stay whole over a soft blur of themselves.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "1f61cb98cae4",
+  "source": "Free for everyone.",
+  "contexts": [
+   "index.html p.tile-fine"
+  ]
+ },
+ {
+  "id": "6fbd9fcb1849",
+  "source": "Story replay: a wide photo of the Colosseum shown whole over a soft blur of itself, for “Christmas weekend in Rome”, December 26, 2025, in Rome, Italy.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "bd72016cf767",
+  "source": "Story replay: a full-screen photo of a beagle for “Adopted Miso — best decision ever”, October 28, 2025.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "86dc7dca8763",
+  "source": "Four designs, nine palettes",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "107c57a79f25",
+  "source": "Draw your path as Classic cards beside a winding line, a Scrapbook of polaroids and notes, a Memory Map with your photos as stops, or Wrapped: frosted glass along a glowing path, like this page. Then pick any of nine palettes.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "b3bc88963fa4",
+  "source": "The nine palettes",
+  "contexts": [
+   "index.html ul.palettes @aria-label"
+  ]
+ },
+ {
+  "id": "8be6e64eb5c3",
+  "source": "Terracotta",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "76022a00a16b",
+  "source": "Ocean",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "f41c4e4dab0b",
+  "source": "Forest",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "558287ddcc35",
+  "source": "Midnight",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "407d70b903dc",
+  "source": "Rosé",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "75c88f3a0072",
+  "source": "Lavender",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "26d7b218c9b5",
+  "source": "Slate",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "22d507f2ba74",
+  "source": "Paper",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "8bd28d90f59e",
+  "source": "Atlas",
+  "contexts": [
+   "index.html span"
+  ]
+ },
+ {
+  "id": "7f45c1edb6df",
+  "source": "Classic with the Terracotta palette is free; the other designs and palettes come with Premium.",
+  "contexts": [
+   "index.html p.tile-fine"
+  ]
+ },
+ {
+  "id": "3829d6e57945",
+  "source": "The four designs",
+  "contexts": [
+   "index.html div.tile-media.designs-media @aria-label"
+  ]
+ },
+ {
+  "id": "2e848c9b00e1",
+  "source": "The Classic design in light mode: milestone cards beside a winding line, grouped by month.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "7ad3b5d5984f",
+  "source": "The Scrapbook design in dark mode: taped polaroids and pinned notes along a pencilled trail, with stamped month labels.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "6b2e0c43cd80",
+  "source": "Scrapbook",
+  "contexts": [
+   "index.html figcaption"
+  ]
+ },
+ {
+  "id": "5139f6a51acc",
+  "source": "The Memory Map design at night: photos as round stops along a soft road, for a trip to Kyoto, a triathlon and a finished novel draft.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "df65c16822fd",
+  "source": "Memory Map",
+  "contexts": [
+   "index.html figcaption"
+  ]
+ },
+ {
+  "id": "89c6e9984a4b",
+  "source": "The Wrapped design: frosted glass cards along a glowing path, with the year 2025 set large in a sunset-to-violet gradient.",
+  "contexts": [
+   "index.html img @alt"
+  ]
+ },
+ {
+  "id": "5380d98727ff",
+  "source": "Wrapped",
+  "contexts": [
+   "index.html figcaption"
+  ]
+ },
+ {
+  "id": "3aaa9fd1f2ef",
+  "source": "Private by design",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "54003a176bcb",
+  "source": "No account. No cloud. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it. Lock Milesta with Face ID; backups stay on your device too.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "ea5d1c9e0445",
+  "source": "Widget & share sheet",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "8217a335cd8f",
+  "source": "Keep your latest milestone and your journey total on the Home Screen. Save a note or a link from any app through the share sheet.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "f9e1534a3fa4",
+  "source": "15 languages",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "9d382e42fd99",
+  "source": "Fully localized, with right-to-left support and in-app language switching.",
+  "contexts": [
+   "index.html p"
+  ]
+ },
+ {
+  "id": "db07be184479",
+  "source": "Languages",
+  "contexts": [
+   "index.html ul.langs @aria-label",
+   "press.html th"
+  ]
+ },
+ {
+  "id": "649df08a448e",
+  "source": "English",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "a6a7709266d3",
+  "source": "Deutsch",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "2001ca082b2d",
+  "source": "Español",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "2ca514ebd7c3",
+  "source": "Français",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "053aa1d851d8",
+  "source": "Português",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "efaad145ca77",
+  "source": "Türkçe",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "d33f31ad3d90",
+  "source": "Bahasa Indonesia",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "4993440c2393",
+  "source": "Tiếng Việt",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "2aaf94d9748c",
+  "source": "Free & Premium",
+  "contexts": [
+   "index.html p.kicker"
+  ]
+ },
+ {
+  "id": "5c0bc3e80f8e",
+  "source": "Start free. Go Premium for the <0>whole</0> story.",
+  "contexts": [
+   "index.html h2#plans-title.h2"
+  ]
+ },
+ {
+  "id": "75f527181b57",
+  "source": "Free",
+  "contexts": [
+   "index.html h3"
+  ]
+ },
+ {
+  "id": "bb824f369b41",
+  "source": "Everything you need to start your path.",
+  "contexts": [
+   "index.html p.plan-sub"
+  ]
+ },
+ {
+  "id": "e2cb680cc79b",
+  "source": "Your first 20 milestones",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "c8b2e864eccb",
+  "source": "Photos",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "2e5e13ddc91c",
+  "source": "The latest monthly recap",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "530cc25bdc7d",
+  "source": "Backups",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "c328c07bd49f",
+  "source": "The Classic design with the Terracotta palette",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "6c2f2888c561",
+  "source": "Premium",
+  "contexts": [
+   "index.html span.grad-text"
+  ]
+ },
+ {
+  "id": "91f3bdbe25d4",
+  "source": "For every chapter, and every way to share it.",
+  "contexts": [
+   "index.html p.plan-sub"
+  ]
+ },
+ {
+  "id": "2a0f2fc4d97e",
+  "source": "Unlimited milestones",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "fdce52ac7786",
+  "source": "Every recap, and poster sharing",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "5e8bff5d9176",
+  "source": "All designs and palettes",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "ad1bedadffc8",
+  "source": "Full insights",
+  "contexts": [
+   "index.html li"
+  ]
+ },
+ {
+  "id": "40f4312671f1",
+  "source": "<0>New in the next update</0><1>New posters and cards</1>",
+  "contexts": [
+   "index.html p.plan-new"
+  ]
+ },
+ {
+  "id": "ab05b4b513ec",
+  "source": "Start your <0>path.</0>",
+  "contexts": [
+   "index.html h2#finale-title.mega"
+  ]
+ },
+ {
+  "id": "cf18def1ca58",
+  "source": "Free to download. Your first 20 milestones are free.",
+  "contexts": [
+   "index.html p.finale-sub"
+  ]
+ },
+ {
+  "id": "299950c5566a",
+  "source": "No account · No cloud · No ads · 15 languages",
+  "contexts": [
+   "index.html p.finale-facts"
+  ]
+ },
+ {
+  "id": "5b17c7367dfd",
+  "source": "Your life, one milestone at a time.",
+  "contexts": [
+   "index.html p",
+   "support.html p",
+   "privacy.html p",
+   "terms.html p",
+   "press.html p"
+  ]
+ },
+ {
+  "id": "26c01e70a337",
+  "source": "Footer",
+  "contexts": [
+   "index.html nav @aria-label",
+   "support.html nav @aria-label",
+   "privacy.html nav @aria-label",
+   "terms.html nav @aria-label",
+   "press.html nav @aria-label"
+  ]
+ },
+ {
+  "id": "ea683ad61606",
+  "source": "Press",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html p.kicker",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "c3e073423922",
+  "source": "App Store",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html th",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "52d7eca9b4cb",
+  "source": "© <0>2026</0> Milesta. For iPhone & iPad.",
+  "contexts": [
+   "index.html p.foot-copy",
+   "support.html p.foot-copy",
+   "privacy.html p.foot-copy",
+   "terms.html p.foot-copy",
+   "press.html p.foot-copy"
+  ]
+ },
+ {
+  "id": "41ff3cd20297",
+  "source": "Support — Milesta",
+  "contexts": [
+   "support.html title",
+   "support.html meta og:title",
+   "support.html meta twitter:title"
+  ]
+ },
+ {
+  "id": "fe2eb81ae56f",
+  "source": "Help with Milesta: backups and restoring data, Premium subscriptions, languages, Face ID lock — and how to reach the developer directly.",
+  "contexts": [
+   "support.html meta description",
+   "support.html meta og:description",
+   "support.html meta twitter:description"
+  ]
+ },
+ {
+  "id": "c47ae15370cf",
+  "source": "Help",
+  "contexts": [
+   "support.html p.kicker"
+  ]
+ },
+ {
+  "id": "5b5ddfaecd50",
+  "source": "We usually answer within a few days.",
+  "contexts": [
+   "support.html p.doc-updated"
+  ]
+ },
+ {
+  "id": "9de8ee664f49",
+  "source": "Something not working, or an idea for the path? Email <0>info@milesta.app</0>.",
+  "contexts": [
+   "support.html p.doc-intro"
+  ]
+ },
+ {
+  "id": "0b8a19ed98cb",
+  "source": "Frequently asked",
+  "contexts": [
+   "support.html h2"
+  ]
+ },
+ {
+  "id": "f7bdc720cc4a",
+  "source": "Where is my data stored?",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "57fcdc6a9e07",
+  "source": "Only on your device. Milesta has no accounts and no cloud. That also means: if you delete the app, your journal is gone with it — export a backup first.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "365276ed45b6",
+  "source": "How do I back up my journal?",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "4058b994e729",
+  "source": "Settings → Data → <0>Export Backup</0> creates a single file containing every milestone, photo, and category. You can also enable <1>Automatic monthly backup</1>; copies are kept in the Files app under On My iPhone → Milesta.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "c4a237c2f45a",
+  "source": "How do I move to a new iPhone?",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "e8fddfda0ae7",
+  "source": "Export a backup on the old device, send the file to the new one (AirDrop or Files), install Milesta, then Settings → Data → <0>Import Backup</0>.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "f65aa3868948",
+  "source": "My recap hasn't appeared yet.",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "cbfc95454142",
+  "source": "Recaps cover completed periods: the June recap appears on July 1, half-year recaps on January 1 and July 1, and the yearly Wrapped on January 1.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "4307df23512a",
+  "source": "How do I cancel Premium?",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "6b6adf7fd51a",
+  "source": "Subscriptions are managed by Apple: Settings → your Apple ID → Subscriptions → Milesta → Cancel. Your milestones remain fully accessible on the free tier.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "ae30f23b5e3e",
+  "source": "Face ID lock stopped asking.",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "941668bccd30",
+  "source": "The lock engages when the app goes to the background and on launch. If it appears unlocked, iOS may have kept the app active — swipe it away or lock the phone to force it.",
+  "contexts": [
+   "support.html p"
+  ]
+ },
+ {
+  "id": "4db00bf9adfd",
+  "source": "Don't have Milesta yet?",
+  "contexts": [
+   "support.html h3"
+  ]
+ },
+ {
+  "id": "3c78692be8eb",
+  "source": "Privacy Policy — Milesta",
+  "contexts": [
+   "privacy.html title",
+   "privacy.html meta og:title",
+   "privacy.html meta twitter:title"
+  ]
+ },
+ {
+  "id": "643576c68958",
+  "source": "How Milesta handles your data: no accounts, no cloud, no ads. Your entries stay on your iPhone, and anonymous usage statistics are collected only if you opt in.",
+  "contexts": [
+   "privacy.html meta description",
+   "privacy.html meta og:description",
+   "privacy.html meta twitter:description"
+  ]
+ },
+ {
+  "id": "902c91d94e0f",
+  "source": "Legal",
+  "contexts": [
+   "privacy.html p.kicker",
+   "terms.html p.kicker"
+  ]
+ },
+ {
+  "id": "13c68cb9c0e4",
+  "source": "Privacy <0>Policy</0>",
+  "contexts": [
+   "privacy.html h1.doc-title"
+  ]
+ },
+ {
+  "id": "9cc22124d537",
+  "source": "Last updated: September 30, 2026",
+  "contexts": [
+   "privacy.html p.doc-updated"
+  ]
+ },
+ {
+  "id": "bb1a48a8a6f4",
+  "source": "Milesta is a private, local-first life journal for iOS.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "c48bbcfed6ef",
+  "source": "What we collect",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "45ee7da9c718",
+  "source": "Nothing, by default. Milesta has no accounts, no tracking, and no servers operated by us.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "7ce63957ea38",
+  "source": "If — and only if — you opt in (during onboarding or in Settings), Milesta sends <0>anonymous usage statistics</0> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, links, or any identifier tied to you, and you can switch them off at any time in Settings. See <1>PostHog's privacy policy</1>.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "1d6d97874a96",
+  "source": "Where your data lives",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "dd705d939307",
+  "source": "Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "2cb53c743829",
+  "source": "What ever leaves your device",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "143a4870ea2b",
+  "source": "Only content you explicitly share yourself:",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "25b78cb112ad",
+  "source": "Recap images, posters, or text summaries you send through the iOS share sheet.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "e60a6c86effa",
+  "source": "Backup files you export through the Files app.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "4a7d1a61a4b1",
+  "source": "Milesta never transmits anything on its own. Optional automatic backups are written to your device's local storage only.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "d219c68101f5",
+  "source": "Location",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "c771b232268c",
+  "source": "Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission and Milesta performs a single lookup to turn your position into a short place name (like \"Berlin, Germany\"). Only that text is saved, on your device. Milesta never tracks, stores, or transmits coordinates, and never accesses location in the background.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "18b82df92630",
+  "source": "Face ID",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "ee4d19324d6e",
+  "source": "If you enable App Lock, Face ID is evaluated entirely by iOS on your device. Milesta only receives a yes/no result and never accesses biometric data.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "6c4e94f10417",
+  "source": "Purchases",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "d16b5ed245e4",
+  "source": "Subscriptions are processed by Apple. If enabled, receipt validation is handled by RevenueCat using an anonymous identifier; no personal information or journal content is ever involved. See <0>RevenueCat's privacy policy</0>.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "753a22b2eb61",
+  "source": "Notifications",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "f6468a1dc43c",
+  "source": "Anniversary reminders, recap announcements, and encouragement notes are scheduled locally on your device. No push servers are used.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "3a22458b6390",
+  "source": "Your rights (GDPR)",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "77b82cdd5902",
+  "source": "Because Milesta stores no personal data on any server, there is nothing for us to access, correct, export, or erase on your behalf — your data is exclusively in your hands, on your device. For any privacy question, contact us using the details in the <0>Impressum</0>.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "36f800782dd2",
+  "source": "This website",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "c88f7c0aa2ab",
+  "source": "milesta.app uses PostHog, hosted in the European Union, in <0>cookieless mode</0> for aggregate visit statistics: no cookies, no local storage, no cross-site tracking, and IP addresses are discarded at ingestion. Page performance metrics are collected anonymously via Vercel Speed Insights. Neither can identify you. If you pick a language or pause the animations, your browser remembers that choice on your device; it is never sent to us.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "8aa57de6dce6",
+  "source": "Changes",
+  "contexts": [
+   "privacy.html h2"
+  ]
+ },
+ {
+  "id": "3d7c72615c2c",
+  "source": "If this policy changes, the new version will be published on this page with an updated date.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "9c576c01e242",
+  "source": "Terms of Use — Milesta",
+  "contexts": [
+   "terms.html title",
+   "terms.html meta og:title",
+   "terms.html meta twitter:title"
+  ]
+ },
+ {
+  "id": "825cc2776acb",
+  "source": "The terms of use for Milesta, the private, local-first life journal for iOS: your content, subscriptions, and what you can expect from the app.",
+  "contexts": [
+   "terms.html meta description",
+   "terms.html meta og:description",
+   "terms.html meta twitter:description"
+  ]
+ },
+ {
+  "id": "068e5d609145",
+  "source": "Terms of <0>Use</0>",
+  "contexts": [
+   "terms.html h1.doc-title"
+  ]
+ },
+ {
+  "id": "e86dda17a349",
+  "source": "Last updated: July 17, 2026",
+  "contexts": [
+   "terms.html p.doc-updated"
+  ]
+ },
+ {
+  "id": "7378b6b06f47",
+  "source": "These terms apply to the Milesta iOS application (\"the app\"). By using the app you agree to them. In addition, Apple's <0>Licensed Application End User License Agreement</0> applies.",
+  "contexts": [
+   "terms.html p"
+  ]
+ },
+ {
+  "id": "188291b78dfc",
+  "source": "The service",
+  "contexts": [
+   "terms.html h2"
+  ]
+ },
+ {
+  "id": "a5769f05e057",
+  "source": "Milesta is a personal journaling app. All content you create belongs to you and is stored locally on your device. We provide no cloud service, no account system, and no content hosting.",
+  "contexts": [
+   "terms.html p"
+  ]
+ },
+ {
+  "id": "5f4178c859ad",
+  "source": "Premium is an optional auto-renewing subscription: monthly (USD 1.99) or yearly (USD 19.99); local prices may vary and are shown in the App Store before purchase.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "2d19844b62b8",
+  "source": "Payment is charged to your Apple ID account at confirmation of purchase.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "6f8c67473871",
+  "source": "The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID subscription settings.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "eeb5b758c2d9",
+  "source": "Free-tier features remain available without a subscription; your data is never held hostage — export works on every tier.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "08ce1894f5c9",
+  "source": "Your responsibilities",
+  "contexts": [
+   "terms.html h2"
+  ]
+ },
+ {
+  "id": "c778d2843fea",
+  "source": "You are responsible for the content you record and for keeping backups of your data (the app provides export and automatic local backup tools).",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "e0e7eec0e6dc",
+  "source": "Do not use the app in violation of applicable law.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "4c4a2e80cc87",
+  "source": "Disclaimer",
+  "contexts": [
+   "terms.html h2"
+  ]
+ },
+ {
+  "id": "4d9436c619e5",
+  "source": "The app is provided \"as is\", without warranties of any kind to the extent permitted by law. Because your data is stored exclusively on your device, we cannot recover data lost through device loss, deletion of the app, or failure to keep backups.",
+  "contexts": [
+   "terms.html p"
+  ]
+ },
+ {
+  "id": "b1a6f886289a",
+  "source": "Limitation of liability",
+  "contexts": [
+   "terms.html h2"
+  ]
+ },
+ {
+  "id": "c2cb3be8cedd",
+  "source": "To the maximum extent permitted by law, we are not liable for indirect or consequential damages arising from the use of the app. Nothing in these terms limits liability for intent or gross negligence, or excludes rights consumers hold under mandatory law.",
+  "contexts": [
+   "terms.html p"
+  ]
+ },
+ {
+  "id": "b37456c4530b",
+  "source": "Contact",
+  "contexts": [
+   "terms.html h2",
+   "press.html th"
+  ]
+ },
+ {
+  "id": "9f0bfa050c42",
+  "source": "Questions about these terms? See the <0>Impressum</0> for contact details.",
+  "contexts": [
+   "terms.html p"
+  ]
+ },
+ {
+  "id": "82d87b61c7e8",
+  "source": "Press Kit — Milesta",
+  "contexts": [
+   "press.html title",
+   "press.html meta og:title",
+   "press.html meta twitter:title"
+  ]
+ },
+ {
+  "id": "83f2516a08ca",
+  "source": "Press kit for Milesta, the private, local-first life journal for iOS: facts, screenshots, app icon, and contact.",
+  "contexts": [
+   "press.html meta description",
+   "press.html meta og:description",
+   "press.html meta twitter:description"
+  ]
+ },
+ {
+  "id": "2f001a00f73a",
+  "source": "Press <0>Kit</0>",
+  "contexts": [
+   "press.html h1.doc-title"
+  ]
+ },
+ {
+  "id": "5f989c5be291",
+  "source": "Everything on this page may be used freely in articles and reviews. No sign-up, no watermark.",
+  "contexts": [
+   "press.html p.doc-lead"
+  ]
+ },
+ {
+  "id": "4dfc7f9e9394",
+  "source": "Download press kit (.zip, 21 MB)",
+  "contexts": [
+   "press.html a.btn-grad"
+  ]
+ },
+ {
+  "id": "5ad7de0934a0",
+  "source": "info@milesta.app",
+  "contexts": [
+   "press.html a.btn-ghost",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "5dca668db6c1",
+  "source": "The one-liner",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "e1716fc53f17",
+  "source": "Milesta turns your life's milestones into a beautiful winding path you scroll through — with a cinematic story replay that's free for everyone and Wrapped-style recap cards. Everything stays on your device: no accounts, no cloud.",
+  "contexts": [
+   "press.html strong"
+  ]
+ },
+ {
+  "id": "d04c1db736a4",
+  "source": "Factsheet",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "c877cbb0e805",
+  "source": "App name",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "7bcd908dda90",
+  "source": "Milesta — Milestones Journal",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "7e08ebec5e6f",
+  "source": "Developer",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "b8be1830b918",
+  "source": "Soner Şahin — solo developer, Germany",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "35d9bc51591e",
+  "source": "Released",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "5dc7b2dbe9d0",
+  "source": "July 29, 2026",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "123a7f2fcc9a",
+  "source": "Platform",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "92a80d3ca4f0",
+  "source": "iPhone & iPad, iOS 18 or later",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "3e8248e32edf",
+  "source": "Price",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "9d5e7f054d2f",
+  "source": "Free download. Free tier: up to 20 milestones, the full path, photos, story replay, backups, and your latest monthly recap. Milesta Premium (optional subscription) adds unlimited milestones, all recaps, sharing and export, all themes and styles, and full insights.",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "d905f19f7f55",
+  "source": "15 — English, German, Spanish, French, Portuguese (BR), Russian, Turkish, Arabic, Urdu, Hindi, Bengali, Japanese, Chinese (Simplified), Indonesian, Vietnamese — including full right-to-left support",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "a474130b774b",
+  "source": "Local-first: no accounts, no cloud, no ads — journal entries never leave the device. Face ID lock. Local backups. Anonymous usage statistics are opt-in and off by default; the App Store privacy label reflects that as \"Analytics and Purchases, not linked to you.\"",
+  "contexts": [
+   "press.html td"
+  ]
+ },
+ {
+  "id": "7a74f5b15f8e",
+  "source": "apps.apple.com/app/id6791968029",
+  "contexts": [
+   "press.html a"
+  ]
+ },
+ {
+  "id": "2e8a57cc5c47",
+  "source": "Website",
+  "contexts": [
+   "press.html th"
+  ]
+ },
+ {
+  "id": "e6bfff49d761",
+  "source": "milesta.app",
+  "contexts": [
+   "press.html a"
+  ]
+ },
+ {
+  "id": "396c2137a0b5",
+  "source": "Short description",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "dfa8f91a811a",
+  "source": "Milesta is a private life journal for people who quit journaling: instead of daily entries, you log the moments that actually matter — a new job, a move, a first marathon — and Milesta renders them as a winding path you scroll through like a hiking trail of your own life. Monthly and yearly recaps become Wrapped-style cards. Everything stays on your iPhone: no accounts, no cloud, no ads.",
+  "contexts": [
+   "press.html p"
+  ]
+ },
+ {
+  "id": "5d5f34745d0c",
+  "source": "Long description",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "7732f1496d96",
+  "source": "Most journaling apps ask for 200 words a day and lose you by February. Milesta asks for maybe 20 milestones a year — and gives you something beautiful back. Every milestone becomes a waypoint on a winding trail, drawn across the seasons of your life. Tap play and a cinematic story replay turns your journey into a full-screen highlight reel. At the end of every month and every year, Milesta builds Wrapped-style recap cards, posters, and 9:16 story images designed to be shared — your newest monthly recap free, the rest with Premium.",
+  "contexts": [
+   "press.html p"
+  ]
+ },
+ {
+  "id": "21611089f6da",
+  "source": "Under the hood, Milesta takes the opposite bet of the big journaling platforms: it is local-first by design. There is no account to create and no cloud to sync to — your entries never leave the device. They are stored locally, protected with Face ID, and backed up with one-tap portable exports that cost nothing. The only data that ever leaves the phone is anonymous usage statistics, and only if you opt in. The app ships fully localized in 15 languages — including right-to-left Arabic and Urdu — built end-to-end by one developer in Germany.",
+  "contexts": [
+   "press.html p"
+  ]
+ },
+ {
+  "id": "0d117e6842af",
+  "source": "What makes it different",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "401b74b254a7",
+  "source": "<0>The path, not the page</0> — your life renders as a scrollable winding trail, not a list of entries.",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "22b0cf3c39f5",
+  "source": "<0>Wrapped for your life</0> — monthly, 6-month, and yearly recap cards built for sharing (newest monthly recap free, the rest with Premium).",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "784258b91877",
+  "source": "<0>Story replay</0> — a cinematic, story-style highlight reel of your whole journey, free for everyone.",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "b9057a4fda16",
+  "source": "<0>Genuinely private</0> — no accounts, no cloud, no ads; entries never leave the device, and analytics are opt-in.",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "b62c1014129e",
+  "source": "<0>15 languages, one developer</0> — full localization including RTL, hand-built solo.",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "f93c7e1ceb63",
+  "source": "<0>Journaling for people who quit journaling</0> — ~20 milestones a year instead of 200 words a day.",
+  "contexts": [
+   "press.html li"
+  ]
+ },
+ {
+  "id": "597b6356e6ce",
+  "source": "Screenshots",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "a2a9442e1fce",
+  "source": "Click any image for the full-resolution PNG, or grab the <0>complete zip</0>. German versions available — more languages on request.",
+  "contexts": [
+   "press.html p"
+  ]
+ },
+ {
+  "id": "54d72c730d2b",
+  "source": "The winding milestone path on iPhone",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "7da38b8bb0f0",
+  "source": "Wrapped-style yearly recap card",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "f8d3f4153682",
+  "source": "Cinematic story replay",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "64098ca03d82",
+  "source": "Milestone detail view",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "1ecbd78261a3",
+  "source": "Insights and streaks",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "9f19e968e028",
+  "source": "Shareable poster export",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "2b66417e711f",
+  "source": "German localization — milestone path",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "ecbb3b616f55",
+  "source": "German localization — recap card",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "06139c91b48d",
+  "source": "Milestone path on iPad",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "f68e95782270",
+  "source": "Recap on iPad",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "abde7a74c8a0",
+  "source": "App icon",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "b00ee55b5487",
+  "source": "Download the app icon (1024×1024 PNG)",
+  "contexts": [
+   "press.html a"
+  ]
+ },
+ {
+  "id": "599d0f424006",
+  "source": "About the developer",
+  "contexts": [
+   "press.html h2"
+  ]
+ },
+ {
+  "id": "d767ec499efa",
+  "source": "Milesta is designed, built, localized, and shipped by Soner Şahin, a solo developer based in Germany. The privacy stance is personal: a journal holding someone's whole life should not live on somebody else's server. Direct line for press: <0>info@milesta.app</0> — replies typically within a day.",
+  "contexts": [
+   "press.html p"
+  ]
+ },
+ {
+  "id": "2d6a87f69ac8",
+  "source": "Reviewing Milesta and want to see Premium? Email <0>info@milesta.app</0> and we'll set you up.",
+  "contexts": [
+   "press.html div.notice"
+  ]
+ },
+ {
+  "id": "x-language",
+  "source": "Language",
+  "contexts": [
+   "Label of the language menu button (screen readers) — one word."
+  ]
+ },
+ {
+  "id": "x-legal-note",
+  "source": "This translation is here for your convenience. If it differs from the <0>English original</0>, the English version applies.",
+  "contexts": [
+   "Shown at the top of the translated Privacy Policy and Terms of Use. <0>…</0> is a link to the English page."
+  ]
+ },
+ {
+  "id": "x-404-title",
+  "source": "This page took a <0>different path.</0>",
+  "contexts": [
+   "404 page headline. <0>…</0> is the part set in the gradient."
+  ]
+ },
+ {
+  "id": "x-404-lead",
+  "source": "The link may be old, or the page moved. Everything else is where you left it.",
+  "contexts": [
+   "404 page, line under the headline."
+  ]
+ },
+ {
+  "id": "x-404-home",
+  "source": "Back to Milesta",
+  "contexts": [
+   "404 page button to the home page."
+  ]
+ },
+ {
+  "id": "x-404-support",
+  "source": "Support",
+  "contexts": [
+   "404 page button to the support page (same word as the Support page in the menu)."
+  ]
+ },
+ {
+  "id": "x-404-doc-title",
+  "source": "Page not found — Milesta",
+  "contexts": [
+   "404 page <title>."
+  ]
+ }
+]

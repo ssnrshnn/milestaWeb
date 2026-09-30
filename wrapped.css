@@ -183,7 +183,8 @@ button { font: inherit; color: inherit; }
 
 /* ---------- Header ---------- */
 .site-header { position: relative; z-index: 5; }
-.header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px 20px; flex-wrap: wrap; padding-block: 18px; }
+.header-row { display: flex; align-items: center; gap: 10px 14px; flex-wrap: wrap; padding-block: 18px; }
+.site-nav { margin-inline-start: auto; }
 .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; border-radius: 12px; }
 .brand img { width: 36px; height: 36px; border-radius: 9px; box-shadow: 0 0 0 1px rgb(255 255 255 / .1), 0 8px 24px -8px rgb(245 158 89 / .6); }
 .brand span { font-family: var(--serif); font-weight: 700; font-size: 1.36rem; letter-spacing: -.01em; }
@@ -214,7 +215,7 @@ main { position: relative; z-index: 1; }
   font-weight: 800; letter-spacing: -.047em; line-height: .94;
 }
 .display .line { display: block; width: fit-content; padding-bottom: .04em; }
-.display .serif-accent { font-weight: 500; letter-spacing: -.03em; padding-right: .08em; }
+.display .serif-accent { font-weight: 500; letter-spacing: -.03em; padding-inline-end: .08em; }
 .hero-lede { margin-top: 24px; max-width: 31em; font-size: clamp(1.06rem, .98rem + .35vw, 1.22rem); color: var(--ink-2); line-height: 1.55; text-wrap: pretty; }
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 14px; margin-top: 30px; }
 .store-badge { display: inline-block; border-radius: 12px; transition: transform .25s var(--ease-out), filter .25s; }
@@ -364,7 +365,7 @@ main { position: relative; z-index: 1; }
 .steps { position: relative; display: grid; gap: 26px; margin-top: 38px; }
 .steps li { position: relative; display: grid; grid-template-columns: auto 1fr; align-content: start; column-gap: 18px; row-gap: 3px; }
 .steps li:not(:last-child)::after {
-  content: ""; position: absolute; left: 20px; top: 42px; bottom: -26px; width: 2px; border-radius: 2px; opacity: .6;
+  content: ""; position: absolute; inset-inline-start: 20px; top: 42px; bottom: -26px; width: 2px; border-radius: 2px; opacity: .6;
   background: linear-gradient(180deg, var(--sunset-1), var(--glow-1));
 }
 .steps li:nth-child(2)::after { background: linear-gradient(180deg, var(--glow-1), #6f8cf0); }
@@ -480,7 +481,7 @@ main { position: relative; z-index: 1; }
 .stat-num {
   display: block;
   font-size: clamp(4.4rem, 3rem + 5.6vw, 9.4rem); font-weight: 800; line-height: .84; letter-spacing: -.065em;
-  font-variant-numeric: tabular-nums; margin-left: -.04em;
+  font-variant-numeric: tabular-nums; margin-inline-start: -.04em;
   text-shadow: 0 10px 40px rgb(0 0 0 / .2);
 }
 .stat-unit { display: block; margin-top: 8px; font-size: clamp(.98rem, .86rem + .45vw, 1.28rem); font-weight: 750; letter-spacing: -.015em; line-height: 1.15; }
@@ -824,7 +825,7 @@ main { position: relative; z-index: 1; }
 
 @media (min-width: 640px) and (max-width: 959px) {
   .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
-  .steps li:not(:last-child)::after { left: 42px; right: -24px; top: 20px; bottom: auto; width: auto; height: 2px; background: linear-gradient(90deg, var(--sunset-1), var(--glow-1)); }
+  .steps li:not(:last-child)::after { inset-inline: 42px -24px; top: 20px; bottom: auto; width: auto; height: 2px; background: linear-gradient(90deg, var(--sunset-1), var(--glow-1)); }
   .steps li:nth-child(2)::after { background: linear-gradient(90deg, var(--glow-1), #6f8cf0); }
   .steps li { grid-template-columns: 1fr; row-gap: 6px; }
   .step-n { grid-row: auto; margin-bottom: 8px; }
@@ -863,12 +864,12 @@ main { position: relative; z-index: 1; }
   .t-private, .t-widget, .t-lang { grid-column: span 4; }
   .t-insights, .t-story { min-height: 640px; }
   .t-designs { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 24px; align-items: start; }
-  .t-designs .tile-media { margin-top: 0; justify-content: flex-end; margin-right: -6px; }
+  .t-designs .tile-media { margin-top: 0; justify-content: flex-end; margin-inline-end: -6px; }
   .t-designs .design .tile-phone { margin-bottom: -120px; }
   .t-designs .tile-copy { padding-top: 8px; }
   .t-designs { min-height: 500px; max-height: 500px; }
   .tile-phone { --w: 272px; }
-  .t-insights .tile-media { position: absolute; right: 44px; bottom: 0; margin: 0; }
+  .t-insights .tile-media { position: absolute; inset-inline-end: 44px; bottom: 0; margin: 0; }
   .t-insights .tile-phone { --w: 290px; margin-bottom: -170px; }
   .t-insights .tile-copy { max-width: 300px; }
   .t-story .tile-media { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; }
@@ -936,9 +937,9 @@ main { position: relative; z-index: 1; }
 .doc a { color: #ffc6a3; text-decoration: underline; text-decoration-color: rgb(255 198 163 / .45); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .doc a:hover { color: #ffe0cc; text-decoration-color: currentColor; }
 .doc ul { margin-top: .8em; display: grid; gap: .55em; }
-.doc ul li { position: relative; padding-left: 1.5em; }
+.doc ul li { position: relative; padding-inline-start: 1.5em; }
 .doc ul li::before {
-  content: ""; position: absolute; left: .2em; top: .68em; width: 7px; height: 7px; border-radius: 50%;
+  content: ""; position: absolute; inset-inline-start: .2em; top: .68em; width: 7px; height: 7px; border-radius: 50%;
   background: linear-gradient(135deg, var(--sunset-1), var(--glow-1)); box-shadow: 0 0 10px 1px rgb(237 82 140 / .45);
 }
 .doc-intro { font-size: 1.08rem; color: var(--ink-2); }
@@ -954,9 +955,9 @@ main { position: relative; z-index: 1; }
 
 /* Press */
 .fact-table { width: 100%; margin-top: 16px; border-collapse: collapse; font-size: .98rem; }
-.fact-table th, .fact-table td { padding: 12px 0; vertical-align: top; text-align: left; border-top: 1px solid var(--line); }
+.fact-table th, .fact-table td { padding: 12px 0; vertical-align: top; text-align: start; border-top: 1px solid var(--line); }
 .fact-table tr:first-child th, .fact-table tr:first-child td { border-top: 0; }
-.fact-table th { width: 9.5em; padding-right: 18px; color: var(--ink); font-weight: 680; }
+.fact-table th { width: 9.5em; padding-inline-end: 18px; color: var(--ink); font-weight: 680; }
 .shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 12px; margin-top: 18px; align-items: start; }
 .doc .shots a { display: block; border-radius: 14px; overflow: hidden; box-shadow: 0 0 0 1px rgb(255 255 255 / .1), 0 20px 40px -26px rgb(0 0 0 / .9); transition: transform .25s var(--ease-out); }
 .doc .shots a:hover { transform: translateY(-3px); }
@@ -983,3 +984,65 @@ main { position: relative; z-index: 1; }
   .doc { border-radius: 24px; }
   .qa { padding: 16px 18px; }
 }
+
+/* ---------- Language menu ---------- */
+.lang-menu { position: relative; }
+.lang-menu > summary {
+  list-style: none; display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 14px 0 11px;
+  border-radius: 999px; cursor: pointer; user-select: none;
+  font-size: .9rem; font-weight: 600; color: var(--ink-2);
+  background: rgb(255 255 255 / .06); box-shadow: inset 0 0 0 1px rgb(255 255 255 / .12);
+  transition: color .2s, background-color .2s;
+}
+.lang-menu > summary::-webkit-details-marker { display: none; }
+.lang-menu > summary:hover, .lang-menu[open] > summary { color: var(--ink); background: rgb(255 255 255 / .1); }
+.lang-menu > summary span { max-width: 10em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lang-globe { width: 17px; height: 17px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.lang-list {
+  position: absolute; z-index: 30; inset-inline-end: 0; top: calc(100% + 8px);
+  width: min(360px, calc(100vw - 32px)); display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 8px;
+  border-radius: 18px; background: rgb(20 17 26 / .94);
+  -webkit-backdrop-filter: blur(20px) saturate(1.2); backdrop-filter: blur(20px) saturate(1.2);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / .12), 0 30px 70px -20px rgb(0 0 0 / .95);
+}
+.lang-list a {
+  display: block; padding: 10px 12px; border-radius: 11px;
+  font-size: .95rem; font-weight: 550; line-height: 1.3; color: var(--ink-2); text-decoration: none;
+}
+.lang-list a:hover { color: var(--ink); background: rgb(255 255 255 / .08); }
+.lang-list a[aria-current] { color: var(--ink); background: rgb(255 255 255 / .1); box-shadow: inset 0 0 0 1px rgb(255 255 255 / .16); }
+@media (max-width: 639px) {
+  .lang-menu { order: 1; margin-inline-start: auto; }
+  .site-nav { order: 2; flex-basis: 100%; margin-inline-start: 0; }
+  .lang-menu > summary span { max-width: 7.5em; }
+}
+@media (max-width: 359px) {
+  .lang-menu > summary span { display: none; }
+  .lang-menu > summary { padding: 0 11px; }
+}
+
+/* Translated legal pages point back to the English original */
+.doc-note {
+  margin: 0 0 1.8em; padding: 12px 16px; border-radius: 14px;
+  font-size: .92rem; line-height: 1.55; color: var(--ink-2);
+  background: rgb(255 255 255 / .05); box-shadow: inset 0 0 0 1px rgb(255 255 255 / .1);
+}
+
+/* ---------- Other scripts ----------
+   The tracking and tight leading above are tuned for Latin letters. Arabic
+   and Urdu letters join, so they must never be spaced apart; Devanagari,
+   Bengali and the Arabic scripts need taller lines; none of these scripts
+   (nor Chinese or Japanese) has an italic to switch to. */
+:is(:lang(ar), :lang(ur), :lang(hi), :lang(bn), :lang(ja), :lang(zh)) :where(*) { letter-spacing: normal !important; }
+:is(:lang(ar), :lang(ur), :lang(hi), :lang(bn), :lang(ja), :lang(zh)) .serif-accent { font-family: inherit; font-style: normal; font-weight: inherit; }
+:is(:lang(ar), :lang(hi), :lang(bn)) :is(.display, .h2, .h3, .mega, .doc-title, .tile h3, .plan h3, .stat-unit) { line-height: 1.3; }
+:lang(ur) :is(.display, .h2, .h3, .mega, .doc-title, .tile h3, .plan h3, .stat-unit) { line-height: 1.75; }
+:is(:lang(ja), :lang(zh)) :is(.display, .h2, .mega, .doc-title) { line-height: 1.15; }
+html:lang(ar) body { line-height: 1.75; }
+html:lang(ur) body { line-height: 2; }
+html:is(:lang(hi), :lang(bn)) body { line-height: 1.7; }
+:is(:lang(ar), :lang(ur)) .doc { line-height: 1.9; }
+:lang(ur) .doc { line-height: 2.15; }
+/* Long compound words (German, Russian…) may break inside a narrow card. */
+:is(.tile h3, .plan h3, .doc h2, .doc-title, .h2, .h3, .display, .mega) { overflow-wrap: break-word; hyphens: auto; }
+:lang(en) :is(.tile h3, .plan h3, .doc h2, .doc-title, .h2, .h3, .display, .mega) { hyphens: manual; }

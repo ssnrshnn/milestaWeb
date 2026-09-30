@@ -78,33 +78,26 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll(".style-tab"));
   var galleryImg = document.getElementById("poster-gallery-img");
   var pathImg = document.getElementById("poster-path-img");
-  var STYLES = {
-    aurora: {
-      g: "assets/wrapped/poster-yearA-2025-aurora.webp", p: "assets/wrapped/poster-yearB-2025-aurora.webp",
-      ga: "Year poster, Gallery layout, Aurora style: 2025, 51 milestones and 13 places, with photos of the biggest moments and the year at a glance.",
-      pa: "Year poster, Path layout, Aurora style: 2025’s 51 milestones along a winding path, with photo stops for the biggest moments."
-    },
-    sunset: {
-      g: "assets/wrapped/poster-yearA-2023-sunset.webp", p: "assets/wrapped/poster-yearB-2023-sunset.webp",
-      ga: "Year poster, Gallery layout, Sunset style: 2023, 12 milestones and 2 places, shown with icons because that year has no photos.",
-      pa: "Year poster, Path layout, Sunset style: 2023’s 12 milestones along a winding path."
-    },
-    noir: {
-      g: "assets/wrapped/poster-yearA-2025-noir.webp", p: "assets/wrapped/poster-yearB-2025-noir.webp",
-      ga: "Year poster, Gallery layout, Noir style: 2025, 51 milestones and 13 places, in black and white with full-colour photos.",
-      pa: "Year poster, Path layout, Noir style: 2025’s 51 milestones as white dots along a dark, winding path."
-    },
-    linen: {
-      g: "assets/wrapped/poster-yearA-2025-linen.webp", p: "assets/wrapped/poster-yearB-2025-linen.webp",
-      ga: "Year poster, Gallery layout, Linen style: 2025, 51 milestones and 13 places, on light paper.",
-      pa: "Year poster, Path layout, Linen style: 2025’s 51 milestones along a winding path on light paper."
-    },
-    classic: {
-      g: "assets/wrapped/poster-yearA-2025-classic.webp", p: "assets/wrapped/poster-yearB-2025-classic.webp",
-      ga: "Year poster, Gallery layout, Classic style: 2025, 51 milestones and 13 places, in warm terracotta.",
-      pa: "Year poster, Path layout, Classic style: 2025’s 51 milestones along a winding path in warm terracotta."
-    }
+  // Image files per style. The alt texts live on the tabs (data-alt-*), so
+  // they get translated with the rest of the page; paths follow the page's
+  // own images, so the same script works at / and at /<language>.
+  var FILES = {
+    aurora: ["poster-yearA-2025-aurora.webp", "poster-yearB-2025-aurora.webp"],
+    sunset: ["poster-yearA-2023-sunset.webp", "poster-yearB-2023-sunset.webp"],
+    noir: ["poster-yearA-2025-noir.webp", "poster-yearB-2025-noir.webp"],
+    linen: ["poster-yearA-2025-linen.webp", "poster-yearB-2025-linen.webp"],
+    classic: ["poster-yearA-2025-classic.webp", "poster-yearB-2025-classic.webp"]
   };
+  var base = galleryImg ? galleryImg.getAttribute("src").replace(/[^\/]*$/, "") : "assets/wrapped/";
+  var STYLES = {};
+  tabs.forEach(function (t) {
+    var k = t.getAttribute("data-style");
+    if (!FILES[k]) return;
+    STYLES[k] = {
+      g: base + FILES[k][0], p: base + FILES[k][1],
+      ga: t.getAttribute("data-alt-gallery") || "", pa: t.getAttribute("data-alt-path") || ""
+    };
+  });
   var preloaded = {};
   function preload(key) {
     if (preloaded[key] || !STYLES[key]) return;
@@ -145,8 +138,9 @@
     tab.addEventListener("focus", function () { preload(tab.getAttribute("data-style")); });
     tab.addEventListener("keydown", function (e) {
       var j = null;
-      if (e.key === "ArrowRight" || e.key === "ArrowDown") j = (i + 1) % tabs.length;
-      else if (e.key === "ArrowLeft" || e.key === "ArrowUp") j = (i - 1 + tabs.length) % tabs.length;
+      var rtl = root.dir === "rtl";
+      if (e.key === (rtl ? "ArrowLeft" : "ArrowRight") || e.key === "ArrowDown") j = (i + 1) % tabs.length;
+      else if (e.key === (rtl ? "ArrowRight" : "ArrowLeft") || e.key === "ArrowUp") j = (i - 1 + tabs.length) % tabs.length;
       else if (e.key === "Home") j = 0;
       else if (e.key === "End") j = tabs.length - 1;
       if (j !== null) { e.preventDefault(); select(tabs[j], true); }
@@ -213,6 +207,25 @@
   }
   railFocus();
   window.addEventListener("resize", railFocus, { passive: true });
+
+  /* ---------- Language menu ----------
+     Any link that switches language (the menu, the "English original" note)
+     remembers the choice on this device, so the automatic redirect on the
+     English pages leaves it alone from then on. */
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a[data-lang]") : null;
+    if (a) { try { localStorage.setItem("milesta-lang", a.getAttribute("data-lang")); } catch (err) {} }
+    document.querySelectorAll(".lang-menu[open]").forEach(function (m) {
+      if (!m.contains(e.target)) m.open = false;
+    });
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    document.querySelectorAll(".lang-menu[open]").forEach(function (m) {
+      m.open = false;
+      m.querySelector("summary").focus();
+    });
+  });
 
   /* ---------- Footer year ---------- */
   var y = document.querySelector("[data-year]");

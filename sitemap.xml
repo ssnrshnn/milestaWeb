@@ -1,27 +1,1507 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://milesta.app/</loc>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
   </url>
   <url>
-    <loc>https://milesta.app/press</loc>
-    <priority>0.6</priority>
+    <loc>https://milesta.app/de</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
   </url>
   <url>
-    <loc>https://milesta.app/privacy</loc>
-    <priority>0.6</priority>
+    <loc>https://milesta.app/es</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
   </url>
   <url>
-    <loc>https://milesta.app/terms</loc>
-    <priority>0.6</priority>
+    <loc>https://milesta.app/fr</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/pt-br</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ru</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/tr</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ar</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ur</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/hi</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/bn</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ja</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/zh-hans</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/id</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/vi</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/"/>
   </url>
   <url>
     <loc>https://milesta.app/support</loc>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/de/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/es/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/fr/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/pt-br/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ru/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/tr/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ar/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ur/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/hi/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/bn/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ja/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/zh-hans/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/id/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/vi/support</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/support"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/support"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/support"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/support"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/support"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/support"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/support"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/support"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/support"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/de/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/es/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/fr/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/pt-br/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ru/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/tr/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ar/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ur/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/hi/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/bn/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ja/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/zh-hans/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/id/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/vi/privacy</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/privacy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/de/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/es/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/fr/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/pt-br/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ru/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/tr/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ar/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ur/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/hi/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/bn/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ja/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/zh-hans/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/id/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/vi/terms</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/terms"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/de/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/es/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/fr/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/pt-br/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ru/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/tr/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ar/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ur/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/hi/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/bn/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/ja/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/zh-hans/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/id/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
+  </url>
+  <url>
+    <loc>https://milesta.app/vi/press</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://milesta.app/es/press"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://milesta.app/fr/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br/press"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://milesta.app/ru/press"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://milesta.app/tr/press"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://milesta.app/ar/press"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://milesta.app/ur/press"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://milesta.app/hi/press"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://milesta.app/bn/press"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://milesta.app/ja/press"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans/press"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://milesta.app/id/press"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://milesta.app/vi/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://milesta.app/press"/>
   </url>
   <url>
     <loc>https://milesta.app/impressum</loc>
-    <priority>0.6</priority>
+    <priority>0.3</priority>
   </url>
 </urlset>

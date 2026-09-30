@@ -18,6 +18,39 @@
       if (/[?&]static\b/.test(location.search)) d.classList.add("static");
     })();
   </script>
+  <!-- i18n:404 -->
+  <script>
+    (function () {
+      /* One 404 page serves every path: speak the language of the path, of the
+         menu choice, or of the browser. */
+      var T = {};
+      var seg = location.pathname.split("/")[1] || "";
+      var saved = null; try { saved = localStorage.getItem("milesta-lang"); } catch (e) {}
+      var code = T[seg] ? seg : (T[saved] ? saved : null);
+      if (!code && saved !== "en") {
+        var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+        for (var i = 0; i < list.length && !code; i++) {
+          var p = String(list[i]).toLowerCase().split("-")[0];
+          if (p === "en") break;
+          var c = p === "zh" ? "zh-hans" : p === "pt" ? "pt-br" : p;
+          if (T[c]) code = c;
+        }
+      }
+      if (!code) return;
+      var t = T[code], d = document.documentElement;
+      d.lang = t.lang; d.dir = t.dir;
+      if (t["doc-title"]) document.title = t["doc-title"];
+      document.addEventListener("DOMContentLoaded", function () {
+        var q = function (s) { return document.querySelector(s); };
+        if (t.title) q(".doc-title").innerHTML = t.title;
+        if (t.lead) q(".doc-lead").textContent = t.lead;
+        var home = q(".doc-actions .btn-grad"), help = q(".doc-actions .btn-ghost");
+        if (t.home) { home.textContent = t.home; home.href = "/" + code; }
+        if (t.support) { help.textContent = t.support; help.href = "/" + code + "/support"; }
+      });
+    })();
+  </script>
+  <!-- /i18n:404 -->
   <link rel="stylesheet" href="/wrapped.css">
   <script src="/wrapped.js" defer></script>
   <script>
@@ -56,6 +89,28 @@
             <li><a href="/impressum.html">Impressum</a></li>
           </ul>
         </nav>
+        <!-- i18n:menu -->
+        <details class="lang-menu" translate="no">
+          <summary aria-label="Language: English"><svg class="lang-globe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.4 3.9 5.4 3.9 9s-1.3 6.6-3.9 9M12 3c-2.6 2.4-3.9 5.4-3.9 9s1.3 6.6 3.9 9"/></svg><span>English</span></summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li>
+            <li><a href="/de" hreflang="de" lang="de" data-lang="de">Deutsch</a></li>
+            <li><a href="/es" hreflang="es" lang="es" data-lang="es">Español</a></li>
+            <li><a href="/fr" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+            <li><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang="pt-br">Português (Brasil)</a></li>
+            <li><a href="/ru" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li>
+            <li><a href="/tr" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li>
+            <li><a href="/ar" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li>
+            <li><a href="/ur" hreflang="ur" lang="ur" data-lang="ur">اردو</a></li>
+            <li><a href="/hi" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li>
+            <li><a href="/bn" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li>
+            <li><a href="/ja" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li>
+            <li><a href="/zh-hans" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-hans">简体中文</a></li>
+            <li><a href="/id" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li>
+            <li><a href="/vi" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li>
+          </ul>
+        </details>
+        <!-- /i18n:menu -->
       </div>
     </header>
 

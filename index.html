@@ -7,6 +7,59 @@
   <title>Milesta — Milestones &amp; Life Journal</title>
   <meta name="description" content="A private, local-first life journal for iOS. Your life, one milestone at a time.">
   <link rel="canonical" href="https://milesta.app/">
+  <!-- i18n:head -->
+  <link rel="alternate" hreflang="en" href="https://milesta.app/">
+  <link rel="alternate" hreflang="de" href="https://milesta.app/de">
+  <link rel="alternate" hreflang="es" href="https://milesta.app/es">
+  <link rel="alternate" hreflang="fr" href="https://milesta.app/fr">
+  <link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br">
+  <link rel="alternate" hreflang="ru" href="https://milesta.app/ru">
+  <link rel="alternate" hreflang="tr" href="https://milesta.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://milesta.app/ar">
+  <link rel="alternate" hreflang="ur" href="https://milesta.app/ur">
+  <link rel="alternate" hreflang="hi" href="https://milesta.app/hi">
+  <link rel="alternate" hreflang="bn" href="https://milesta.app/bn">
+  <link rel="alternate" hreflang="ja" href="https://milesta.app/ja">
+  <link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans">
+  <link rel="alternate" hreflang="id" href="https://milesta.app/id">
+  <link rel="alternate" hreflang="vi" href="https://milesta.app/vi">
+  <link rel="alternate" hreflang="x-default" href="https://milesta.app/">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:locale:alternate" content="ur_PK">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="bn_BD">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="vi_VN">
+  <script>
+    (function () {
+      /* First visit: follow the browser's languages. A language picked in
+         the menu is remembered on this device and wins from then on. */
+      var ok = {"de": 1, "es": 1, "fr": 1, "pt-br": 1, "ru": 1, "tr": 1, "ar": 1, "ur": 1, "hi": 1, "bn": 1, "ja": 1, "zh-hans": 1, "id": 1, "vi": 1};
+      var saved = null;
+      try { saved = localStorage.getItem("milesta-lang"); } catch (e) {}
+      if (saved === "en") return;
+      var want = ok[saved] ? saved : null;
+      if (!want) {
+        var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+        for (var i = 0; i < list.length; i++) {
+          var p = String(list[i]).toLowerCase().split("-")[0];
+          if (p === "en") return;
+          var c = p === "zh" ? "zh-hans" : p === "pt" ? "pt-br" : p;
+          if (ok[c]) { want = c; break; }
+        }
+      }
+      if (want) location.replace("/" + want + "" + location.search + location.hash);
+    })();
+  </script>
+  <!-- /i18n:head -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Milesta">
   <meta property="og:locale" content="en_US">
@@ -82,6 +135,28 @@
             <li><a href="impressum.html">Impressum</a></li>
           </ul>
         </nav>
+        <!-- i18n:menu -->
+        <details class="lang-menu" translate="no">
+          <summary aria-label="Language: English"><svg class="lang-globe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.4 3.9 5.4 3.9 9s-1.3 6.6-3.9 9M12 3c-2.6 2.4-3.9 5.4-3.9 9s1.3 6.6 3.9 9"/></svg><span>English</span></summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li>
+            <li><a href="/de" hreflang="de" lang="de" data-lang="de">Deutsch</a></li>
+            <li><a href="/es" hreflang="es" lang="es" data-lang="es">Español</a></li>
+            <li><a href="/fr" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+            <li><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang="pt-br">Português (Brasil)</a></li>
+            <li><a href="/ru" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li>
+            <li><a href="/tr" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li>
+            <li><a href="/ar" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li>
+            <li><a href="/ur" hreflang="ur" lang="ur" data-lang="ur">اردو</a></li>
+            <li><a href="/hi" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li>
+            <li><a href="/bn" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li>
+            <li><a href="/ja" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li>
+            <li><a href="/zh-hans" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-hans">简体中文</a></li>
+            <li><a href="/id" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li>
+            <li><a href="/vi" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li>
+          </ul>
+        </details>
+        <!-- /i18n:menu -->
       </div>
     </header>
 
@@ -310,11 +385,11 @@
           <p class="lede" data-reveal style="--d:120ms">Your recaps become posters and cards, in light and dark styles, with your photos included. Pick a layout: a gallery of your best photos, or the whole year as a winding path.</p>
           <p class="tabs-label" id="style-label" data-reveal>Try a style</p>
           <div class="style-tabs" role="tablist" aria-labelledby="style-label" data-reveal>
-            <button class="style-tab" role="tab" type="button" id="tab-aurora" data-style="aurora" aria-selected="true" aria-controls="poster-panel"><span class="sw sw-aurora" aria-hidden="true"></span>Aurora</button>
-            <button class="style-tab" role="tab" type="button" id="tab-sunset" data-style="sunset" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-sunset" aria-hidden="true"></span>Sunset</button>
-            <button class="style-tab" role="tab" type="button" id="tab-noir" data-style="noir" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-noir" aria-hidden="true"></span>Noir</button>
-            <button class="style-tab" role="tab" type="button" id="tab-linen" data-style="linen" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-linen" aria-hidden="true"></span>Linen</button>
-            <button class="style-tab" role="tab" type="button" id="tab-classic" data-style="classic" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-classic" aria-hidden="true"></span>Classic</button>
+            <button class="style-tab" role="tab" type="button" id="tab-aurora" data-style="aurora" data-alt-gallery="Year poster, Gallery layout, Aurora style: 2025, 51 milestones and 13 places, with photos of the biggest moments and the year at a glance." data-alt-path="Year poster, Path layout, Aurora style: 2025’s 51 milestones along a winding path, with photo stops for the biggest moments." aria-selected="true" aria-controls="poster-panel"><span class="sw sw-aurora" aria-hidden="true"></span>Aurora</button>
+            <button class="style-tab" role="tab" type="button" id="tab-sunset" data-style="sunset" data-alt-gallery="Year poster, Gallery layout, Sunset style: 2023, 12 milestones and 2 places, shown with icons because that year has no photos." data-alt-path="Year poster, Path layout, Sunset style: 2023’s 12 milestones along a winding path." aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-sunset" aria-hidden="true"></span>Sunset</button>
+            <button class="style-tab" role="tab" type="button" id="tab-noir" data-style="noir" data-alt-gallery="Year poster, Gallery layout, Noir style: 2025, 51 milestones and 13 places, in black and white with full-colour photos." data-alt-path="Year poster, Path layout, Noir style: 2025’s 51 milestones as white dots along a dark, winding path." aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-noir" aria-hidden="true"></span>Noir</button>
+            <button class="style-tab" role="tab" type="button" id="tab-linen" data-style="linen" data-alt-gallery="Year poster, Gallery layout, Linen style: 2025, 51 milestones and 13 places, on light paper." data-alt-path="Year poster, Path layout, Linen style: 2025’s 51 milestones along a winding path on light paper." aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-linen" aria-hidden="true"></span>Linen</button>
+            <button class="style-tab" role="tab" type="button" id="tab-classic" data-style="classic" data-alt-gallery="Year poster, Gallery layout, Classic style: 2025, 51 milestones and 13 places, in warm terracotta." data-alt-path="Year poster, Path layout, Classic style: 2025’s 51 milestones along a winding path in warm terracotta." aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-classic" aria-hidden="true"></span>Classic</button>
           </div>
           <p class="fine" data-reveal>Plus Glow, pink into violet: six styles in all. The Sunset examples show a quieter year without photos, where icons stand in for pictures.</p>
         </div>
