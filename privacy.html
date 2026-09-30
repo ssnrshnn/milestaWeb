@@ -22,8 +22,18 @@
   <meta name="twitter:description" content="How Milesta handles your data: no accounts, no cloud, no ads. Your entries stay on your iPhone, and anonymous usage statistics are collected only if you opt in.">
   <meta name="twitter:image" content="https://milesta.app/assets/og-image.png">
   <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07060a">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add("js");
+      if (/[?&]static\b/.test(location.search)) d.classList.add("static");
+    })();
+  </script>
+  <link rel="stylesheet" href="wrapped.css">
+  <script src="wrapped.js" defer></script>
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ji Yi init fn mn Hr pn bn cn capture calculateEventProperties Sn register register_once register_for_session unregister unregister_for_session In getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Tn identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Cn xn createPersonProfile setInternalOrTestUser Mn hn Pn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing debug Ur wt getPageViewId captureTraceFeedback captureTraceMetric an".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_tdC8URreSwN8aJXeCoZJGWgg243pHWrSXWtLfaNatJD9', {
@@ -34,75 +44,106 @@
         person_profiles: 'identified_only',
     })
   </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
-<body>
-  <div class="wrap">
-    <header class="site">
-      <a class="brand" href="index.html"><img src="assets/icon.png" alt=""><span>Milesta</span></a>
-      <nav>
-        <a href="support.html">Support</a>
-        <a class="active" href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-      </nav>
+<body class="doc-page">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="page">
+    <div class="top-bg" aria-hidden="true">
+      <span class="blob blob-aurora"></span>
+      <span class="blob blob-sunset"></span>
+      <span class="blob blob-glow"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html">
+          <img src="assets/icon-256.webp" alt="" width="36" height="36">
+          <span>Milesta</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="doc">
-      <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: July 30, 2026</p>
+    <main id="main">
+      <div class="container">
+        <header class="doc-hero">
+          <p class="kicker">Legal</p>
+          <h1 class="doc-title">Privacy <span class="grad-text">Policy</span></h1>
+          <p class="doc-updated">Last updated: July 30, 2026</p>
+        </header>
+        <article class="doc">
+          <p>Milesta is a private, local-first life journal for iOS.</p>
 
-      <p>Milesta is a private, local-first life journal for iOS.</p>
+          <h2>What we collect</h2>
+          <p>Nothing, by default. Milesta has no accounts, no tracking, and no servers operated by us.</p>
+          <p>If — and only if — you opt in (during onboarding or in Settings), Milesta sends <strong>anonymous usage statistics</strong> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, links, or any identifier tied to you, and you can switch them off at any time in Settings. See <a href="https://posthog.com/privacy" rel="noopener">PostHog's privacy policy</a>.</p>
 
-      <h2>What we collect</h2>
-      <p>Nothing, by default. Milesta has no accounts, no tracking, and no servers operated by us.</p>
-      <p>If — and only if — you opt in (during onboarding or in Settings), Milesta sends <strong>anonymous usage statistics</strong> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, links, or any identifier tied to you, and you can switch them off at any time in Settings. See <a href="https://posthog.com/privacy" rel="noopener">PostHog's privacy policy</a>.</p>
+          <h2>Where your data lives</h2>
+          <p>Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data.</p>
 
-      <h2>Where your data lives</h2>
-      <p>Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data.</p>
+          <h2>What ever leaves your device</h2>
+          <p>Only content you explicitly share yourself:</p>
+          <ul>
+          <li>Recap images, posters, or text summaries you send through the iOS share sheet.</li>
+          <li>Backup files you export through the Files app.</li>
+          </ul>
+          <p>Milesta never transmits anything on its own. Optional automatic backups are written to your device's local storage only.</p>
 
-      <h2>What ever leaves your device</h2>
-      <p>Only content you explicitly share yourself:</p>
-      <ul>
-        <li>Recap images, posters, or text summaries you send through the iOS share sheet.</li>
-        <li>Backup files you export through the Files app.</li>
-      </ul>
-      <p>Milesta never transmits anything on its own. Optional automatic backups are written to your device's local storage only.</p>
+          <h2>Location</h2>
+          <p>Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission and Milesta performs a single lookup to turn your position into a short place name (like "Berlin, Germany"). Only that text is saved, on your device. Milesta never tracks, stores, or transmits coordinates, and never accesses location in the background.</p>
 
-      <h2>Location</h2>
-      <p>Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission and Milesta performs a single lookup to turn your position into a short place name (like "Berlin, Germany"). Only that text is saved, on your device. Milesta never tracks, stores, or transmits coordinates, and never accesses location in the background.</p>
+          <h2>Face ID</h2>
+          <p>If you enable App Lock, Face ID is evaluated entirely by iOS on your device. Milesta only receives a yes/no result and never accesses biometric data.</p>
 
-      <h2>Face ID</h2>
-      <p>If you enable App Lock, Face ID is evaluated entirely by iOS on your device. Milesta only receives a yes/no result and never accesses biometric data.</p>
+          <h2>Purchases</h2>
+          <p>Subscriptions are processed by Apple. If enabled, receipt validation is handled by RevenueCat using an anonymous identifier; no personal information or journal content is ever involved. See <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's privacy policy</a>.</p>
 
-      <h2>Purchases</h2>
-      <p>Subscriptions are processed by Apple. If enabled, receipt validation is handled by RevenueCat using an anonymous identifier; no personal information or journal content is ever involved. See <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's privacy policy</a>.</p>
+          <h2>Notifications</h2>
+          <p>Anniversary reminders, recap announcements, and encouragement notes are scheduled locally on your device. No push servers are used.</p>
 
-      <h2>Notifications</h2>
-      <p>Anniversary reminders, recap announcements, and encouragement notes are scheduled locally on your device. No push servers are used.</p>
+          <h2>Your rights (GDPR)</h2>
+          <p>Because Milesta stores no personal data on any server, there is nothing for us to access, correct, export, or erase on your behalf — your data is exclusively in your hands, on your device. For any privacy question, contact us using the details in the <a href="impressum.html">Impressum</a>.</p>
 
-      <h2>Your rights (GDPR)</h2>
-      <p>Because Milesta stores no personal data on any server, there is nothing for us to access, correct, export, or erase on your behalf — your data is exclusively in your hands, on your device. For any privacy question, contact us using the details in the <a href="impressum.html">Impressum</a>.</p>
+          <h2>This website</h2>
+          <p>milesta.app uses PostHog, hosted in the European Union, in <em>cookieless mode</em> for aggregate visit statistics: no cookies, no local storage, no cross-site tracking, and IP addresses are discarded at ingestion. Page performance metrics are collected anonymously via Vercel Speed Insights. Neither can identify you.</p>
 
-      <h2>This website</h2>
-      <p>milesta.app uses PostHog, hosted in the European Union, in <em>cookieless mode</em> for aggregate visit statistics: no cookies, no local storage, no cross-site tracking, and IP addresses are discarded at ingestion. Page performance metrics are collected anonymously via Vercel Speed Insights. Neither can identify you.</p>
-
-      <h2>Changes</h2>
-      <p>If this policy changes, the new version will be published on this page with an updated date.</p>
+          <h2>Changes</h2>
+          <p>If this policy changes, the new version will be published on this page with an updated date.</p>
+        </article>
+      </div>
     </main>
 
-    <footer class="site">
-      <div>© <span id="year">2026</span> Milesta</div>
-      <div>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="press.html">Press</a>
-        <a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a>
+    <footer class="site-footer">
+      <div class="container foot">
+        <div class="foot-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/icon-256.webp" alt="" width="32" height="32" loading="lazy">
+            <span>Milesta</span>
+          </a>
+          <p>Your life, one milestone at a time.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+          </ul>
+        </nav>
+        <p class="foot-copy">© <span data-year>2026</span> Milesta. For iPhone &amp; iPad.</p>
       </div>
     </footer>
   </div>
-    <script>window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script>
-    <script defer src="/_vercel/speed-insights/script.js"></script>
-  </body>
+</body>
 </html>

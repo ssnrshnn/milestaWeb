@@ -22,8 +22,18 @@
   <meta name="twitter:description" content="Help with Milesta: backups and restoring data, Premium subscriptions, languages, Face ID lock — and how to reach the developer directly.">
   <meta name="twitter:image" content="https://milesta.app/assets/og-image.png">
   <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07060a">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add("js");
+      if (/[?&]static\b/.test(location.search)) d.classList.add("static");
+    })();
+  </script>
+  <link rel="stylesheet" href="wrapped.css">
+  <script src="wrapped.js" defer></script>
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ji Yi init fn mn Hr pn bn cn capture calculateEventProperties Sn register register_once register_for_session unregister unregister_for_session In getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Tn identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Cn xn createPersonProfile setInternalOrTestUser Mn hn Pn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing debug Ur wt getPageViewId captureTraceFeedback captureTraceMetric an".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_tdC8URreSwN8aJXeCoZJGWgg243pHWrSXWtLfaNatJD9', {
@@ -34,63 +44,101 @@
         person_profiles: 'identified_only',
     })
   </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
-<body>
-  <div class="wrap">
-    <header class="site">
-      <a class="brand" href="index.html"><img src="assets/icon.png" alt=""><span>Milesta</span></a>
-      <nav>
-        <a class="active" href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-      </nav>
+<body class="doc-page">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="page">
+    <div class="top-bg" aria-hidden="true">
+      <span class="blob blob-aurora"></span>
+      <span class="blob blob-sunset"></span>
+      <span class="blob blob-glow"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html">
+          <img src="assets/icon-256.webp" alt="" width="36" height="36">
+          <span>Milesta</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="support.html" aria-current="page">Support</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="doc">
-      <h1>Support</h1>
-      <p class="updated">We usually answer within a few days.</p>
-
-      <p>Something not working, or an idea for the path? Email
-        <a href="mailto:info@milesta.app?subject=Milesta%20Support">info@milesta.app</a>.</p>
-
-      <h2>Frequently asked</h2>
-
-      <h2>Where is my data stored?</h2>
-      <p>Only on your device. Milesta has no accounts and no cloud. That also means: if you delete the app, your journal is gone with it — export a backup first.</p>
-
-      <h2>How do I back up my journal?</h2>
-      <p>Settings → Data → <em>Export Backup</em> creates a single file containing every milestone, photo, and category. You can also enable <em>Automatic monthly backup</em>; copies are kept in the Files app under On&nbsp;My&nbsp;iPhone → Milesta.</p>
-
-      <h2>How do I move to a new iPhone?</h2>
-      <p>Export a backup on the old device, send the file to the new one (AirDrop or Files), install Milesta, then Settings → Data → <em>Import Backup</em>.</p>
-
-      <h2>My recap hasn't appeared yet.</h2>
-      <p>Recaps cover completed periods: the June recap appears on July&nbsp;1, half-year recaps on January&nbsp;1 and July&nbsp;1, and the yearly Wrapped on January&nbsp;1.</p>
-
-      <h2>How do I cancel Premium?</h2>
-      <p>Subscriptions are managed by Apple: Settings&nbsp;→ your Apple&nbsp;ID → Subscriptions → Milesta → Cancel. Your milestones remain fully accessible on the free tier.</p>
-
-      <h2>Face ID lock stopped asking.</h2>
-      <p>The lock engages when the app goes to the background and on launch. If it appears unlocked, iOS may have kept the app active — swipe it away or lock the phone to force it.</p>
-
-      <h2>Don't have Milesta yet?</h2>
-      <p><a class="badge-store" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="144" height="48"></a></p>
+    <main id="main">
+      <div class="container">
+        <header class="doc-hero">
+          <p class="kicker">Help</p>
+          <h1 class="doc-title"><span class="grad-text">Support</span></h1>
+          <p class="doc-updated">We usually answer within a few days.</p>
+        </header>
+        <article class="doc">
+          <p class="doc-intro">Something not working, or an idea for the path? Email <a href="mailto:info@milesta.app?subject=Milesta%20Support">info@milesta.app</a>.</p>
+          <h2>Frequently asked</h2>
+          <div class="faq">
+            <section class="qa">
+              <h3>Where is my data stored?</h3>
+              <p>Only on your device. Milesta has no accounts and no cloud. That also means: if you delete the app, your journal is gone with it — export a backup first.</p>
+            </section>
+            <section class="qa">
+              <h3>How do I back up my journal?</h3>
+              <p>Settings → Data → <em>Export Backup</em> creates a single file containing every milestone, photo, and category. You can also enable <em>Automatic monthly backup</em>; copies are kept in the Files app under On&nbsp;My&nbsp;iPhone → Milesta.</p>
+            </section>
+            <section class="qa">
+              <h3>How do I move to a new iPhone?</h3>
+              <p>Export a backup on the old device, send the file to the new one (AirDrop or Files), install Milesta, then Settings → Data → <em>Import Backup</em>.</p>
+            </section>
+            <section class="qa">
+              <h3>My recap hasn't appeared yet.</h3>
+              <p>Recaps cover completed periods: the June recap appears on July&nbsp;1, half-year recaps on January&nbsp;1 and July&nbsp;1, and the yearly Wrapped on January&nbsp;1.</p>
+            </section>
+            <section class="qa">
+              <h3>How do I cancel Premium?</h3>
+              <p>Subscriptions are managed by Apple: Settings&nbsp;→ your Apple&nbsp;ID → Subscriptions → Milesta → Cancel. Your milestones remain fully accessible on the free tier.</p>
+            </section>
+            <section class="qa">
+              <h3>Face ID lock stopped asking.</h3>
+              <p>The lock engages when the app goes to the background and on launch. If it appears unlocked, iOS may have kept the app active — swipe it away or lock the phone to force it.</p>
+            </section>
+            <section class="qa">
+              <h3>Don't have Milesta yet?</h3>
+              <p><a class="store-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="144" height="48"></a></p>
+            </section>
+          </div>
+        </article>
+      </div>
     </main>
 
-    <footer class="site">
-      <div>© <span id="year">2026</span> Milesta</div>
-      <div>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="press.html">Press</a>
-        <a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a>
+    <footer class="site-footer">
+      <div class="container foot">
+        <div class="foot-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/icon-256.webp" alt="" width="32" height="32" loading="lazy">
+            <span>Milesta</span>
+          </a>
+          <p>Your life, one milestone at a time.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+          </ul>
+        </nav>
+        <p class="foot-copy">© <span data-year>2026</span> Milesta. For iPhone &amp; iPad.</p>
       </div>
     </footer>
   </div>
-    <script>window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script>
-    <script defer src="/_vercel/speed-insights/script.js"></script>
-  </body>
+</body>
 </html>
