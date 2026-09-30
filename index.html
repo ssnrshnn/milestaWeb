@@ -23,9 +23,18 @@
   <meta name="twitter:image" content="https://milesta.app/assets/og-image.png">
   <link rel="icon" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/favicon.png">
-  <script>document.documentElement.classList.add("js");</script>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07060a">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add("js");
+      if (/[?&]static\b/.test(location.search)) d.classList.add("static");
+    })();
+  </script>
+  <link rel="preload" as="image" href="assets/wrapped/poster-yearA-2025-aurora.webp" fetchpriority="high">
+  <link rel="stylesheet" href="wrapped.css">
+  <script src="wrapped.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,176 +58,450 @@
     })
   </script>
 </head>
-<body class="home">
-  <div class="wrap">
-    <header class="site">
-      <a class="brand" href="index.html"><img src="assets/icon-256.webp" alt="" width="40" height="40"><span>Milesta</span></a>
-      <nav>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-      </nav>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="page">
+    <div class="top-bg" aria-hidden="true">
+      <span class="blob blob-aurora"></span>
+      <span class="blob blob-sunset"></span>
+      <span class="blob blob-glow"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html">
+          <img src="assets/icon-256.webp" alt="" width="36" height="36">
+          <span>Milesta</span>
+        </a>
+        <nav class="site-nav" aria-label="Site">
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">For iPhone &amp; iPad</p>
-        <h1 class="display">Your life, <span class="nowrap">one milestone</span> <span class="nowrap">at a time.</span></h1>
-        <p class="tagline">A private life journal that turns your biggest moments into a beautiful, scrollable path.</p>
-        <div class="badges">
-          <a class="badge-store" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a>
-          <a class="badge soft" href="privacy.html">Read the privacy promise</a>
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow-pill intro" style="--d:0ms">
+              <span class="eyebrow-dot" aria-hidden="true"></span>
+              For iPhone &amp; iPad
+            </p>
+            <h1 id="hero-title" class="display">
+              <span class="line intro" style="--d:60ms">Your life,</span>
+              <span class="line grad-text intro" style="--d:140ms">one milestone</span>
+              <span class="line serif-accent intro" style="--d:220ms">at a time.</span>
+            </h1>
+            <p class="hero-lede intro" style="--d:320ms">A private life journal. Your biggest moments line up on a winding path, and every month, half-year and year comes back as a Wrapped-style recap you&rsquo;ll want to share.</p>
+            <div class="cta-row intro" style="--d:400ms">
+              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">
+                <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="162" height="54">
+              </a>
+              <a class="btn-ghost" href="#year">
+                See an example year
+                <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 4v11m0 0-4.5-4.5M10 15l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+            <ul class="facts intro" style="--d:460ms">
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>No account</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>No cloud</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>No ads</li>
+            </ul>
+          </div>
+
+          <div class="stage">
+            <div class="drum-scene" role="img" aria-label="Milesta year posters in the Aurora, Sunset, Noir, Linen and Classic styles, turning slowly on a carousel. Some show the year as a gallery of photos, others as a winding path.">
+              <div class="drum-tilt">
+                <div class="drum">
+                  <figure class="drum-card" style="--i:0"><img src="assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" alt="" fetchpriority="high" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:1"><img src="assets/wrapped/poster-yearB-2023-sunset.webp" width="600" height="1067" alt="" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:2"><img src="assets/wrapped/poster-yearA-2025-noir.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:3"><img src="assets/wrapped/poster-yearB-2025-linen.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:4"><img src="assets/wrapped/poster-yearA-2023-sunset.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:5"><img src="assets/wrapped/poster-yearB-2025-aurora.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:6"><img src="assets/wrapped/poster-yearA-2025-classic.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:7"><img src="assets/wrapped/poster-yearB-2025-noir.webp" width="600" height="1067" alt="" decoding="async"></figure>
+                  <div class="drum-floor"></div>
+                </div>
+              </div>
+              <div class="stage-floor" aria-hidden="true"></div>
+            </div>
+            <div class="stage-caption">
+              <span class="next-update">New in the next update</span>
+              <span class="stage-note">Year posters in six styles. Example images made with sample data.</span>
+              <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="Pause animations">
+                <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
+                <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
+              </button>
+            </div>
+          </div>
         </div>
-        <p class="hero-facts">No account. No cloud. No ads.</p>
+      </section>
+
+      <!-- ============ TAPES (poster styles marquee) ============ -->
+      <div class="tapes">
+        <div class="tape tape-back" aria-hidden="true">
+          <div class="tape-track">
+            <ul class="tape-seq">
+              <li>Monthly recaps</li><li class="star">✦</li><li>6-month recaps</li><li class="star">✦</li><li>Year posters</li><li class="star">✦</li><li>Month cards</li><li class="star">✦</li><li>Story replay</li><li class="star">✦</li><li>Insights</li><li class="star">✦</li>
+              <li>Monthly recaps</li><li class="star">✦</li><li>6-month recaps</li><li class="star">✦</li><li>Year posters</li><li class="star">✦</li><li>Month cards</li><li class="star">✦</li><li>Story replay</li><li class="star">✦</li><li>Insights</li><li class="star">✦</li>
+            </ul>
+            <ul class="tape-seq">
+              <li>Monthly recaps</li><li class="star">✦</li><li>6-month recaps</li><li class="star">✦</li><li>Year posters</li><li class="star">✦</li><li>Month cards</li><li class="star">✦</li><li>Story replay</li><li class="star">✦</li><li>Insights</li><li class="star">✦</li>
+              <li>Monthly recaps</li><li class="star">✦</li><li>6-month recaps</li><li class="star">✦</li><li>Year posters</li><li class="star">✦</li><li>Month cards</li><li class="star">✦</li><li>Story replay</li><li class="star">✦</li><li>Insights</li><li class="star">✦</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tape tape-front">
+          <p class="sr-only">Six poster and card styles: Classic, Sunset, Noir, Aurora, Linen and Glow.</p>
+          <div class="tape-track" aria-hidden="true">
+            <ul class="tape-seq">
+              <li class="ts ts-classic"><i class="sw"></i>Classic</li>
+              <li class="ts ts-sunset"><i class="sw"></i>Sunset</li>
+              <li class="ts ts-noir"><i class="sw"></i>Noir</li>
+              <li class="ts ts-aurora"><i class="sw"></i>Aurora</li>
+              <li class="ts ts-linen"><i class="sw"></i>Linen</li>
+              <li class="ts ts-glow"><i class="sw"></i>Glow</li>
+            </ul>
+            <ul class="tape-seq">
+              <li class="ts ts-classic"><i class="sw"></i>Classic</li>
+              <li class="ts ts-sunset"><i class="sw"></i>Sunset</li>
+              <li class="ts ts-noir"><i class="sw"></i>Noir</li>
+              <li class="ts ts-aurora"><i class="sw"></i>Aurora</li>
+              <li class="ts ts-linen"><i class="sw"></i>Linen</li>
+              <li class="ts ts-glow"><i class="sw"></i>Glow</li>
+            </ul>
+          </div>
+        </div>
+        <button class="motion-toggle tapes-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="Pause animations">
+          <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
+          <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
+        </button>
       </div>
 
-      <div class="hero-art" role="img" aria-label="Milesta on iPhone: the home screen asks “What’s your next milestone?” above a winding path of milestones, with a year poster and a monthly recap card beside it">
-        <img class="float float-poster" src="assets/samples/year-path-classic.webp" width="460" height="818" alt="" decoding="async">
-        <div class="phone hero-phone"><img src="assets/shots/home-classic-light.webp" width="600" height="1304" alt="" decoding="async" fetchpriority="high"></div>
-        <img class="float float-card" src="assets/samples/month-june-sunset.webp" width="460" height="575" alt="" decoding="async">
+    <!-- ============ EVERY DAY, QUIET: a light island in the dark page ============ -->
+    <section class="quiet" id="everyday" aria-labelledby="quiet-title">
+      <div class="quiet-sheet" data-reveal>
+        <header class="quiet-head">
+          <p class="quiet-kicker">Day to day</p>
+          <h2 id="quiet-title" class="quiet-title">Every day, <em>quiet.</em></h2>
+          <p class="quiet-lede">Most days Milesta is a calm, private journal: a line or a photo, and your path grows.</p>
+        </header>
+        <div class="quiet-stage">
+          <svg class="quiet-line" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <path d="M-40 250 C 150 250 190 90 400 100 S 700 320 900 280 S 1110 90 1240 120"/>
+          </svg>
+          <ol class="quiet-rail" data-eager-near>
+            <li class="quiet-item">
+              <div class="phone quiet-phone"><img src="assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Milesta’s home screen in the Classic design: today, Sep 30, asks “What’s your next milestone?”, then milestones by month along a winding line, like “Dad retired — surprise party” and “The studio’s first big launch”."></div>
+              <h3>Your path</h3>
+              <p>Every milestone becomes a waypoint on one winding line, newest at the top.</p>
+            </li>
+            <li class="quiet-item">
+              <div class="phone quiet-phone"><img src="assets/wrapped/shot-compose-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Adding a milestone: “What happened?” with room for 280 characters, a category, the date and time, an optional note, link and place, and photos."></div>
+              <h3>A line, a photo</h3>
+              <p>What happened, when, where, and a few photos. Or save a note or a link from any app through the share sheet.</p>
+            </li>
+            <li class="quiet-item">
+              <div class="phone quiet-phone"><img src="assets/wrapped/shot-scrapbook-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="The Scrapbook design: milestones as taped polaroids and pinned notes along a pencilled trail, with stamped month labels, on dotted journal paper."></div>
+              <h3>A scrapbook, if you like</h3>
+              <p>The same path as taped polaroids and pinned notes on journal paper.</p>
+              <p class="quiet-pill"><span class="next-update">New in the next update</span></p>
+            </li>
+          </ol>
+        </div>
+        <p class="quiet-fine">Your first 20 milestones are free. Premium lifts the limit and unlocks every design, Scrapbook included. Example images made with sample data.</p>
       </div>
     </section>
 
-    <section class="showcase" data-carousel aria-roledescription="carousel" aria-labelledby="showcase-title">
-      <div class="section-head reveal">
-        <p class="next-update">New in the next update</p>
-        <h2 id="showcase-title" class="section-title">Make it yours</h2>
-        <p class="section-lede">Pick a look for your path: Classic, Scrapbook, or Memory&nbsp;Map, in any of nine palettes.</p>
-      </div>
+    <!-- ============ WRAPPED: EXAMPLE YEAR ============ -->
+    <section class="sec wrapped-sec" id="year" aria-labelledby="year-title">
+      <div class="wrapped-bg" aria-hidden="true"></div>
+      <div class="container">
+        <header class="sec-head center">
+          <h2 id="year-title" class="h2" data-reveal>Every year, <span class="grad-text">Wrapped.</span></h2>
+          <p class="lede" data-reveal style="--d:80ms">When a month or a year closes, it comes back as something worth sharing. Monthly, 6-month and yearly recaps gather how many, where, and the moments that made it.</p>
+        </header>
 
-      <div class="carousel reveal">
-        <div class="carousel-track" id="showcase-track" role="group" aria-label="Screenshots" tabindex="0">
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="1 of 6" data-title="Scrapbook">
-            <figure>
-              <div class="phone"><img src="assets/shots/scrapbook-light.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Scrapbook design: milestones as taped polaroids and pinned notes along a pencilled trail, with stamped month labels."></div>
-              <figcaption><strong>Scrapbook.</strong> Your milestones as polaroids and notes.</figcaption>
-            </figure>
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 6" data-title="Memory Map">
-            <figure>
-              <div class="phone"><img src="assets/shots/atlas-dark.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Memory Map design at night: photos as round stops along a soft road, for a trip to Kyoto, a triathlon, and a finished novel draft."></div>
-              <figcaption><strong>Memory&nbsp;Map.</strong> Your photos become stops on your path.</figcaption>
-            </figure>
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="3 of 6" data-title="Insights">
-            <figure>
-              <div class="phone"><img src="assets/shots/insights-light.webp" width="600" height="1304" loading="lazy" decoding="async" alt="Insights: 79 milestones since 2023, this year’s months as colored dots, and a 21-month streak."></div>
-              <figcaption><strong>Insights.</strong> Your year, your streaks, your places.</figcaption>
-            </figure>
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="4 of 6" data-title="Story replay">
-            <figure>
-              <div class="phone"><img src="assets/shots/story-rome.webp" width="600" height="1304" loading="lazy" decoding="async" alt="Story replay: a wide photo of the Colosseum shown whole over a blurred copy of itself, for “Christmas weekend in Rome”."></div>
-              <figcaption><strong>Story replay.</strong> Wide photos stay whole, over a soft blur.</figcaption>
-            </figure>
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="5 of 6" data-title="Monthly recap">
-            <figure>
-              <div class="phone"><img src="assets/shots/month-june.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The June 2025 monthly recap: a card with photos, 10 milestones, and a calendar, with style choices and share buttons below."></div>
-              <figcaption><strong>Monthly recaps.</strong> Your month on one card, in the style you pick.</figcaption>
-            </figure>
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="6 of 6" data-title="Scrapbook at night">
-            <figure>
-              <div class="phone"><img src="assets/shots/scrapbook-dark.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Scrapbook design in dark mode: the same polaroids and notes on dark paper, like a night journal."></div>
-              <figcaption><strong>After dark.</strong> The scrapbook turns into a night journal.</figcaption>
-            </figure>
-          </div>
-        </div>
+        <p class="example-flag" data-reveal><span>Example year</span>made with sample data</p>
 
-        <div class="carousel-controls" hidden>
-          <button type="button" class="carousel-btn carousel-toggle" aria-controls="showcase-track" aria-label="Pause the slideshow">
-            <svg class="i-pause" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
-            <svg class="i-play" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
-          </button>
-          <button type="button" class="carousel-btn" data-step="-1" aria-controls="showcase-track" aria-label="Previous screenshot">
-            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="carousel-dots" role="group" aria-label="Choose a screenshot"></div>
-          <button type="button" class="carousel-btn" data-step="1" aria-controls="showcase-track" aria-label="Next screenshot">
-            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-        </div>
-        <p class="visually-hidden" aria-live="polite" data-carousel-status></p>
-      </div>
-      <p class="fine-print carousel-note">Classic and the Terracotta palette are free; other designs and palettes, recap card styles, and full Insights come with Premium. Example images made with sample data.</p>
-    </section>
-
-    <section class="share" aria-labelledby="share-title">
-      <div class="section-head reveal">
-        <p class="next-update">New in the next update</p>
-        <h2 id="share-title" class="section-title">Your year, ready to share</h2>
-        <p class="section-lede">Your recaps become posters and cards, in light and dark styles, with your photos included.</p>
-      </div>
-
-      <div class="fan reveal" role="img" aria-label="Five year posters in different styles. Some show the year as a gallery of photos, others as a winding path with photo stops; one, without photos, uses icons instead.">
-        <img class="fan-card" src="assets/samples/year-path-aurora.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
-        <img class="fan-card" src="assets/samples/year-gallery-linen.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
-        <img class="fan-card" src="assets/samples/year-gallery-classic.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
-        <img class="fan-card" src="assets/samples/year-path-noir.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
-        <img class="fan-card" src="assets/samples/year-gallery-sunset-2023.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
-      </div>
-      <p class="fan-note reveal">Two layouts: a gallery of your best photos, or the whole year as a winding path.</p>
-
-      <div class="split">
-        <div class="split-copy reveal">
-          <h3>Every month, in one card</h3>
-          <p>A calendar of your milestones and the moments that made the month, photos and all.</p>
-        </div>
-        <div class="month-cards reveal" role="img" aria-label="Four monthly recap cards for June, September, March, and November 2025, each with a calendar of its milestones">
-          <img src="assets/samples/month-june-sunset.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
-          <img src="assets/samples/month-september-noir.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
-          <img src="assets/samples/month-march-classic.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
-          <img src="assets/samples/month-november-aurora.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
-        </div>
-      </div>
-
-      <div class="split split-flip">
-        <div class="split-copy reveal">
-          <h3>Story replay, reframed</h3>
-          <p>Press play and your milestones return full screen. Tall photos fill the screen; wide ones stay whole over a soft blur of themselves. Free for everyone, as always.</p>
-        </div>
-        <div class="story-phones reveal" role="img" aria-label="Story replay on iPhone: the opening card, “Your story so far”, and a full-screen photo of a beagle for “Adopted Miso — best decision ever”">
-          <div class="phone"><img src="assets/samples/story-cover.webp" width="540" height="1174" alt="" loading="lazy" decoding="async"></div>
-          <div class="phone"><img src="assets/samples/story-dog.webp" width="540" height="1174" alt="" loading="lazy" decoding="async"></div>
-        </div>
-      </div>
-
-      <p class="fine-print">Sharing posters and cards comes with Premium. Example images made with sample data.</p>
-    </section>
-
-    <section class="features" aria-labelledby="features-title">
-      <h2 id="features-title" class="section-title reveal">Everything in Milesta</h2>
-      <div class="grid">
-      <div class="card reveal"><span class="emoji">🛤️</span><h3>The Path</h3><p>Every promotion, move, and adventure becomes a waypoint on a winding trail that's yours to scroll — on iPhone and iPad, in light or dark to match your phone. Your first 20 milestones are free; Premium lifts the limit.</p></div>
-      <div class="card reveal"><span class="emoji">✨</span><h3>Recaps</h3><p>Monthly, 6-month, and yearly summaries as beautiful Wrapped-style cards, posters, and 9:16 story images. Your latest monthly recap is free; the rest come with Premium.</p></div>
-      <div class="card reveal"><span class="emoji">🔒</span><h3>Private by design</h3><p>No accounts, no cloud, no ads. Your entries never leave your phone. Face&nbsp;ID lock, and anonymous usage statistics only if you opt in.</p></div>
-      <div class="card reveal"><span class="emoji">📊</span><h3>Insights</h3><p>Your milestone count and days on the path, free for everyone. Streaks, busiest months, categories, and places come with Premium.</p></div>
-      <div class="card reveal"><span class="emoji">🎬</span><h3>Story replay</h3><p>Watch your whole journey as a cinematic, story-style highlight reel — and relive anniversaries as full-screen memories. Both free for everyone; the replay appears once you have two milestones.</p></div>
-      <div class="card reveal"><span class="emoji">📍</span><h3>Places &amp; overview</h3><p>Pin milestones to the places they happened, then zoom out to a bird's-eye view of every year at once. Both free — it's the places list inside Insights that comes with Premium.</p></div>
-      <div class="card reveal"><span class="emoji">🌍</span><h3>15 languages</h3><p>Fully localized, with right-to-left support and in-app language switching.</p></div>
-      <div class="card reveal"><span class="emoji">🖼️</span><h3>Posters &amp; widget</h3><p>Share any milestone — or an anniversary — as a poster with your own photo, ready for your stories. Keep your newest one on the Home Screen, and add new ones from any app through the share sheet. All free for everyone.</p></div>
-      <div class="card reveal"><span class="emoji">💾</span><h3>Yours to keep</h3><p>One-tap portable backups and automatic monthly safety copies — all stored locally, and free for everyone. Export a full file, import it on a new iPhone, carry on.</p></div>
+        <ol class="stat-grid">
+          <li class="stat stat-sunset" data-reveal style="--d:0ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+            <p class="stat-eyebrow">The year</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="12.0" cy="100.0" r="3.9"/><circle cx="12.0" cy="90.6" r="3.9"/><circle cx="12.0" cy="81.2" r="3.9"/><circle cx="12.0" cy="71.8" r="3.9"/><text x="12.0" y="120">J</text><circle cx="31.6" cy="100.0" r="3.9"/><circle cx="31.6" cy="90.6" r="3.9"/><circle cx="31.6" cy="81.2" r="3.9"/><text x="31.6" y="120">F</text><circle cx="51.2" cy="100.0" r="3.9"/><circle cx="51.2" cy="90.6" r="3.9"/><circle cx="51.2" cy="81.2" r="3.9"/><text x="51.2" y="120">M</text><circle cx="70.8" cy="100.0" r="3.9"/><circle cx="70.8" cy="90.6" r="3.9"/><circle cx="70.8" cy="81.2" r="3.9"/><circle cx="70.8" cy="71.8" r="3.9"/><text x="70.8" y="120">A</text><circle cx="90.4" cy="100.0" r="3.9"/><circle cx="90.4" cy="90.6" r="3.9"/><circle cx="90.4" cy="81.2" r="3.9"/><circle cx="90.4" cy="71.8" r="3.9"/><circle cx="90.4" cy="62.4" r="3.9"/><text x="90.4" y="120">M</text><circle class="hi" cx="110.0" cy="100.0" r="3.9"/><circle class="hi" cx="110.0" cy="90.6" r="3.9"/><circle class="hi" cx="110.0" cy="81.2" r="3.9"/><circle class="hi" cx="110.0" cy="71.8" r="3.9"/><circle class="hi" cx="110.0" cy="62.4" r="3.9"/><circle class="hi" cx="110.0" cy="53.0" r="3.9"/><circle class="hi" cx="110.0" cy="43.6" r="3.9"/><circle class="hi" cx="110.0" cy="34.2" r="3.9"/><circle class="hi" cx="110.0" cy="24.8" r="3.9"/><circle class="hi" cx="110.0" cy="15.4" r="3.9"/><text x="110.0" y="120">J</text><circle cx="129.6" cy="100.0" r="3.9"/><circle cx="129.6" cy="90.6" r="3.9"/><circle cx="129.6" cy="81.2" r="3.9"/><circle cx="129.6" cy="71.8" r="3.9"/><text x="129.6" y="120">J</text><circle cx="149.2" cy="100.0" r="3.9"/><circle cx="149.2" cy="90.6" r="3.9"/><circle cx="149.2" cy="81.2" r="3.9"/><text x="149.2" y="120">A</text><circle cx="168.8" cy="100.0" r="3.9"/><circle cx="168.8" cy="90.6" r="3.9"/><circle cx="168.8" cy="81.2" r="3.9"/><circle cx="168.8" cy="71.8" r="3.9"/><circle cx="168.8" cy="62.4" r="3.9"/><circle cx="168.8" cy="53.0" r="3.9"/><text x="168.8" y="120">S</text><circle cx="188.4" cy="100.0" r="3.9"/><circle cx="188.4" cy="90.6" r="3.9"/><circle cx="188.4" cy="81.2" r="3.9"/><circle cx="188.4" cy="71.8" r="3.9"/><text x="188.4" y="120">O</text><circle cx="208.0" cy="100.0" r="3.9"/><text x="208.0" y="120">N</text><circle cx="227.6" cy="100.0" r="3.9"/><circle cx="227.6" cy="90.6" r="3.9"/><circle cx="227.6" cy="81.2" r="3.9"/><circle cx="227.6" cy="71.8" r="3.9"/><text x="227.6" y="120">D</text></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="51" aria-hidden="true">51</span><span class="stat-unit" aria-hidden="true">milestones</span><span class="sr-only">51 milestones</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>Example</span></p>
+          </li>
+          <li class="stat stat-aurora" data-reveal style="--d:90ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+            <p class="stat-eyebrow">On the map</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><polyline class="route" points="14,96 34,74 56,88 76,60 98,76 114,46 136,62 152,32 172,50 190,24 206,52 222,36 230,70"/><circle cx="14" cy="96" r="4.4"/><circle cx="34" cy="74" r="4.4"/><circle cx="56" cy="88" r="4.4"/><circle cx="76" cy="60" r="4.4"/><circle cx="98" cy="76" r="4.4"/><circle cx="114" cy="46" r="4.4"/><circle cx="136" cy="62" r="4.4"/><circle cx="152" cy="32" r="4.4"/><circle cx="172" cy="50" r="4.4"/><circle cx="190" cy="24" r="4.4"/><circle cx="206" cy="52" r="4.4"/><circle cx="222" cy="36" r="4.4"/><circle class="hi" cx="230" cy="70" r="7"/><circle cx="230" cy="70" r="2.6" class="core"/></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="13" aria-hidden="true">13</span><span class="stat-unit" aria-hidden="true">places</span><span class="sr-only">13 places</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>Example</span></p>
+          </li>
+          <li class="stat stat-glow" data-reveal style="--d:180ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+            <p class="stat-eyebrow">Streak</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="22.0" cy="22" r="11.5"/><circle cx="54.6" cy="22" r="11.5"/><circle cx="87.2" cy="22" r="11.5"/><circle cx="119.8" cy="22" r="11.5"/><circle cx="152.4" cy="22" r="11.5"/><circle cx="185.0" cy="22" r="11.5"/><circle cx="217.6" cy="22" r="11.5"/><circle cx="22.0" cy="60" r="11.5"/><circle cx="54.6" cy="60" r="11.5"/><circle cx="87.2" cy="60" r="11.5"/><circle cx="119.8" cy="60" r="11.5"/><circle cx="152.4" cy="60" r="11.5"/><circle cx="185.0" cy="60" r="11.5"/><circle cx="217.6" cy="60" r="11.5"/><circle cx="22.0" cy="98" r="11.5"/><circle cx="54.6" cy="98" r="11.5"/><circle cx="87.2" cy="98" r="11.5"/><circle cx="119.8" cy="98" r="11.5"/><circle cx="152.4" cy="98" r="11.5"/><circle cx="185.0" cy="98" r="11.5"/><circle class="hi" cx="217.6" cy="98" r="11.5"/></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="21" aria-hidden="true">21</span><span class="stat-unit" aria-hidden="true">month streak</span><span class="sr-only">a 21-month streak</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>Example</span></p>
+          </li>
+          <li class="stat stat-noir" data-reveal style="--d:270ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+            <p class="stat-eyebrow">This year</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="12.0" cy="100.0" r="3.9"/><text x="12.0" y="120">J</text><circle cx="31.6" cy="100.0" r="3.9"/><circle cx="31.6" cy="90.6" r="3.9"/><text x="31.6" y="120">F</text><circle cx="51.2" cy="100.0" r="3.9"/><text x="51.2" y="120">M</text><circle cx="70.8" cy="100.0" r="3.9"/><text x="70.8" y="120">A</text><circle cx="90.4" cy="100.0" r="3.9"/><circle cx="90.4" cy="90.6" r="3.9"/><text x="90.4" y="120">M</text><circle cx="110.0" cy="100.0" r="3.9"/><text x="110.0" y="120">J</text><circle cx="129.6" cy="100.0" r="3.9"/><circle cx="129.6" cy="90.6" r="3.9"/><text x="129.6" y="120">J</text><circle cx="149.2" cy="100.0" r="3.9"/><text x="149.2" y="120">A</text><circle class="hi" cx="168.8" cy="100.0" r="3.9"/><text x="168.8" y="120">S</text><circle class="empty" cx="188.4" cy="100" r="3.9"/><text x="188.4" y="120">O</text><circle class="empty" cx="208.0" cy="100" r="3.9"/><text x="208.0" y="120">N</text><circle class="empty" cx="227.6" cy="100" r="3.9"/><text x="227.6" y="120">D</text></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="12" aria-hidden="true">12</span><span class="stat-unit" aria-hidden="true">milestones so far</span><span class="sr-only">12 milestones so far this year</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>Example</span></p>
+          </li>
+        </ol>
+        <p class="caption center" data-reveal>Example numbers from Milesta&rsquo;s sample data. Your recaps count your own milestones. Your latest monthly recap is free; every recap comes with Premium.</p>
       </div>
     </section>
 
-    <section class="cta reveal" aria-labelledby="cta-title">
-      <img class="cta-icon" src="assets/icon-256.webp" alt="" width="76" height="76" loading="lazy" decoding="async">
-      <h2 id="cta-title" class="section-title">Start your path</h2>
-      <p>Free to download. Your first 20 milestones are free.</p>
-      <a class="badge-store" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a>
+    <!-- ============ POSTERS & CARDS ============ -->
+    <section class="sec posters-sec" id="posters" data-style="aurora" aria-labelledby="posters-title">
+      <div class="posters-glow" aria-hidden="true"></div>
+      <div class="container posters-grid">
+        <div class="posters-copy">
+          <p data-reveal><span class="next-update">New in the next update</span></p>
+          <h2 id="posters-title" class="h2" data-reveal style="--d:60ms">Your year, ready to share.</h2>
+          <p class="lede" data-reveal style="--d:120ms">Your recaps become posters and cards, in light and dark styles, with your photos included. Pick a layout: a gallery of your best photos, or the whole year as a winding path.</p>
+          <p class="tabs-label" id="style-label" data-reveal>Try a style</p>
+          <div class="style-tabs" role="tablist" aria-labelledby="style-label" data-reveal>
+            <button class="style-tab" role="tab" type="button" id="tab-aurora" data-style="aurora" aria-selected="true" aria-controls="poster-panel"><span class="sw sw-aurora" aria-hidden="true"></span>Aurora</button>
+            <button class="style-tab" role="tab" type="button" id="tab-sunset" data-style="sunset" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-sunset" aria-hidden="true"></span>Sunset</button>
+            <button class="style-tab" role="tab" type="button" id="tab-noir" data-style="noir" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-noir" aria-hidden="true"></span>Noir</button>
+            <button class="style-tab" role="tab" type="button" id="tab-linen" data-style="linen" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-linen" aria-hidden="true"></span>Linen</button>
+            <button class="style-tab" role="tab" type="button" id="tab-classic" data-style="classic" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-classic" aria-hidden="true"></span>Classic</button>
+          </div>
+          <p class="fine" data-reveal>Plus Glow, pink into violet: six styles in all. The Sunset examples show a quieter year without photos, where icons stand in for pictures.</p>
+        </div>
+
+        <div class="poster-stage" id="poster-panel" role="tabpanel" aria-labelledby="tab-aurora" tabindex="0" data-reveal>
+          <figure class="poster poster-path">
+            <img id="poster-path-img" src="assets/wrapped/poster-yearB-2025-aurora.webp" width="600" height="1067" loading="lazy" decoding="async" alt="Year poster, Path layout, Aurora style: 2025’s 51 milestones along a winding path, with photo stops for the biggest moments.">
+            <figcaption class="poster-tag">Path</figcaption>
+          </figure>
+          <figure class="poster poster-gallery">
+            <img id="poster-gallery-img" src="assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" loading="lazy" decoding="async" alt="Year poster, Gallery layout, Aurora style: 2025, 51 milestones and 13 places, with photos of the biggest moments and the year at a glance.">
+            <figcaption class="poster-tag">Gallery</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="container months">
+        <div class="months-copy">
+          <h3 class="h3" data-reveal>Every month, in one card.</h3>
+          <p data-reveal style="--d:60ms">A calendar of your milestones and the moments that made the month, photos and all.</p>
+        </div>
+        <div class="month-rail" role="group" aria-label="Five monthly recap cards" data-reveal data-eager-near>
+          <figure class="month-card" style="--r:-7deg;--y:34px"><img src="assets/wrapped/month-2025-03-classic.webp" width="520" height="650" loading="lazy" decoding="async" alt="March 2025 monthly card, Classic style: 3 milestones, with a photo of a piano for “Played my first full song on the piano”."></figure>
+          <figure class="month-card" style="--r:-3.5deg;--y:8px"><img src="assets/wrapped/month-2025-06-sunset.webp" width="520" height="650" loading="lazy" decoding="async" alt="June 2025 monthly card, Sunset style: 10 milestones, with photos of cherry blossoms in Kyoto, a stack of books and a wedding."></figure>
+          <figure class="month-card" style="--r:0deg;--y:0px"><img src="assets/wrapped/month-2025-09-noir.webp" width="520" height="650" loading="lazy" decoding="async" alt="September 2025 monthly card, Noir style: 6 milestones, including a sister’s wedding and a surprise weekend in Vienna."></figure>
+          <figure class="month-card" style="--r:3.5deg;--y:8px"><img src="assets/wrapped/month-2025-11-aurora.webp" width="520" height="650" loading="lazy" decoding="async" alt="November 2025 monthly card, Aurora style: 1 milestone, “Wrote the hundredth page of my novel”."></figure>
+          <figure class="month-card" style="--r:7deg;--y:34px"><img src="assets/wrapped/month-2025-06-linen.webp" width="520" height="650" loading="lazy" decoding="async" alt="June 2025 monthly card, Linen style: the same month on light paper."></figure>
+        </div>
+      </div>
+      <p class="caption center container" data-reveal>Sharing posters and cards comes with Premium. Example images made with sample data.</p>
     </section>
 
-    <footer class="site">
-      <div>© <span id="year">2026</span> Milesta</div>
-      <div>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="press.html">Press</a>
-        <a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a>
+    <!-- ============ BENTO ============ -->
+    <section class="sec bento-sec" id="features" aria-labelledby="bento-title">
+      <div class="bento-bg" aria-hidden="true"></div>
+      <div class="container">
+        <header class="sec-head">
+          <p class="kicker" data-reveal>Everything in Milesta</p>
+          <h2 id="bento-title" class="h2" data-reveal style="--d:60ms">Everything your story needs.</h2>
+        </header>
+
+        <div class="bento">
+          <article class="tile t-insights" data-reveal>
+            <div class="tile-copy">
+              <span class="next-update">New in the next update</span>
+              <h3>Insights</h3>
+              <p>Your year at a glance, your streaks, your busiest months, your categories and your places.</p>
+              <p class="tile-fine">Your milestone count and days on the path are free; full insights come with Premium.</p>
+              <ul class="feature-chips" aria-label="What Insights shows">
+                <li>Year at a glance</li><li>Streaks</li><li>Busiest months</li><li>Categories</li><li>Places</li>
+              </ul>
+            </div>
+            <div class="tile-media">
+              <div class="phone tile-phone"><img src="assets/wrapped/shot-insights-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Insights in the Midnight palette: 79 milestones since Jan 10, 2023, 1,359 days on the path, 12 this year and 18 photos, this year’s milestones as dots by month, and a 21-month streak."></div>
+            </div>
+          </article>
+
+          <article class="tile t-story" data-reveal style="--d:80ms">
+            <div class="tile-copy">
+              <span class="next-update">New in the next update</span>
+              <h3>Story replay</h3>
+              <p>Press play and your journey returns full screen, one milestone at a time. Tall photos fill the screen; wide ones stay whole over a soft blur of themselves.</p>
+              <p class="tile-fine">Free for everyone.</p>
+            </div>
+            <div class="tile-media story-media">
+              <div class="phone tile-phone phone-back"><img src="assets/wrapped/shot-story-rome.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Story replay: a wide photo of the Colosseum shown whole over a soft blur of itself, for “Christmas weekend in Rome”, December 26, 2025, in Rome, Italy."></div>
+              <div class="phone tile-phone phone-front"><img src="assets/wrapped/shot-story-dog.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Story replay: a full-screen photo of a beagle for “Adopted Miso — best decision ever”, October 28, 2025."></div>
+            </div>
+          </article>
+
+          <article class="tile t-designs" data-reveal>
+            <div class="tile-copy">
+              <span class="next-update">New in the next update</span>
+              <h3>Three designs, nine palettes</h3>
+              <p>Draw your path as Classic cards beside a winding line, a Scrapbook of polaroids and notes, or a Memory Map with your photos as stops. Then pick any of nine palettes.</p>
+              <ul class="palettes" aria-label="The nine palettes">
+                <li style="--a:#d98c61;--b:#ad7857"><span>Terracotta</span></li>
+                <li style="--a:#5c9ec7;--b:#406b91"><span>Ocean</span></li>
+                <li style="--a:#6ba375;--b:#456e54"><span>Forest</span></li>
+                <li style="--a:#757dc7;--b:#525994"><span>Midnight</span></li>
+                <li style="--a:#e3879e;--b:#b35c75"><span>Rosé</span></li>
+                <li style="--a:#b394d6;--b:#8066a3"><span>Lavender</span></li>
+                <li style="--a:#8799ad;--b:#576678"><span>Slate</span></li>
+                <li style="--a:#9a7456;--b:#5c4533"><span>Paper</span></li>
+                <li style="--a:#3d8f99;--b:#216673"><span>Atlas</span></li>
+              </ul>
+              <p class="tile-fine">Classic with the Terracotta palette is free; the other designs and palettes come with Premium.</p>
+            </div>
+            <div class="tile-media designs-media">
+              <figure class="design">
+                <div class="phone tile-phone"><img src="assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="The Classic design in light mode: milestone cards beside a winding line, grouped by month."></div>
+                <figcaption>Classic</figcaption>
+              </figure>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="assets/wrapped/shot-scrapbook-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="The Scrapbook design in dark mode: taped polaroids and pinned notes along a pencilled trail, with stamped month labels."></div>
+                <figcaption>Scrapbook</figcaption>
+              </figure>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="assets/wrapped/shot-atlas-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="The Memory Map design at night: photos as round stops along a soft road, for a trip to Kyoto, a triathlon and a finished novel draft."></div>
+                <figcaption>Memory Map</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="tile t-private" data-reveal>
+            <svg class="tile-glyph glyph-faceid" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="gFace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6fe0c6"/><stop offset="1" stop-color="#b57cff"/></linearGradient></defs>
+              <g fill="none" stroke="url(#gFace)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 30V18A10 10 0 0 1 18 8h12M66 8h12a10 10 0 0 1 10 10v12M88 66v12a10 10 0 0 1-10 10H66M30 88H18A10 10 0 0 1 8 78V66"/>
+                <path d="M33 35v8M63 35v8M49 35v17a3 3 0 0 1-3 3h-2.5"/>
+                <path d="M35 66c7.5 6.5 18.5 6.5 26 0"/>
+              </g>
+              <rect class="scan" x="14" y="46" width="68" height="3" rx="1.5"/>
+            </svg>
+            <h3>Private by design</h3>
+            <p>No account. No cloud. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it. Lock Milesta with Face&nbsp;ID; backups stay on your device too.</p>
+          </article>
+
+          <article class="tile t-widget" data-reveal style="--d:80ms">
+            <div class="glyph-pair" aria-hidden="true">
+              <svg class="tile-glyph" viewBox="0 0 48 48" focusable="false">
+                <defs><linearGradient id="gWid" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb07a"/><stop offset="1" stop-color="#ed528c"/></linearGradient></defs>
+                <g fill="none" stroke="url(#gWid)" stroke-width="3" stroke-linejoin="round"><rect x="6" y="6" width="36" height="15" rx="5"/><rect x="6" y="27" width="15" height="15" rx="5"/><rect x="27" y="27" width="15" height="15" rx="5"/></g>
+              </svg>
+              <svg class="tile-glyph" viewBox="0 0 48 48" focusable="false">
+                <defs><linearGradient id="gShare" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ed528c"/><stop offset="1" stop-color="#9a5cf0"/></linearGradient></defs>
+                <g fill="none" stroke="url(#gShare)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 29V6m-8.5 8.5L24 6l8.5 8.5"/><path d="M17 20h-4.5A4.5 4.5 0 0 0 8 24.5v14A4.5 4.5 0 0 0 12.5 43h23a4.5 4.5 0 0 0 4.5-4.5v-14A4.5 4.5 0 0 0 35.5 20H31"/></g>
+              </svg>
+            </div>
+            <h3>Widget &amp; share sheet</h3>
+            <p>Keep your latest milestone and your journey total on the Home Screen. Save a note or a link from any app through the share sheet.</p>
+          </article>
+
+          <article class="tile t-lang" data-reveal style="--d:160ms">
+            <p class="lang-big" aria-hidden="true">15</p>
+            <h3>15 languages</h3>
+            <p>Fully localized, with right-to-left support and in-app language switching.</p>
+            <ul class="langs" aria-label="Languages">
+              <li lang="en">English</li><li lang="de">Deutsch</li><li lang="es">Español</li><li lang="fr">Français</li><li lang="pt-BR">Português</li><li lang="ru">Русский</li><li lang="tr">Türkçe</li><li lang="ar" dir="rtl">العربية</li><li lang="ur" dir="rtl">اردو</li><li lang="hi">हिन्दी</li><li lang="bn">বাংলা</li><li lang="id">Bahasa Indonesia</li><li lang="vi">Tiếng Việt</li><li lang="ja">日本語</li><li lang="zh-Hans">简体中文</li>
+            </ul>
+          </article>
+        </div>
+        <p class="caption" data-reveal>Example images made with sample data.</p>
+      </div>
+    </section>
+
+    <!-- ============ FREE & PREMIUM ============ -->
+    <section class="sec plans-sec" id="premium" aria-labelledby="plans-title">
+      <div class="container">
+        <header class="sec-head center">
+          <p class="kicker" data-reveal>Free &amp; Premium</p>
+          <h2 id="plans-title" class="h2" data-reveal style="--d:60ms">Start free. Go Premium for the <span class="serif-accent">whole</span> story.</h2>
+        </header>
+        <div class="plan-grid">
+          <article class="plan plan-free" data-reveal>
+            <h3>Free</h3>
+            <p class="plan-sub">Everything you need to start your path.</p>
+            <ul class="ticks">
+              <li>Your first 20 milestones</li>
+              <li>Photos</li>
+              <li>Story replay</li>
+              <li>The latest monthly recap</li>
+              <li>Backups</li>
+              <li>The Classic design with the Terracotta palette</li>
+            </ul>
+          </article>
+          <article class="plan plan-premium" data-reveal style="--d:90ms">
+            <h3><span class="grad-text">Premium</span></h3>
+            <p class="plan-sub">For every chapter, and every way to share it.</p>
+            <ul class="ticks">
+              <li>Unlimited milestones</li>
+              <li>Every recap, and poster sharing</li>
+              <li>All designs and palettes</li>
+              <li>Full insights</li>
+            </ul>
+            <p class="plan-new"><span class="next-update">New in the next update</span><span class="plan-new-note">New posters and cards</span></p>
+            <div class="plan-art" aria-hidden="true">
+              <img src="assets/wrapped/poster-yearB-2023-sunset.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+              <img src="assets/wrapped/poster-yearA-2025-noir.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+              <img src="assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINALE ============ -->
+    <section class="finale" aria-labelledby="finale-title">
+      <div class="finale-halo" aria-hidden="true"><span></span></div>
+      <div class="container finale-inner">
+        <img class="finale-icon" src="assets/icon-256.webp" width="104" height="104" alt="" loading="lazy" decoding="async" data-reveal>
+        <h2 id="finale-title" class="mega" data-reveal style="--d:60ms">Start your <span class="grad-text">path.</span></h2>
+        <p class="finale-sub" data-reveal style="--d:120ms">Free to download. Your first 20 milestones are free.</p>
+        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029" data-reveal style="--d:180ms">
+          <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="180" height="60" loading="lazy">
+        </a>
+        <p class="finale-facts" data-reveal style="--d:240ms">No account · No cloud · No ads · 15 languages</p>
+      </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container foot">
+        <div class="foot-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/icon-256.webp" alt="" width="32" height="32" loading="lazy">
+            <span>Milesta</span>
+          </a>
+          <p>Your life, one milestone at a time.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+          </ul>
+        </nav>
+        <p class="foot-copy">© <span data-year>2026</span> Milesta. For iPhone &amp; iPad.</p>
       </div>
     </footer>
   </div>
