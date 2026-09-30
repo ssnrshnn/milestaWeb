@@ -23,6 +23,7 @@
   <meta name="twitter:image" content="https://milesta.app/assets/og-image.png">
   <link rel="icon" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/favicon.png">
+  <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
   <script type="application/ld+json">
@@ -48,10 +49,10 @@
     })
   </script>
 </head>
-<body>
+<body class="home">
   <div class="wrap">
     <header class="site">
-      <a class="brand" href="index.html"><img src="assets/icon.png" alt=""><span>Milesta</span></a>
+      <a class="brand" href="index.html"><img src="assets/icon-256.webp" alt="" width="40" height="40"><span>Milesta</span></a>
       <nav>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
@@ -61,25 +62,135 @@
     </header>
 
     <section class="hero">
-      <img class="icon" src="assets/icon.png" alt="Milesta app icon">
-      <h1 class="display">Your life, one milestone at a time.</h1>
-      <p class="tagline">A private life journal that turns your biggest moments into a beautiful, scrollable path.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">For iPhone &amp; iPad</p>
+        <h1 class="display">Your life, <span class="nowrap">one milestone</span> <span class="nowrap">at a time.</span></h1>
+        <p class="tagline">A private life journal that turns your biggest moments into a beautiful, scrollable path.</p>
+        <div class="badges">
+          <a class="badge-store" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a>
+          <a class="badge soft" href="privacy.html">Read the privacy promise</a>
+        </div>
+        <p class="hero-facts">No account. No cloud. No ads.</p>
+      </div>
 
-      <svg class="path-svg" width="320" height="150" viewBox="0 0 320 150" fill="none" aria-hidden="true">
-        <path class="trail" d="M 20 130 C 90 130 90 40 160 40 C 230 40 230 110 300 110"
-              stroke-width="6" stroke-linecap="round" fill="none"/>
-        <circle class="dot" cx="20" cy="130" r="9" fill="#d8555c" stroke="#fffdf9" stroke-width="3"/>
-        <circle class="dot" cx="160" cy="40" r="9" fill="#5b8dbe" stroke="#fffdf9" stroke-width="3"/>
-        <circle class="dot" cx="300" cy="110" r="9" fill="#6aa877" stroke="#fffdf9" stroke-width="3"/>
-      </svg>
-
-      <div class="badges">
-        <a class="badge-store" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a>
-        <a class="badge soft" href="privacy.html">Read the privacy promise</a>
+      <div class="hero-art" role="img" aria-label="Milesta on iPhone: the home screen asks “What’s your next milestone?” above a winding path of milestones, with a year poster and a monthly recap card beside it">
+        <img class="float float-poster" src="assets/samples/year-path-classic.webp" width="460" height="818" alt="" decoding="async">
+        <div class="phone hero-phone"><img src="assets/shots/home-classic-light.webp" width="600" height="1304" alt="" decoding="async" fetchpriority="high"></div>
+        <img class="float float-card" src="assets/samples/month-june-sunset.webp" width="460" height="575" alt="" decoding="async">
       </div>
     </section>
 
-    <section class="grid">
+    <section class="showcase" data-carousel aria-roledescription="carousel" aria-labelledby="showcase-title">
+      <div class="section-head reveal">
+        <p class="next-update">New in the next update</p>
+        <h2 id="showcase-title" class="section-title">Make it yours</h2>
+        <p class="section-lede">Pick a look for your path: Classic, Scrapbook, or Memory&nbsp;Map, in any of nine palettes.</p>
+      </div>
+
+      <div class="carousel reveal">
+        <div class="carousel-track" id="showcase-track" role="group" aria-label="Screenshots" tabindex="0">
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="1 of 6" data-title="Scrapbook">
+            <figure>
+              <div class="phone"><img src="assets/shots/scrapbook-light.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Scrapbook design: milestones as taped polaroids and pinned notes along a pencilled trail, with stamped month labels."></div>
+              <figcaption><strong>Scrapbook.</strong> Your milestones as polaroids and notes.</figcaption>
+            </figure>
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 6" data-title="Memory Map">
+            <figure>
+              <div class="phone"><img src="assets/shots/atlas-dark.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Memory Map design at night: photos as round stops along a soft road, for a trip to Kyoto, a triathlon, and a finished novel draft."></div>
+              <figcaption><strong>Memory&nbsp;Map.</strong> Your photos become stops on your path.</figcaption>
+            </figure>
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="3 of 6" data-title="Insights">
+            <figure>
+              <div class="phone"><img src="assets/shots/insights-light.webp" width="600" height="1304" loading="lazy" decoding="async" alt="Insights: 79 milestones since 2023, this year’s months as colored dots, and a 21-month streak."></div>
+              <figcaption><strong>Insights.</strong> Your year, your streaks, your places.</figcaption>
+            </figure>
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="4 of 6" data-title="Story replay">
+            <figure>
+              <div class="phone"><img src="assets/shots/story-rome.webp" width="600" height="1304" loading="lazy" decoding="async" alt="Story replay: a wide photo of the Colosseum shown whole over a blurred copy of itself, for “Christmas weekend in Rome”."></div>
+              <figcaption><strong>Story replay.</strong> Wide photos stay whole, over a soft blur.</figcaption>
+            </figure>
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="5 of 6" data-title="Monthly recap">
+            <figure>
+              <div class="phone"><img src="assets/shots/month-june.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The June 2025 monthly recap: a card with photos, 10 milestones, and a calendar, with style choices and share buttons below."></div>
+              <figcaption><strong>Monthly recaps.</strong> Your month on one card, in the style you pick.</figcaption>
+            </figure>
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="6 of 6" data-title="Scrapbook at night">
+            <figure>
+              <div class="phone"><img src="assets/shots/scrapbook-dark.webp" width="600" height="1304" loading="lazy" decoding="async" alt="The Scrapbook design in dark mode: the same polaroids and notes on dark paper, like a night journal."></div>
+              <figcaption><strong>After dark.</strong> The scrapbook turns into a night journal.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="carousel-controls" hidden>
+          <button type="button" class="carousel-btn carousel-toggle" aria-controls="showcase-track" aria-label="Pause the slideshow">
+            <svg class="i-pause" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
+            <svg class="i-play" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
+          </button>
+          <button type="button" class="carousel-btn" data-step="-1" aria-controls="showcase-track" aria-label="Previous screenshot">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="carousel-dots" role="group" aria-label="Choose a screenshot"></div>
+          <button type="button" class="carousel-btn" data-step="1" aria-controls="showcase-track" aria-label="Next screenshot">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <p class="visually-hidden" aria-live="polite" data-carousel-status></p>
+      </div>
+      <p class="fine-print carousel-note">Classic and the Terracotta palette are free; other designs and palettes, recap card styles, and full Insights come with Premium. Example images made with sample data.</p>
+    </section>
+
+    <section class="share" aria-labelledby="share-title">
+      <div class="section-head reveal">
+        <p class="next-update">New in the next update</p>
+        <h2 id="share-title" class="section-title">Your year, ready to share</h2>
+        <p class="section-lede">Your recaps become posters and cards, in light and dark styles, with your photos included.</p>
+      </div>
+
+      <div class="fan reveal" role="img" aria-label="Five year posters in different styles. Some show the year as a gallery of photos, others as a winding path with photo stops; one, without photos, uses icons instead.">
+        <img class="fan-card" src="assets/samples/year-path-aurora.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
+        <img class="fan-card" src="assets/samples/year-gallery-linen.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
+        <img class="fan-card" src="assets/samples/year-gallery-classic.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
+        <img class="fan-card" src="assets/samples/year-path-noir.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
+        <img class="fan-card" src="assets/samples/year-gallery-sunset-2023.webp" width="460" height="818" alt="" loading="lazy" decoding="async">
+      </div>
+      <p class="fan-note reveal">Two layouts: a gallery of your best photos, or the whole year as a winding path.</p>
+
+      <div class="split">
+        <div class="split-copy reveal">
+          <h3>Every month, in one card</h3>
+          <p>A calendar of your milestones and the moments that made the month, photos and all.</p>
+        </div>
+        <div class="month-cards reveal" role="img" aria-label="Four monthly recap cards for June, September, March, and November 2025, each with a calendar of its milestones">
+          <img src="assets/samples/month-june-sunset.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
+          <img src="assets/samples/month-september-noir.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
+          <img src="assets/samples/month-march-classic.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
+          <img src="assets/samples/month-november-aurora.webp" width="460" height="575" alt="" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <div class="split split-flip">
+        <div class="split-copy reveal">
+          <h3>Story replay, reframed</h3>
+          <p>Press play and your milestones return full screen. Tall photos fill the screen; wide ones stay whole over a soft blur of themselves. Free for everyone, as always.</p>
+        </div>
+        <div class="story-phones reveal" role="img" aria-label="Story replay on iPhone: the opening card, “Your story so far”, and a full-screen photo of a beagle for “Adopted Miso — best decision ever”">
+          <div class="phone"><img src="assets/samples/story-cover.webp" width="540" height="1174" alt="" loading="lazy" decoding="async"></div>
+          <div class="phone"><img src="assets/samples/story-dog.webp" width="540" height="1174" alt="" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+
+      <p class="fine-print">Sharing posters and cards comes with Premium. Example images made with sample data.</p>
+    </section>
+
+    <section class="features" aria-labelledby="features-title">
+      <h2 id="features-title" class="section-title reveal">Everything in Milesta</h2>
+      <div class="grid">
       <div class="card reveal"><span class="emoji">🛤️</span><h3>The Path</h3><p>Every promotion, move, and adventure becomes a waypoint on a winding trail that's yours to scroll — on iPhone and iPad, in light or dark to match your phone. Your first 20 milestones are free; Premium lifts the limit.</p></div>
       <div class="card reveal"><span class="emoji">✨</span><h3>Recaps</h3><p>Monthly, 6-month, and yearly summaries as beautiful Wrapped-style cards, posters, and 9:16 story images. Your latest monthly recap is free; the rest come with Premium.</p></div>
       <div class="card reveal"><span class="emoji">🔒</span><h3>Private by design</h3><p>No accounts, no cloud, no ads. Your entries never leave your phone. Face&nbsp;ID lock, and anonymous usage statistics only if you opt in.</p></div>
@@ -89,6 +200,14 @@
       <div class="card reveal"><span class="emoji">🌍</span><h3>15 languages</h3><p>Fully localized, with right-to-left support and in-app language switching.</p></div>
       <div class="card reveal"><span class="emoji">🖼️</span><h3>Posters &amp; widget</h3><p>Share any milestone — or an anniversary — as a poster with your own photo, ready for your stories. Keep your newest one on the Home Screen, and add new ones from any app through the share sheet. All free for everyone.</p></div>
       <div class="card reveal"><span class="emoji">💾</span><h3>Yours to keep</h3><p>One-tap portable backups and automatic monthly safety copies — all stored locally, and free for everyone. Export a full file, import it on a new iPhone, carry on.</p></div>
+      </div>
+    </section>
+
+    <section class="cta reveal" aria-labelledby="cta-title">
+      <img class="cta-icon" src="assets/icon-256.webp" alt="" width="76" height="76" loading="lazy" decoding="async">
+      <h2 id="cta-title" class="section-title">Start your path</h2>
+      <p>Free to download. Your first 20 milestones are free.</p>
+      <a class="badge-store" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a>
     </section>
 
     <footer class="site">
