@@ -186,38 +186,71 @@
         </button>
       </div>
 
-    <!-- ============ EVERY DAY, QUIET: a light island in the dark page ============ -->
-    <section class="quiet" id="everyday" aria-labelledby="quiet-title">
-      <div class="quiet-sheet" data-reveal>
-        <header class="quiet-head">
-          <p class="quiet-kicker">Day to day</p>
-          <h2 id="quiet-title" class="quiet-title">Every day, <em>quiet.</em></h2>
-          <p class="quiet-lede">Most days Milesta is a calm, private journal: a line or a photo, and your path grows.</p>
-        </header>
-        <div class="quiet-stage">
-          <svg class="quiet-line" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-            <path d="M-40 250 C 150 250 190 90 400 100 S 700 320 900 280 S 1110 90 1240 120"/>
-          </svg>
-          <ol class="quiet-rail" data-eager-near>
-            <li class="quiet-item">
-              <div class="phone quiet-phone"><img src="assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Milesta’s home screen in the Classic design: today, Sep 30, asks “What’s your next milestone?”, then milestones by month along a winding line, like “Dad retired — surprise party” and “The studio’s first big launch”."></div>
-              <h3>Your path</h3>
-              <p>Every milestone becomes a waypoint on one winding line, newest at the top.</p>
+    <!-- ============ THE PATH ============ -->
+    <section class="sec path-sec" id="path" aria-labelledby="path-title">
+      <div class="container path-grid">
+        <div class="path-copy">
+          <p class="kicker" data-reveal>The path</p>
+          <h2 id="path-title" class="h2" data-reveal style="--d:60ms">It starts with <span class="serif-accent">one</span> milestone.</h2>
+          <p class="lede" data-reveal style="--d:120ms">A new job. A first home. A finish line. Give a moment a date, a place and a few photos, and it takes its place on a winding path you can scroll back through, newest at the top.</p>
+          <ol class="steps">
+            <li data-reveal style="--d:0ms">
+              <span class="step-n" aria-hidden="true">01</span>
+              <h3>Capture it</h3>
+              <p>Add a milestone in seconds, or save a note or a link from any app through the share sheet.</p>
             </li>
-            <li class="quiet-item">
-              <div class="phone quiet-phone"><img src="assets/wrapped/shot-compose-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="Adding a milestone: “What happened?” with room for 280 characters, a category, the date and time, an optional note, link and place, and photos."></div>
-              <h3>A line, a photo</h3>
-              <p>What happened, when, where, and a few photos. Or save a note or a link from any app through the share sheet.</p>
+            <li data-reveal style="--d:80ms">
+              <span class="step-n" aria-hidden="true">02</span>
+              <h3>Watch it grow</h3>
+              <p>Every milestone becomes a waypoint on your path, on iPhone and iPad, in light or dark.</p>
             </li>
-            <li class="quiet-item">
-              <div class="phone quiet-phone"><img src="assets/wrapped/shot-scrapbook-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="The Scrapbook design: milestones as taped polaroids and pinned notes along a pencilled trail, with stamped month labels, on dotted journal paper."></div>
-              <h3>A scrapbook, if you like</h3>
-              <p>The same path as taped polaroids and pinned notes on journal paper.</p>
-              <p class="quiet-pill"><span class="next-update">New in the next update</span></p>
+            <li data-reveal style="--d:160ms">
+              <span class="step-n" aria-hidden="true">03</span>
+              <h3>Relive it</h3>
+              <p>Recaps, posters and story replay bring the moments back, whenever you like.</p>
             </li>
           </ol>
+          <p class="fine" data-reveal>Your first 20 milestones are free; Premium lifts the limit.</p>
         </div>
-        <p class="quiet-fine">Your first 20 milestones are free. Premium lifts the limit and unlocks every design, Scrapbook included. Example images made with sample data.</p>
+
+        <div class="path-visual" data-reveal>
+          <svg class="path-svg" viewBox="0 0 600 760" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="pathGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f59e59"/>
+                <stop offset=".38" stop-color="#ed528c"/>
+                <stop offset=".7" stop-color="#8c38bd"/>
+                <stop offset="1" stop-color="#42ad99"/>
+              </linearGradient>
+              <filter id="pathBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+            </defs>
+            <path class="path-glow" d="M540 -20 C540 120 70 100 70 250 S530 380 530 500 S90 600 90 690" pathLength="1" filter="url(#pathBlur)"/>
+            <path class="path-line" d="M540 -20 C540 120 70 100 70 250 S530 380 530 500 S90 600 90 690" pathLength="1"/>
+            <g class="path-dots">
+              <circle cx="70" cy="250" r="7"/>
+              <circle cx="530" cy="500" r="7"/>
+              <circle cx="90" cy="700" r="7"/>
+            </g>
+          </svg>
+          <div class="path-phone-wrap" role="img" aria-label="Milesta’s home screen: today at the top asks “What’s your next milestone?”, then milestones by month along a winding path, like “Dad retired — surprise party” and “The studio’s first big launch”. Beside it, sample milestones with photos: adopting a beagle, the keys to a first apartment, and a Christmas weekend in Rome.">
+            <div class="phone path-phone">
+              <img src="assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" alt="" loading="lazy" decoding="async">
+            </div>
+            <div class="chip chip-a" aria-hidden="true">
+              <img src="assets/wrapped/ph-dog.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>Adopted Miso — best decision ever</b><small>Jul 30</small></span>
+            </div>
+            <div class="chip chip-b" aria-hidden="true">
+              <img src="assets/wrapped/ph-keys.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>Keys to our first own apartment</b><small>May 30</small></span>
+            </div>
+            <div class="chip chip-c" aria-hidden="true">
+              <img src="assets/wrapped/ph-rome.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>Christmas weekend in Rome</b><small>Dec 26</small></span>
+            </div>
+          </div>
+          <p class="caption path-caption">Example images made with sample data.</p>
+        </div>
       </div>
     </section>
 
@@ -226,8 +259,9 @@
       <div class="wrapped-bg" aria-hidden="true"></div>
       <div class="container">
         <header class="sec-head center">
-          <h2 id="year-title" class="h2" data-reveal>Every year, <span class="grad-text">Wrapped.</span></h2>
-          <p class="lede" data-reveal style="--d:80ms">When a month or a year closes, it comes back as something worth sharing. Monthly, 6-month and yearly recaps gather how many, where, and the moments that made it.</p>
+          <p class="kicker" data-reveal>Recaps</p>
+          <h2 id="year-title" class="h2" data-reveal style="--d:60ms">Every year, <span class="grad-text">Wrapped.</span></h2>
+          <p class="lede" data-reveal style="--d:120ms">When a month or a year closes, it comes back as something worth sharing. Monthly, 6-month and yearly recaps gather how many, where, and the moments that made it.</p>
         </header>
 
         <p class="example-flag" data-reveal><span>Example year</span>made with sample data</p>
