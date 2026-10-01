@@ -150,13 +150,6 @@
   ]
  },
  {
-  "id": "502b6f856e2c",
-  "source": "New in the next update",
-  "contexts": [
-   "index.html span.next-update"
-  ]
- },
- {
   "id": "b003a34194a3",
   "source": "Year posters in six styles. Example images made with sample data.",
   "contexts": [
@@ -1112,13 +1105,6 @@
   "source": "Full insights",
   "contexts": [
    "index.html li"
-  ]
- },
- {
-  "id": "40f4312671f1",
-  "source": "<0>New in the next update</0><1>New posters and cards</1>",
-  "contexts": [
-   "index.html p.plan-new"
   ]
  },
  {

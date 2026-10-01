@@ -206,6 +206,9 @@ class Unit:
     def __init__(self, kind, start, end, source, tokens, context):
         self.kind, self.start, self.end, self.source, self.tokens, self.context = kind, start, end, source, tokens, context
         self.nested = False
+        # <title> shows its content as plain text: markup there would be
+        # read out literally, in the tab and in search results.
+        self.plain = False
 
     @property
     def id(self):
@@ -284,7 +287,9 @@ def collect_units(src, page):
         if not items or not worth_translating(''.join(visible_text(i) for i in items)):
             return
         text, tokens = run_to_source(items, src)
-        units.append(Unit('html', items[0].start, items[-1].end, text, tokens, context(parent)))
+        unit = Unit('html', items[0].start, items[-1].end, text, tokens, context(parent))
+        unit.plain = parent.tag == 'title'
+        units.append(unit)
 
     def walk(node):
         if isinstance(node, Text) or node.tag in OPAQUE:
@@ -519,7 +524,10 @@ def build_page(name, code, strings, errors):
         if bad:
             errors.append(f'{code}: {u.id} ({u.context}): {bad}')
             continue
-        edits.append((u.start, u.end, render(t, u.tokens, strings, code) if u.kind == 'html' else html.escape(t)))
+        if u.kind == 'html' and not u.plain:
+            edits.append((u.start, u.end, render(t, u.tokens, strings, code)))
+        else:
+            edits.append((u.start, u.end, html.escape(t, quote=u.kind != 'html')))
     out = src
     for start, end, new in sorted(edits, reverse=True):
         out = out[:start] + new + out[end:]
