@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-itunes-app" content="app-id=6791968029">
+  <title>Milesta — マイルストーンで綴る人生の日記</title>
+  <meta name="description" content="iOS向けのプライベートな人生の日記。記録はすべて端末の中に。人生を、ひとつずつのマイルストーンで。">
+  <link rel="canonical" href="https://milesta.app/ja">
+  <!-- i18n:head -->
+  <link rel="alternate" hreflang="en" href="https://milesta.app/">
+  <link rel="alternate" hreflang="de" href="https://milesta.app/de">
+  <link rel="alternate" hreflang="es" href="https://milesta.app/es">
+  <link rel="alternate" hreflang="fr" href="https://milesta.app/fr">
+  <link rel="alternate" hreflang="pt-BR" href="https://milesta.app/pt-br">
+  <link rel="alternate" hreflang="ru" href="https://milesta.app/ru">
+  <link rel="alternate" hreflang="tr" href="https://milesta.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://milesta.app/ar">
+  <link rel="alternate" hreflang="ur" href="https://milesta.app/ur">
+  <link rel="alternate" hreflang="hi" href="https://milesta.app/hi">
+  <link rel="alternate" hreflang="bn" href="https://milesta.app/bn">
+  <link rel="alternate" hreflang="ja" href="https://milesta.app/ja">
+  <link rel="alternate" hreflang="zh-Hans" href="https://milesta.app/zh-hans">
+  <link rel="alternate" hreflang="id" href="https://milesta.app/id">
+  <link rel="alternate" hreflang="vi" href="https://milesta.app/vi">
+  <link rel="alternate" hreflang="x-default" href="https://milesta.app/">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:locale:alternate" content="ur_PK">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="bn_BD">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="vi_VN">
+  <!-- /i18n:head -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Milesta">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:url" content="https://milesta.app/ja">
+  <meta property="og:title" content="Milesta — マイルストーンで綴る人生の日記">
+  <meta property="og:description" content="iOS向けのプライベートな人生の日記。記録はすべて端末の中に。人生を、ひとつずつのマイルストーンで。">
+  <meta property="og:image" content="https://milesta.app/assets/og/og-ja.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Milesta — 人生を、ひとつずつのマイルストーンで。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Milesta — マイルストーンで綴る人生の日記">
+  <meta name="twitter:description" content="iOS向けのプライベートな人生の日記。記録はすべて端末の中に。人生を、ひとつずつのマイルストーンで。">
+  <meta name="twitter:image" content="https://milesta.app/assets/og/og-ja.jpg">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/favicon.png">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07060a">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add("js");
+      if (/[?&]static\b/.test(location.search)) d.classList.add("static");
+    })();
+  </script>
+  <link rel="preload" as="image" href="/assets/wrapped/poster-yearA-2025-aurora.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/wrapped.css">
+  <script src="/wrapped.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Milesta - Milestones Journal",
+    "operatingSystem": "iOS",
+    "applicationCategory": "LifestyleApplication",
+    "url": "https://milesta.app",
+    "installUrl": "https://apps.apple.com/app/milesta-milestones-journal/id6791968029",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  }
+  </script>
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ji Yi init fn mn Hr pn bn cn capture calculateEventProperties Sn register register_once register_for_session unregister unregister_for_session In getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Tn identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Cn xn createPersonProfile setInternalOrTestUser Mn hn Pn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing debug Ur wt getPageViewId captureTraceFeedback captureTraceMetric an".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_tdC8URreSwN8aJXeCoZJGWgg243pHWrSXWtLfaNatJD9', {
+        api_host: 'https://e.dubara.io',
+        ui_host: 'https://eu.posthog.com',
+        defaults: '2026-05-30',
+        cookieless_mode: 'always', // no cookies, no localStorage - no consent banner needed
+        person_profiles: 'identified_only',
+    })
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">本文へスキップ</a>
+
+  <div class="page">
+    <div class="top-bg" aria-hidden="true">
+      <span class="blob blob-aurora"></span>
+      <span class="blob blob-sunset"></span>
+      <span class="blob blob-glow"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="/ja">
+          <img src="/assets/icon-256.webp" alt="" width="36" height="36">
+          <span>Milesta</span>
+        </a>
+        <nav class="site-nav" aria-label="サイト">
+          <ul>
+            <li><a href="/ja/support">サポート</a></li>
+            <li><a href="/ja/privacy">プライバシー</a></li>
+            <li><a href="/ja/terms">利用規約</a></li>
+            <li><a href="/impressum">Impressum</a></li>
+          </ul>
+        </nav>
+        <!-- i18n:menu -->
+        <details class="lang-menu" translate="no">
+          <summary aria-label="言語: 日本語"><svg class="lang-globe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.4 3.9 5.4 3.9 9s-1.3 6.6-3.9 9M12 3c-2.6 2.4-3.9 5.4-3.9 9s1.3 6.6 3.9 9"/></svg><span>日本語</span></summary>
+          <ul class="lang-list">
+            <li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li>
+            <li><a href="/de" hreflang="de" lang="de" data-lang="de">Deutsch</a></li>
+            <li><a href="/es" hreflang="es" lang="es" data-lang="es">Español</a></li>
+            <li><a href="/fr" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+            <li><a href="/pt-br" hreflang="pt-BR" lang="pt-BR" data-lang="pt-br">Português (Brasil)</a></li>
+            <li><a href="/ru" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li>
+            <li><a href="/tr" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li>
+            <li><a href="/ar" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li>
+            <li><a href="/ur" hreflang="ur" lang="ur" data-lang="ur">اردو</a></li>
+            <li><a href="/hi" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li>
+            <li><a href="/bn" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li>
+            <li><a href="/ja" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a></li>
+            <li><a href="/zh-hans" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-hans">简体中文</a></li>
+            <li><a href="/id" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li>
+            <li><a href="/vi" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li>
+          </ul>
+        </details>
+        <!-- /i18n:menu -->
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow-pill intro" style="--d:0ms">
+              <span class="eyebrow-dot" aria-hidden="true"></span>iPhone・iPad対応</p>
+            <h1 id="hero-title" class="display">
+              <span class="line intro" style="--d:60ms">人生を、</span> <span class="line grad-text intro" style="--d:140ms">ひとつずつ、</span> <span class="line serif-accent intro" style="--d:220ms">刻んでいく。</span>
+            </h1>
+            <p class="hero-lede intro" style="--d:320ms">プライベートな人生の日記。大切な瞬間が曲がりくねった道に並び、ひと月、半年、一年が終わるたびに、思わずシェアしたくなるWrapped風のまとめが届きます。</p>
+            <div class="cta-row intro" style="--d:400ms">
+              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">
+                <img src="/assets/badges/app-store-ja.svg" alt="App Storeからダウンロード" width="147" height="54">
+              </a>
+              <a class="btn-ghost" href="#year">一年の例を見る<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 4v11m0 0-4.5-4.5M10 15l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+            <ul class="facts intro" style="--d:460ms">
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>アカウントなし</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>クラウドなし</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>広告なし</li>
+            </ul>
+          </div>
+
+          <div class="stage">
+            <div class="drum-scene" role="img" aria-label="オーロラ、サンセット、ノワール、リネン、クラシックの各スタイルのMilestaイヤーポスターが、カルーセルでゆっくり回転しています。写真のギャラリーで一年を見せるものもあれば、曲がりくねった道で見せるものもあります。">
+              <div class="drum-tilt">
+                <div class="drum">
+                  <figure class="drum-card" style="--i:0"><img src="/assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" alt="" fetchpriority="high" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:1"><img src="/assets/wrapped/poster-yearB-2023-sunset.webp" width="600" height="1067" alt="" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:2"><img src="/assets/wrapped/poster-yearA-2025-noir.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:3"><img src="/assets/wrapped/poster-yearB-2025-linen.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:4"><img src="/assets/wrapped/poster-yearA-2023-sunset.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:5"><img src="/assets/wrapped/poster-yearB-2025-aurora.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:6"><img src="/assets/wrapped/poster-yearA-2025-classic.webp" width="600" height="1067" alt="" fetchpriority="low" decoding="async"></figure>
+                  <figure class="drum-card" style="--i:7"><img src="/assets/wrapped/poster-yearB-2025-noir.webp" width="600" height="1067" alt="" decoding="async"></figure>
+                  <div class="drum-floor"></div>
+                </div>
+              </div>
+              <div class="stage-floor" aria-hidden="true"></div>
+            </div>
+            <div class="stage-caption">
+              <span class="next-update">次のアップデートで登場</span>
+              <span class="stage-note">6つのスタイルで楽しむイヤーポスター。画像はサンプルデータで作成した例です。</span>
+              <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="アニメーションを一時停止">
+                <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
+                <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TAPES (poster styles marquee) ============ -->
+      <div class="tapes">
+        <div class="tape tape-back" aria-hidden="true">
+          <div class="tape-track">
+            <ul class="tape-seq">
+              <li>月間まとめ</li><li class="star">✦</li><li>半期まとめ</li><li class="star">✦</li><li>イヤーポスター</li><li class="star">✦</li><li>月間カード</li><li class="star">✦</li><li>ストーリー再生</li><li class="star">✦</li><li>インサイト</li><li class="star">✦</li>
+              <li>月間まとめ</li><li class="star">✦</li><li>半期まとめ</li><li class="star">✦</li><li>イヤーポスター</li><li class="star">✦</li><li>月間カード</li><li class="star">✦</li><li>ストーリー再生</li><li class="star">✦</li><li>インサイト</li><li class="star">✦</li>
+            </ul>
+            <ul class="tape-seq">
+              <li>月間まとめ</li><li class="star">✦</li><li>半期まとめ</li><li class="star">✦</li><li>イヤーポスター</li><li class="star">✦</li><li>月間カード</li><li class="star">✦</li><li>ストーリー再生</li><li class="star">✦</li><li>インサイト</li><li class="star">✦</li>
+              <li>月間まとめ</li><li class="star">✦</li><li>半期まとめ</li><li class="star">✦</li><li>イヤーポスター</li><li class="star">✦</li><li>月間カード</li><li class="star">✦</li><li>ストーリー再生</li><li class="star">✦</li><li>インサイト</li><li class="star">✦</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tape tape-front">
+          <p class="sr-only">ポスターとカードの6つのスタイル：クラシック、サンセット、ノワール、オーロラ、リネン、グロー。</p>
+          <div class="tape-track" aria-hidden="true">
+            <ul class="tape-seq">
+              <li class="ts ts-classic"><i class="sw"></i>クラシック</li>
+              <li class="ts ts-sunset"><i class="sw"></i>サンセット</li>
+              <li class="ts ts-noir"><i class="sw"></i>ノワール</li>
+              <li class="ts ts-aurora"><i class="sw"></i>オーロラ</li>
+              <li class="ts ts-linen"><i class="sw"></i>リネン</li>
+              <li class="ts ts-glow"><i class="sw"></i>グロー</li>
+            </ul>
+            <ul class="tape-seq">
+              <li class="ts ts-classic"><i class="sw"></i>クラシック</li>
+              <li class="ts ts-sunset"><i class="sw"></i>サンセット</li>
+              <li class="ts ts-noir"><i class="sw"></i>ノワール</li>
+              <li class="ts ts-aurora"><i class="sw"></i>オーロラ</li>
+              <li class="ts ts-linen"><i class="sw"></i>リネン</li>
+              <li class="ts ts-glow"><i class="sw"></i>グロー</li>
+            </ul>
+          </div>
+        </div>
+        <button class="motion-toggle tapes-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="アニメーションを一時停止">
+          <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="3.5" y="2.5" width="3" height="11" rx="1"/><rect x="9.5" y="2.5" width="3" height="11" rx="1"/></svg>
+          <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 3.3v9.4c0 .6.7 1 1.2.7l7.3-4.7a.8.8 0 0 0 0-1.4L6.2 2.6c-.5-.3-1.2.1-1.2.7z"/></svg>
+        </button>
+      </div>
+
+    <!-- ============ THE PATH ============ -->
+    <section class="sec path-sec" id="path" aria-labelledby="path-title">
+      <div class="container path-grid">
+        <div class="path-copy">
+          <p class="kicker" data-reveal>道のり</p>
+          <h2 id="path-title" class="h2" data-reveal style="--d:60ms">はじまりは、<span class="serif-accent">ひとつ</span>から。</h2>
+          <p class="lede" data-reveal style="--d:120ms">新しい仕事。初めての我が家。ゴールの瞬間。日付と場所、数枚の写真を添えれば、その瞬間は曲がりくねった道の上に刻まれます。新しいものほど上に並び、スクロールすればいつでもさかのぼれます。</p>
+          <ol class="steps">
+            <li data-reveal style="--d:0ms">
+              <span class="step-n" aria-hidden="true">01</span>
+              <h3>記録する</h3>
+              <p>マイルストーンは数秒で追加できます。共有シートを使えば、どのアプリからでもメモやリンクを保存できます。</p>
+            </li>
+            <li data-reveal style="--d:80ms">
+              <span class="step-n" aria-hidden="true">02</span>
+              <h3>育てる</h3>
+              <p>すべてのマイルストーンが、あなたの道のりの通過点に。iPhoneでもiPadでも、ライトでもダークでも。</p>
+            </li>
+            <li data-reveal style="--d:160ms">
+              <span class="step-n" aria-hidden="true">03</span>
+              <h3>振り返る</h3>
+              <p>まとめ、ポスター、ストーリー再生で、あの瞬間がいつでもよみがえります。</p>
+            </li>
+          </ol>
+          <p class="fine" data-reveal>最初の20件のマイルストーンは無料。プレミアムなら上限はありません。</p>
+        </div>
+
+        <div class="path-visual" data-reveal>
+          <svg class="path-svg" viewBox="0 0 600 760" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="pathGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f59e59"/>
+                <stop offset=".38" stop-color="#ed528c"/>
+                <stop offset=".7" stop-color="#8c38bd"/>
+                <stop offset="1" stop-color="#42ad99"/>
+              </linearGradient>
+              <filter id="pathBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+            </defs>
+            <path class="path-glow" d="M540 -20 C540 120 70 100 70 250 S530 380 530 500 S90 600 90 690" pathLength="1" filter="url(#pathBlur)"/>
+            <path class="path-line" d="M540 -20 C540 120 70 100 70 250 S530 380 530 500 S90 600 90 690" pathLength="1"/>
+            <g class="path-dots">
+              <circle cx="70" cy="250" r="7"/>
+              <circle cx="530" cy="500" r="7"/>
+              <circle cx="90" cy="700" r="7"/>
+            </g>
+          </svg>
+          <div class="path-phone-wrap" role="img" aria-label="Milestaのホーム画面：一番上の「今日」が「次のマイルストーンは？」と問いかけ、その下には月ごとのマイルストーンが曲がりくねった道に沿って並びます。たとえば「父が定年退職 — サプライズパーティー」や「スタジオ初の大型ローンチ」。その横には写真付きのサンプルマイルストーン：ビーグルを家族に迎えた日、初めての部屋の鍵、ローマで過ごしたクリスマスの週末。">
+            <div class="phone path-phone">
+              <img src="/assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" alt="" loading="lazy" decoding="async">
+            </div>
+            <div class="chip chip-a" aria-hidden="true">
+              <img src="/assets/wrapped/ph-dog.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>Misoをお迎え — 最高の決断だった</b><small>7月30日</small></span>
+            </div>
+            <div class="chip chip-b" aria-hidden="true">
+              <img src="/assets/wrapped/ph-keys.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>初めての自分たちの部屋の鍵</b><small>5月30日</small></span>
+            </div>
+            <div class="chip chip-c" aria-hidden="true">
+              <img src="/assets/wrapped/ph-rome.webp" width="160" height="160" alt="" loading="lazy" decoding="async">
+              <span><b>クリスマスの週末はローマで</b><small>12月26日</small></span>
+            </div>
+          </div>
+          <p class="caption path-caption">画像はサンプルデータで作成した例です。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRAPPED: EXAMPLE YEAR ============ -->
+    <section class="sec wrapped-sec" id="year" aria-labelledby="year-title">
+      <div class="wrapped-bg" aria-hidden="true"></div>
+      <div class="container">
+        <header class="sec-head center">
+          <p class="kicker" data-reveal>まとめ</p>
+          <h2 id="year-title" class="h2" data-reveal style="--d:60ms">どの一年も、<span class="grad-text">Wrapped風に。</span></h2>
+          <p class="lede" data-reveal style="--d:120ms">ひと月が、一年が終わると、シェアしたくなる形になって戻ってきます。月間・半期・年間のまとめには、マイルストーンの数、訪れた場所、そしてその期間を彩った瞬間が詰まっています。</p>
+        </header>
+
+        <p class="example-flag" data-reveal><span>一年の例</span>サンプルデータで作成</p>
+
+        <ol class="stat-grid">
+          <li class="stat stat-sunset" data-reveal style="--d:0ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+            <p class="stat-eyebrow">この一年</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="12.0" cy="100.0" r="3.9"/><circle cx="12.0" cy="90.6" r="3.9"/><circle cx="12.0" cy="81.2" r="3.9"/><circle cx="12.0" cy="71.8" r="3.9"/><text x="12.0" y="120">1</text><circle cx="31.6" cy="100.0" r="3.9"/><circle cx="31.6" cy="90.6" r="3.9"/><circle cx="31.6" cy="81.2" r="3.9"/><text x="31.6" y="120">2</text><circle cx="51.2" cy="100.0" r="3.9"/><circle cx="51.2" cy="90.6" r="3.9"/><circle cx="51.2" cy="81.2" r="3.9"/><text x="51.2" y="120">3</text><circle cx="70.8" cy="100.0" r="3.9"/><circle cx="70.8" cy="90.6" r="3.9"/><circle cx="70.8" cy="81.2" r="3.9"/><circle cx="70.8" cy="71.8" r="3.9"/><text x="70.8" y="120">4</text><circle cx="90.4" cy="100.0" r="3.9"/><circle cx="90.4" cy="90.6" r="3.9"/><circle cx="90.4" cy="81.2" r="3.9"/><circle cx="90.4" cy="71.8" r="3.9"/><circle cx="90.4" cy="62.4" r="3.9"/><text x="90.4" y="120">5</text><circle class="hi" cx="110.0" cy="100.0" r="3.9"/><circle class="hi" cx="110.0" cy="90.6" r="3.9"/><circle class="hi" cx="110.0" cy="81.2" r="3.9"/><circle class="hi" cx="110.0" cy="71.8" r="3.9"/><circle class="hi" cx="110.0" cy="62.4" r="3.9"/><circle class="hi" cx="110.0" cy="53.0" r="3.9"/><circle class="hi" cx="110.0" cy="43.6" r="3.9"/><circle class="hi" cx="110.0" cy="34.2" r="3.9"/><circle class="hi" cx="110.0" cy="24.8" r="3.9"/><circle class="hi" cx="110.0" cy="15.4" r="3.9"/><text x="110.0" y="120">6</text><circle cx="129.6" cy="100.0" r="3.9"/><circle cx="129.6" cy="90.6" r="3.9"/><circle cx="129.6" cy="81.2" r="3.9"/><circle cx="129.6" cy="71.8" r="3.9"/><text x="129.6" y="120">7</text><circle cx="149.2" cy="100.0" r="3.9"/><circle cx="149.2" cy="90.6" r="3.9"/><circle cx="149.2" cy="81.2" r="3.9"/><text x="149.2" y="120">8</text><circle cx="168.8" cy="100.0" r="3.9"/><circle cx="168.8" cy="90.6" r="3.9"/><circle cx="168.8" cy="81.2" r="3.9"/><circle cx="168.8" cy="71.8" r="3.9"/><circle cx="168.8" cy="62.4" r="3.9"/><circle cx="168.8" cy="53.0" r="3.9"/><text x="168.8" y="120">9</text><circle cx="188.4" cy="100.0" r="3.9"/><circle cx="188.4" cy="90.6" r="3.9"/><circle cx="188.4" cy="81.2" r="3.9"/><circle cx="188.4" cy="71.8" r="3.9"/><text x="188.4" y="120">10</text><circle cx="208.0" cy="100.0" r="3.9"/><text x="208.0" y="120">11</text><circle cx="227.6" cy="100.0" r="3.9"/><circle cx="227.6" cy="90.6" r="3.9"/><circle cx="227.6" cy="81.2" r="3.9"/><circle cx="227.6" cy="71.8" r="3.9"/><text x="227.6" y="120">12</text></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="51" aria-hidden="true">51</span><span class="stat-unit" aria-hidden="true">マイルストーン</span><span class="sr-only">51件のマイルストーン</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>サンプル</span></p>
+          </li>
+          <li class="stat stat-aurora" data-reveal style="--d:90ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+            <p class="stat-eyebrow">訪れた場所</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><polyline class="route" points="14,96 34,74 56,88 76,60 98,76 114,46 136,62 152,32 172,50 190,24 206,52 222,36 230,70"/><circle cx="14" cy="96" r="4.4"/><circle cx="34" cy="74" r="4.4"/><circle cx="56" cy="88" r="4.4"/><circle cx="76" cy="60" r="4.4"/><circle cx="98" cy="76" r="4.4"/><circle cx="114" cy="46" r="4.4"/><circle cx="136" cy="62" r="4.4"/><circle cx="152" cy="32" r="4.4"/><circle cx="172" cy="50" r="4.4"/><circle cx="190" cy="24" r="4.4"/><circle cx="206" cy="52" r="4.4"/><circle cx="222" cy="36" r="4.4"/><circle class="hi" cx="230" cy="70" r="7"/><circle cx="230" cy="70" r="2.6" class="core"/></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="13" aria-hidden="true">13</span><span class="stat-unit" aria-hidden="true">か所</span><span class="sr-only">13か所</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>サンプル</span></p>
+          </li>
+          <li class="stat stat-glow" data-reveal style="--d:180ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+            <p class="stat-eyebrow">継続記録</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="22.0" cy="22" r="11.5"/><circle cx="54.6" cy="22" r="11.5"/><circle cx="87.2" cy="22" r="11.5"/><circle cx="119.8" cy="22" r="11.5"/><circle cx="152.4" cy="22" r="11.5"/><circle cx="185.0" cy="22" r="11.5"/><circle cx="217.6" cy="22" r="11.5"/><circle cx="22.0" cy="60" r="11.5"/><circle cx="54.6" cy="60" r="11.5"/><circle cx="87.2" cy="60" r="11.5"/><circle cx="119.8" cy="60" r="11.5"/><circle cx="152.4" cy="60" r="11.5"/><circle cx="185.0" cy="60" r="11.5"/><circle cx="217.6" cy="60" r="11.5"/><circle cx="22.0" cy="98" r="11.5"/><circle cx="54.6" cy="98" r="11.5"/><circle cx="87.2" cy="98" r="11.5"/><circle cx="119.8" cy="98" r="11.5"/><circle cx="152.4" cy="98" r="11.5"/><circle cx="185.0" cy="98" r="11.5"/><circle class="hi" cx="217.6" cy="98" r="11.5"/></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="21" aria-hidden="true">21</span><span class="stat-unit" aria-hidden="true">か月連続</span><span class="sr-only">21か月連続の記録</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>サンプル</span></p>
+          </li>
+          <li class="stat stat-noir" data-reveal style="--d:270ms">
+            <div class="stat-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+            <p class="stat-eyebrow">今年ここまで</p>
+            <svg class="stat-art" viewBox="0 0 240 124" aria-hidden="true" focusable="false"><circle cx="12.0" cy="100.0" r="3.9"/><text x="12.0" y="120">1</text><circle cx="31.6" cy="100.0" r="3.9"/><circle cx="31.6" cy="90.6" r="3.9"/><text x="31.6" y="120">2</text><circle cx="51.2" cy="100.0" r="3.9"/><text x="51.2" y="120">3</text><circle cx="70.8" cy="100.0" r="3.9"/><text x="70.8" y="120">4</text><circle cx="90.4" cy="100.0" r="3.9"/><circle cx="90.4" cy="90.6" r="3.9"/><text x="90.4" y="120">5</text><circle cx="110.0" cy="100.0" r="3.9"/><text x="110.0" y="120">6</text><circle cx="129.6" cy="100.0" r="3.9"/><circle cx="129.6" cy="90.6" r="3.9"/><text x="129.6" y="120">7</text><circle cx="149.2" cy="100.0" r="3.9"/><text x="149.2" y="120">8</text><circle class="hi" cx="168.8" cy="100.0" r="3.9"/><text x="168.8" y="120">9</text><circle class="empty" cx="188.4" cy="100" r="3.9"/><text x="188.4" y="120">10</text><circle class="empty" cx="208.0" cy="100" r="3.9"/><text x="208.0" y="120">11</text><circle class="empty" cx="227.6" cy="100" r="3.9"/><text x="227.6" y="120">12</text></svg>
+            <p class="stat-figure"><span class="stat-num" data-count="12" aria-hidden="true">12</span><span class="stat-unit" aria-hidden="true">マイルストーン</span><span class="sr-only">今年はここまで12件のマイルストーン</span></p>
+            <p class="stat-foot" aria-hidden="true"><span>Milesta</span><span>サンプル</span></p>
+          </li>
+        </ol>
+        <p class="caption center" data-reveal>数字はMilestaのサンプルデータによる例です。実際のまとめでは、あなた自身のマイルストーンが集計されます。最新の月間まとめは無料、すべてのまとめはプレミアムで。</p>
+      </div>
+    </section>
+
+    <!-- ============ POSTERS & CARDS ============ -->
+    <section class="sec posters-sec" id="posters" data-style="aurora" aria-labelledby="posters-title">
+      <div class="posters-glow" aria-hidden="true"></div>
+      <div class="container posters-grid">
+        <div class="posters-copy">
+          <p data-reveal><span class="next-update">次のアップデートで登場</span></p>
+          <h2 id="posters-title" class="h2" data-reveal style="--d:60ms">一年まるごと、すぐシェア。</h2>
+          <p class="lede" data-reveal style="--d:120ms">まとめが、写真入りのポスターやカードに。ライトとダーク、どちらのスタイルも選べます。レイアウトは、とっておきの写真を並べる「ギャラリー」か、一年まるごとを曲がりくねった道で描く「道のり」から。</p>
+          <p class="tabs-label" id="style-label" data-reveal>スタイルを試す</p>
+          <div class="style-tabs" role="tablist" aria-labelledby="style-label" data-reveal>
+            <button class="style-tab" role="tab" type="button" id="tab-aurora" data-style="aurora" data-alt-gallery="イヤーポスター（ギャラリーレイアウト、オーロラスタイル）：2025年、51件のマイルストーンと13か所。いちばん大きな瞬間の写真と、一年をひと目で見渡せる図付き。" data-alt-path="イヤーポスター（道のりレイアウト、オーロラスタイル）：2025年の51件のマイルストーンが曲がりくねった道に沿って並び、大きな瞬間には写真が添えられている。" aria-selected="true" aria-controls="poster-panel"><span class="sw sw-aurora" aria-hidden="true"></span>オーロラ</button>
+            <button class="style-tab" role="tab" type="button" id="tab-sunset" data-style="sunset" data-alt-gallery="イヤーポスター（ギャラリーレイアウト、サンセットスタイル）：2023年、12件のマイルストーンと2か所。この年は写真がないため、アイコンで表示。" data-alt-path="イヤーポスター（道のりレイアウト、サンセットスタイル）：2023年の12件のマイルストーンが曲がりくねった道に沿って並ぶ。" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-sunset" aria-hidden="true"></span>サンセット</button>
+            <button class="style-tab" role="tab" type="button" id="tab-noir" data-style="noir" data-alt-gallery="イヤーポスター（ギャラリーレイアウト、ノワールスタイル）：2025年、51件のマイルストーンと13か所。モノクロのデザインに、フルカラーの写真。" data-alt-path="イヤーポスター（道のりレイアウト、ノワールスタイル）：2025年の51件のマイルストーンが、暗く曲がりくねった道に白い点で並ぶ。" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-noir" aria-hidden="true"></span>ノワール</button>
+            <button class="style-tab" role="tab" type="button" id="tab-linen" data-style="linen" data-alt-gallery="イヤーポスター（ギャラリーレイアウト、リネンスタイル）：2025年、51件のマイルストーンと13か所。明るい紙の上に。" data-alt-path="イヤーポスター（道のりレイアウト、リネンスタイル）：2025年の51件のマイルストーンが、明るい紙の上の曲がりくねった道に沿って並ぶ。" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-linen" aria-hidden="true"></span>リネン</button>
+            <button class="style-tab" role="tab" type="button" id="tab-classic" data-style="classic" data-alt-gallery="イヤーポスター（ギャラリーレイアウト、クラシックスタイル）：2025年、51件のマイルストーンと13か所。温かみのあるテラコッタ色で。" data-alt-path="イヤーポスター（道のりレイアウト、クラシックスタイル）：2025年の51件のマイルストーンが、温かみのあるテラコッタ色の曲がりくねった道に沿って並ぶ。" aria-selected="false" aria-controls="poster-panel" tabindex="-1"><span class="sw sw-classic" aria-hidden="true"></span>クラシック</button>
+          </div>
+          <p class="fine" data-reveal>さらに、ピンクからバイオレットへ移ろう「グロー」も。全部で6つのスタイルがあります。サンセットの例は写真のない静かな一年で、写真の代わりにアイコンが並びます。</p>
+        </div>
+
+        <div class="poster-stage" id="poster-panel" role="tabpanel" aria-labelledby="tab-aurora" tabindex="0" data-reveal>
+          <figure class="poster poster-path">
+            <img id="poster-path-img" src="/assets/wrapped/poster-yearB-2025-aurora.webp" width="600" height="1067" loading="lazy" decoding="async" alt="イヤーポスター（道のりレイアウト、オーロラスタイル）：2025年の51件のマイルストーンが曲がりくねった道に沿って並び、大きな瞬間には写真が添えられている。">
+            <figcaption class="poster-tag">道のり</figcaption>
+          </figure>
+          <figure class="poster poster-gallery">
+            <img id="poster-gallery-img" src="/assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" loading="lazy" decoding="async" alt="イヤーポスター（ギャラリーレイアウト、オーロラスタイル）：2025年、51件のマイルストーンと13か所。いちばん大きな瞬間の写真と、一年をひと目で見渡せる図付き。">
+            <figcaption class="poster-tag">ギャラリー</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="container months">
+        <div class="months-copy">
+          <h3 class="h3" data-reveal>ひと月を、1枚のカードに。</h3>
+          <p data-reveal style="--d:60ms">マイルストーンのカレンダーと、その月を彩った瞬間を、写真ごと1枚に。</p>
+        </div>
+        <div class="month-rail" role="group" aria-label="5枚の月間まとめカード" data-reveal data-eager-near>
+          <figure class="month-card" style="--r:-7deg;--y:34px"><img src="/assets/wrapped/month-2025-03-classic.webp" width="520" height="650" loading="lazy" decoding="async" alt="2025年3月の月間カード（クラシックスタイル）：3件のマイルストーン。「ピアノで初めて1曲弾ききった」のピアノの写真付き。"></figure>
+          <figure class="month-card" style="--r:-3.5deg;--y:8px"><img src="/assets/wrapped/month-2025-06-sunset.webp" width="520" height="650" loading="lazy" decoding="async" alt="2025年6月の月間カード（サンセットスタイル）：10件のマイルストーン。京都の桜、積み重ねた本、結婚式の写真付き。"></figure>
+          <figure class="month-card" style="--r:0deg;--y:0px"><img src="/assets/wrapped/month-2025-09-noir.webp" width="520" height="650" loading="lazy" decoding="async" alt="2025年9月の月間カード（ノワールスタイル）：6件のマイルストーン。姉の結婚式や、ウィーンへのサプライズ週末旅行など。"></figure>
+          <figure class="month-card" style="--r:3.5deg;--y:8px"><img src="/assets/wrapped/month-2025-11-aurora.webp" width="520" height="650" loading="lazy" decoding="async" alt="2025年11月の月間カード（オーロラスタイル）：1件のマイルストーン「小説の100ページ目を書いた」。"></figure>
+          <figure class="month-card" style="--r:7deg;--y:34px"><img src="/assets/wrapped/month-2025-06-linen.webp" width="520" height="650" loading="lazy" decoding="async" alt="2025年6月の月間カード（リネンスタイル）：同じ月を明るい紙の上に。"></figure>
+        </div>
+      </div>
+      <p class="caption center container" data-reveal>ポスターとカードの共有はプレミアムで。画像はサンプルデータで作成した例です。</p>
+    </section>
+
+    <!-- ============ BENTO ============ -->
+    <section class="sec bento-sec" id="features" aria-labelledby="bento-title">
+      <div class="bento-bg" aria-hidden="true"></div>
+      <div class="container">
+        <header class="sec-head">
+          <p class="kicker" data-reveal>Milestaのすべて</p>
+          <h2 id="bento-title" class="h2" data-reveal style="--d:60ms">あなたの物語に、必要なすべてを。</h2>
+        </header>
+
+        <div class="bento">
+          <article class="tile t-insights" data-reveal>
+            <div class="tile-copy">
+              <span class="next-update">次のアップデートで登場</span>
+              <h3>インサイト</h3>
+              <p>一年をひと目で見渡せるほか、継続記録、最も活動的な月、カテゴリ、場所までわかります。</p>
+              <p class="tile-fine">マイルストーンの件数と歩んだ日数は無料。すべてのインサイトはプレミアムで。</p>
+              <ul class="feature-chips" aria-label="インサイトでわかること">
+                <li>一年をひと目で</li><li>継続記録</li><li>最も活動的な月</li><li>カテゴリ</li><li>場所</li>
+              </ul>
+            </div>
+            <div class="tile-media">
+              <div class="phone tile-phone"><img src="/assets/wrapped/shot-insights-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="ミッドナイトパレットのインサイト：2023年1月10日からの79件のマイルストーン、歩んだ日数1,359日、今年の12件、写真18枚。今年のマイルストーンを月ごとの点で表示し、21か月連続の継続記録も。"></div>
+            </div>
+          </article>
+
+          <article class="tile t-story" data-reveal style="--d:80ms">
+            <div class="tile-copy">
+              <span class="next-update">次のアップデートで登場</span>
+              <h3>ストーリー再生</h3>
+              <p>再生を押すと、これまでの旅路が、マイルストーンひとつずつフルスクリーンでよみがえります。縦長の写真は画面いっぱいに、横長の写真は、自身をやわらかくぼかした背景の上に切れることなく表示されます。</p>
+              <p class="tile-fine">誰でも無料。</p>
+            </div>
+            <div class="tile-media story-media">
+              <div class="phone tile-phone phone-back"><img src="/assets/wrapped/shot-story-rome.webp" width="640" height="1391" loading="lazy" decoding="async" alt="ストーリー再生：「クリスマスの週末はローマで」（2025年12月26日、イタリア・ローマ）。横長のコロッセオの写真が、自身をやわらかくぼかした背景の上に丸ごと表示されている。"></div>
+              <div class="phone tile-phone phone-front"><img src="/assets/wrapped/shot-story-dog.webp" width="640" height="1391" loading="lazy" decoding="async" alt="ストーリー再生：「Misoをお迎え — 最高の決断だった」（2025年10月28日）。ビーグルの写真がフルスクリーンで表示されている。"></div>
+            </div>
+          </article>
+
+          <article class="tile t-designs" data-reveal>
+            <div class="tile-copy">
+              <span class="next-update">次のアップデートで登場</span>
+              <h3>4デザイン・9パレット</h3>
+              <p>道のりの描き方は4通り。曲がりくねった線に沿ってカードが並ぶ「クラシック」、ポラロイドとメモを貼った「スクラップブック」、写真が立ち寄りスポットになる「思い出マップ」、そしてこのページのように、光る道に沿ってすりガラスが並ぶ「Wrapped」。あとは9つのパレットから好きな色を選ぶだけ。</p>
+              <ul class="palettes" aria-label="9つのパレット">
+                <li style="--a:#d98c61;--b:#ad7857"><span>テラコッタ</span></li>
+                <li style="--a:#5c9ec7;--b:#406b91"><span>オーシャン</span></li>
+                <li style="--a:#6ba375;--b:#456e54"><span>フォレスト</span></li>
+                <li style="--a:#757dc7;--b:#525994"><span>ミッドナイト</span></li>
+                <li style="--a:#e3879e;--b:#b35c75"><span>ロゼ</span></li>
+                <li style="--a:#b394d6;--b:#8066a3"><span>ラベンダー</span></li>
+                <li style="--a:#8799ad;--b:#576678"><span>スレート</span></li>
+                <li style="--a:#9a7456;--b:#5c4533"><span>ペーパー</span></li>
+                <li style="--a:#3d8f99;--b:#216673"><span>アトラス</span></li>
+              </ul>
+              <p class="tile-fine">「クラシック」デザインと「テラコッタ」パレットは無料。そのほかのデザインとパレットはプレミアムで。</p>
+            </div>
+            <div class="tile-media designs-media" role="group" aria-label="4つのデザイン" data-eager-near>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="/assets/wrapped/shot-home-classic-light.webp" width="640" height="1391" loading="lazy" decoding="async" alt="ライトモードの「クラシック」デザイン：曲がりくねった線に沿って、マイルストーンのカードが月ごとに並ぶ。"></div>
+                <figcaption>クラシック</figcaption>
+              </figure>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="/assets/wrapped/shot-scrapbook-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="ダークモードの「スクラップブック」デザイン：鉛筆で描いた小道に沿って、テープで貼ったポラロイドとピンで留めたメモが並び、月の見出しはスタンプ風。"></div>
+                <figcaption>スクラップブック</figcaption>
+              </figure>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="/assets/wrapped/shot-atlas-dark.webp" width="640" height="1391" loading="lazy" decoding="async" alt="夜の「思い出マップ」デザイン：やわらかな道に沿って、京都旅行、トライアスロン、書き上げた小説の初稿の写真が丸いスポットとして並ぶ。"></div>
+                <figcaption>思い出マップ</figcaption>
+              </figure>
+              <figure class="design">
+                <div class="phone tile-phone"><img src="/assets/wrapped/shot-wrapped-dark.webp" width="640" height="1392" loading="lazy" decoding="async" alt="「Wrapped」デザイン：光る道に沿ってすりガラスのカードが並び、2025という年が夕焼け色からバイオレットへのグラデーションで大きく描かれている。"></div>
+                <figcaption>Wrapped</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="tile t-private" data-reveal>
+            <svg class="tile-glyph glyph-faceid" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="gFace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6fe0c6"/><stop offset="1" stop-color="#b57cff"/></linearGradient></defs>
+              <g fill="none" stroke="url(#gFace)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 30V18A10 10 0 0 1 18 8h12M66 8h12a10 10 0 0 1 10 10v12M88 66v12a10 10 0 0 1-10 10H66M30 88H18A10 10 0 0 1 8 78V66"/>
+                <path d="M33 35v8M63 35v8M49 35v17a3 3 0 0 1-3 3h-2.5"/>
+                <path d="M35 66c7.5 6.5 18.5 6.5 26 0"/>
+              </g>
+              <rect class="scan" x="14" y="46" width="68" height="3" rx="1.5"/>
+            </svg>
+            <h3>プライバシー第一</h3>
+            <p>アカウントなし。クラウドなし。広告なし。マイルストーンはスマホの中にとどまり、あなたが共有しない限り外に出ることはありません。MilestaはFace IDでロックでき、バックアップも端末の中に保存されます。</p>
+          </article>
+
+          <article class="tile t-widget" data-reveal style="--d:80ms">
+            <div class="glyph-pair" aria-hidden="true">
+              <svg class="tile-glyph" viewBox="0 0 48 48" focusable="false">
+                <defs><linearGradient id="gWid" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb07a"/><stop offset="1" stop-color="#ed528c"/></linearGradient></defs>
+                <g fill="none" stroke="url(#gWid)" stroke-width="3" stroke-linejoin="round"><rect x="6" y="6" width="36" height="15" rx="5"/><rect x="6" y="27" width="15" height="15" rx="5"/><rect x="27" y="27" width="15" height="15" rx="5"/></g>
+              </svg>
+              <svg class="tile-glyph" viewBox="0 0 48 48" focusable="false">
+                <defs><linearGradient id="gShare" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ed528c"/><stop offset="1" stop-color="#9a5cf0"/></linearGradient></defs>
+                <g fill="none" stroke="url(#gShare)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 29V6m-8.5 8.5L24 6l8.5 8.5"/><path d="M17 20h-4.5A4.5 4.5 0 0 0 8 24.5v14A4.5 4.5 0 0 0 12.5 43h23a4.5 4.5 0 0 0 4.5-4.5v-14A4.5 4.5 0 0 0 35.5 20H31"/></g>
+              </svg>
+            </div>
+            <h3>ウィジェットと共有</h3>
+            <p>最新のマイルストーンとこれまでの合計を、ホーム画面に。共有シートを使えば、どのアプリからでもメモやリンクを保存できます。</p>
+          </article>
+
+          <article class="tile t-lang" data-reveal style="--d:160ms">
+            <p class="lang-big" aria-hidden="true">15</p>
+            <h3>15言語に対応</h3>
+            <p>完全ローカライズ。右から左へ書く言語にも対応し、アプリ内で言語を切り替えられます。</p>
+            <ul class="langs" aria-label="言語">
+              <li lang="en">English</li><li lang="de">Deutsch</li><li lang="es">Español</li><li lang="fr">Français</li><li lang="pt-BR">Português</li><li lang="ru">Русский</li><li lang="tr">Türkçe</li><li lang="ar" dir="rtl">العربية</li><li lang="ur" dir="rtl">اردو</li><li lang="hi">हिन्दी</li><li lang="bn">বাংলা</li><li lang="id">Bahasa Indonesia</li><li lang="vi">Tiếng Việt</li><li lang="ja">日本語</li><li lang="zh-Hans">简体中文</li>
+            </ul>
+          </article>
+        </div>
+        <p class="caption" data-reveal>画像はサンプルデータで作成した例です。</p>
+      </div>
+    </section>
+
+    <!-- ============ FREE & PREMIUM ============ -->
+    <section class="sec plans-sec" id="premium" aria-labelledby="plans-title">
+      <div class="container">
+        <header class="sec-head center">
+          <p class="kicker" data-reveal>無料プランとプレミアム</p>
+          <h2 id="plans-title" class="h2" data-reveal style="--d:60ms">まずは無料で。<span class="serif-accent">物語のすべて</span>はプレミアムで。</h2>
+        </header>
+        <div class="plan-grid">
+          <article class="plan plan-free" data-reveal>
+            <h3>無料プラン</h3>
+            <p class="plan-sub">道のりを始めるのに必要なものが、すべて揃っています。</p>
+            <ul class="ticks">
+              <li>最初の20件のマイルストーン</li>
+              <li>写真</li>
+              <li>ストーリー再生</li>
+              <li>最新の月間まとめ</li>
+              <li>バックアップ</li>
+              <li>「クラシック」×「テラコッタ」</li>
+            </ul>
+          </article>
+          <article class="plan plan-premium" data-reveal style="--d:90ms">
+            <h3><span class="grad-text">プレミアム</span></h3>
+            <p class="plan-sub">人生のすべての章と、あらゆるシェアの方法を。</p>
+            <ul class="ticks">
+              <li>マイルストーン無制限</li>
+              <li>すべてのまとめとポスター共有</li>
+              <li>すべてのデザインとパレット</li>
+              <li>すべてのインサイト</li>
+            </ul>
+            <p class="plan-new"><span class="next-update">次のアップデートで登場</span><span class="plan-new-note">新しいポスターとカード</span></p>
+            <div class="plan-art" aria-hidden="true">
+              <img src="/assets/wrapped/poster-yearB-2023-sunset.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+              <img src="/assets/wrapped/poster-yearA-2025-noir.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+              <img src="/assets/wrapped/poster-yearA-2025-aurora.webp" width="600" height="1067" alt="" loading="lazy" decoding="async">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINALE ============ -->
+    <section class="finale" aria-labelledby="finale-title">
+      <div class="finale-halo" aria-hidden="true"><span></span></div>
+      <div class="container finale-inner">
+        <img class="finale-icon" src="/assets/icon-256.webp" width="104" height="104" alt="" loading="lazy" decoding="async" data-reveal>
+        <h2 id="finale-title" class="mega" data-reveal style="--d:60ms"><span class="grad-text">道のり</span>を、歩こう。</h2>
+        <p class="finale-sub" data-reveal style="--d:120ms">ダウンロード無料。最初の20件のマイルストーンは無料です。</p>
+        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029" data-reveal style="--d:180ms">
+          <img src="/assets/badges/app-store-ja.svg" alt="App Storeからダウンロード" width="163" height="60" loading="lazy">
+        </a>
+        <p class="finale-facts" data-reveal style="--d:240ms">アカウントなし · クラウドなし · 広告なし · 15言語</p>
+      </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container foot">
+        <div class="foot-brand">
+          <a class="brand" href="/ja">
+            <img src="/assets/icon-256.webp" alt="" width="32" height="32" loading="lazy">
+            <span>Milesta</span>
+          </a>
+          <p>人生を、ひとつずつのマイルストーンで。</p>
+        </div>
+        <nav aria-label="フッター">
+          <ul>
+            <li><a href="/ja/support">サポート</a></li>
+            <li><a href="/ja/privacy">プライバシー</a></li>
+            <li><a href="/ja/terms">利用規約</a></li>
+            <li><a href="/impressum">Impressum</a></li>
+            <li><a href="/ja/press">プレス</a></li>
+            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+          </ul>
+        </nav>
+        <p class="foot-copy">© <span data-year>2026</span> Milesta。iPhone・iPad対応。</p>
+      </div>
+    </footer>
+  </div>
+    <script>window.si=window.si||function(){(window.siq=window.siq||[]).push(arguments);};</script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>

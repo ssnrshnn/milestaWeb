@@ -10,7 +10,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const site = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const site = process.env.SITE || path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const chrome = process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const codes = ['en', ...fs.readdirSync(path.join(site, 'i18n/strings')).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5))];
 fs.mkdirSync(path.join(site, 'assets/og'), { recursive: true });

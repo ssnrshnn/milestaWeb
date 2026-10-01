@@ -77,8 +77,9 @@ INLINE = {'a', 'abbr', 'b', 'bdi', 'bdo', 'br', 'cite', 'code', 'em', 'i', 'img'
 OPAQUE = {'svg', 'script', 'style', 'template'}
 TRANS_ATTRS = ('alt', 'aria-label', 'title', 'placeholder', 'data-alt-gallery', 'data-alt-path')
 META_KEYS = {('name', 'description'), ('property', 'og:title'), ('property', 'og:description'),
-             ('property', 'og:image:alt'), ('name', 'twitter:title'), ('name', 'twitter:description')}
-DNT = {'Milesta', 'Milesta Premium'}
+             ('name', 'twitter:title'), ('name', 'twitter:description')}
+TAGLINE = 'Your life, one milestone at a time.'   # the social card's alt text is built from it
+DNT = {'Milesta'}   # "Milesta Premium" is translated: several languages localise Premium
 
 
 # ---------------------------------------------------------------- parsing
@@ -380,11 +381,19 @@ def translate_tag(tag_src, strings):
     return ATTR_IN_TAG.sub(fix, tag_src)
 
 
-def render(target, tokens, strings=None):
+def text_html(text, code=None):
+    t = html.escape(text, quote=False)
+    if code == 'tr':
+        # CSS uppercasing in Turkish turns the brand into "MİLESTA".
+        t = t.replace('Milesta', '<span lang="en">Milesta</span>')
+    return t
+
+
+def render(target, tokens, strings=None, code=None):
     """Translated text with <0>…</0> tags -> HTML using the page's own tags."""
     out, pos = [], 0
     for m in TOKEN.finditer(target):
-        out.append(html.escape(target[pos:m.start()], quote=False))
+        out.append(text_html(target[pos:m.start()], code))
         n = int(m.group(2))
         open_src, close_src = tokens[n]
         if m.group(1) and not m.group(3):
@@ -392,7 +401,7 @@ def render(target, tokens, strings=None):
         else:
             out.append(translate_tag(open_src, strings) if strings else open_src)
         pos = m.end()
-    out.append(html.escape(target[pos:], quote=False))
+    out.append(text_html(target[pos:], code))
     return ''.join(out)
 
 
@@ -510,17 +519,30 @@ def build_page(name, code, strings, errors):
         if bad:
             errors.append(f'{code}: {u.id} ({u.context}): {bad}')
             continue
-        edits.append((u.start, u.end, render(t, u.tokens, strings) if u.kind == 'html' else html.escape(t)))
+        edits.append((u.start, u.end, render(t, u.tokens, strings, code) if u.kind == 'html' else html.escape(t)))
     out = src
     for start, end, new in sorted(edits, reverse=True):
         out = out[:start] + new + out[end:]
 
     out = re.sub(r'<html lang="[^"]*"', f'<html lang="{lang[1]}"' + (' dir="rtl"' if lang[4] == 'rtl' else ''), out, count=1)
     out = localise_links(out, code)
+    # Apple's badge in the page's language (where Apple makes one), sized to its own proportions
+    badge = SITE / 'assets' / 'badges' / f'app-store-{code}.svg'
+    if badge.exists():
+        m = re.search(r'<svg[^>]*?\swidth="([\d.]+)"[^>]*?\sheight="([\d.]+)"', badge.read_text(encoding='utf-8'))
+        ratio = float(m.group(1)) / float(m.group(2))
+        def fix_badge(t):
+            tag = t.group(0).replace('/assets/app-store-badge.svg', f'/assets/badges/app-store-{code}.svg')
+            h = re.search(r'height="(\d+)"', tag)
+            return re.sub(r'width="\d+"', f'width="{round(int(h.group(1)) * ratio)}"', tag) if h else tag
+        out = re.sub(r'<img src="/assets/app-store-badge\.svg"[^>]*>', fix_badge, out)
     canon = f'{ORIGIN}{url(code, slug)}'
     out = re.sub(r'(<link rel="canonical" href=")[^"]*(")', r'\g<1>' + canon + r'\2', out)
     out = re.sub(r'(<meta property="og:url" content=")[^"]*(")', r'\g<1>' + canon + r'\2', out)
     out = re.sub(r'(<meta property="og:locale" content=")[^"]*(")', r'\g<1>' + lang[3] + r'\2', out)
+    tagline = strings.get(uid(TAGLINE))
+    if tagline:
+        out = re.sub(r'(<meta property="og:image:alt" content=")[^"]*(")', lambda m: m.group(1) + html.escape('Milesta — ' + tagline) + m.group(2), out)
     if (SITE / 'assets' / 'og' / f'og-{code}.jpg').exists():
         card = f'{ORIGIN}/assets/og/og-{code}.jpg'
         out = re.sub(r'(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*(")', r'\g<1>' + card + r'\2', out)
@@ -528,14 +550,19 @@ def build_page(name, code, strings, errors):
     out = replace_block(out, 'menu', menu_html(code, slug, strings))
     # the year's month initials in the recap art
     letters = months(code)
-    def month_row(m):
-        texts = re.findall(r'(<text [^>]*>)[^<]*(</text>)', m.group(0))
-        return ''.join(f'{a}{html.escape(letters[i])}{b}' for i, (a, b) in enumerate(texts))
-    out = re.sub(r'(?:<text [^>]*>[^<]*</text>\s*){12}', month_row, out)
+    english = months('en')
+    def month_art(m):
+        svg = m.group(0)
+        texts = re.findall(r'<text [^>]*>([^<]*)</text>', svg)
+        if texts != english:
+            return svg
+        count = iter(range(12))
+        return re.sub(r'(<text [^>]*>)[^<]*(</text>)', lambda t: f'{t.group(1)}{html.escape(letters[next(count)])}{t.group(2)}', svg)
+    out = re.sub(r'<svg class="stat-art"[\s\S]*?</svg>', month_art, out)
     if name in LEGAL:
         note = strings.get('x-legal-note')
         if note and not check_tokens(EXTRA['x-legal-note'][0], note):
-            link = render(note, {0: (f'<a href="{url("en", slug)}" hreflang="en" lang="en" data-lang="en">', '</a>')})
+            link = render(note, {0: (f'<a href="{url("en", slug)}" hreflang="en" data-lang="en">', '</a>')}, code=code)
             out = out.replace('<article class="doc">', f'<article class="doc">\n          <p class="doc-note">{link}</p>', 1)
     return out
 

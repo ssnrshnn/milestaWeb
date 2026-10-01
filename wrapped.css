@@ -658,7 +658,7 @@ main { position: relative; z-index: 1; }
 }
 .plan-new { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 24px; }
 .plan-new-note { font-size: .84rem; color: var(--ink-3); }
-.plan-art { --pw: 112px; position: absolute; right: 50%; bottom: -64px; width: 0; height: 0; pointer-events: none; }
+.plan-art { --pw: 112px; position: absolute; inset-inline-end: 50%; bottom: -64px; width: 0; height: 0; pointer-events: none; }
 .plan-art img {
   position: absolute; bottom: 0; max-width: none; width: var(--pw); height: auto; aspect-ratio: 9 / 16; border-radius: 10px;
   box-shadow: 0 20px 40px -16px rgb(0 0 0 / .9), 0 0 0 1px rgb(255 255 255 / .12);
@@ -816,7 +816,7 @@ main { position: relative; z-index: 1; }
   .months-copy p:last-child { margin-inline: auto; }
   .plan-grid { grid-template-columns: 1fr 1fr; }
   .plan-premium { padding-bottom: clamp(26px, 3vw, 40px); }
-  .plan-art { --pw: 96px; right: 104px; left: auto; bottom: -40px; }
+  .plan-art { --pw: 96px; inset-inline-end: 104px; inset-inline-start: auto; bottom: -40px; }
   .plan-premium { display: flex; flex-direction: column; }
   .plan-new { margin-top: auto; padding-top: 24px; flex-direction: column; align-items: flex-start; gap: 6px; }
   .foot { grid-template-columns: 1fr auto; align-items: end; }
@@ -1011,9 +1011,15 @@ main { position: relative; z-index: 1; }
 }
 .lang-list a:hover { color: var(--ink); background: rgb(255 255 255 / .08); }
 .lang-list a[aria-current] { color: var(--ink); background: rgb(255 255 255 / .1); box-shadow: inset 0 0 0 1px rgb(255 255 255 / .16); }
-@media (max-width: 639px) {
+/* Below desktop width the site links get their own row, so the language
+   button always sits at the end of the first row and its list opens on
+   screen — long labels (Datenschutz, Nutzungsbedingungen…) would otherwise
+   push the button to the start of a second row. */
+@media (max-width: 959px) {
   .lang-menu { order: 1; margin-inline-start: auto; }
   .site-nav { order: 2; flex-basis: 100%; margin-inline-start: 0; }
+}
+@media (max-width: 639px) {
   .lang-menu > summary span { max-width: 7.5em; }
 }
 @media (max-width: 359px) {
@@ -1035,14 +1041,20 @@ main { position: relative; z-index: 1; }
    (nor Chinese or Japanese) has an italic to switch to. */
 :is(:lang(ar), :lang(ur), :lang(hi), :lang(bn), :lang(ja), :lang(zh)) :where(*) { letter-spacing: normal !important; }
 :is(:lang(ar), :lang(ur), :lang(hi), :lang(bn), :lang(ja), :lang(zh)) .serif-accent { font-family: inherit; font-style: normal; font-weight: inherit; }
+:is(:lang(ar), :lang(ur), :lang(hi), :lang(bn), :lang(ja), :lang(zh)) :is(em, i, cite) { font-style: normal; }
 :is(:lang(ar), :lang(hi), :lang(bn)) :is(.display, .h2, .h3, .mega, .doc-title, .tile h3, .plan h3, .stat-unit) { line-height: 1.3; }
 :lang(ur) :is(.display, .h2, .h3, .mega, .doc-title, .tile h3, .plan h3, .stat-unit) { line-height: 1.75; }
 :is(:lang(ja), :lang(zh)) :is(.display, .h2, .mega, .doc-title) { line-height: 1.15; }
+:lang(ja) :is(h1, h2, h3, .kicker) { word-break: auto-phrase; }   /* Chrome: break between phrases, not inside words */
 html:lang(ar) body { line-height: 1.75; }
 html:lang(ur) body { line-height: 2; }
 html:is(:lang(hi), :lang(bn)) body { line-height: 1.7; }
 :is(:lang(ar), :lang(ur)) .doc { line-height: 1.9; }
 :lang(ur) .doc { line-height: 2.15; }
-/* Long compound words (German, Russian…) may break inside a narrow card. */
-:is(.tile h3, .plan h3, .doc h2, .doc-title, .h2, .h3, .display, .mega) { overflow-wrap: break-word; hyphens: auto; }
-:lang(en) :is(.tile h3, .plan h3, .doc h2, .doc-title, .h2, .h3, .display, .mega) { hyphens: manual; }
+/* Long compound words (German, Russian…) must not push a heading out of its
+   box. Only page titles hyphenate, and only really long words: with
+   balanced wrapping, hyphenation would otherwise split short words in the
+   middle of a headline ("Premi-um"). */
+:is(.tile h3, .plan h3, .doc h2, .doc-title, .h2, .h3, .display, .mega) { overflow-wrap: break-word; }
+.doc-title { hyphens: auto; hyphenate-limit-chars: 12 5 5; }
+:lang(en) .doc-title { hyphens: manual; }

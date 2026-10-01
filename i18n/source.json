@@ -18,17 +18,6 @@
   ]
  },
  {
-  "id": "177520f2aaf0",
-  "source": "Milesta — a winding path with three coloured milestone waypoints, beside the tagline “Your life, one milestone at a time.”",
-  "contexts": [
-   "index.html meta og:image:alt",
-   "support.html meta og:image:alt",
-   "privacy.html meta og:image:alt",
-   "terms.html meta og:image:alt",
-   "press.html meta og:image:alt"
-  ]
- },
- {
   "id": "0a4470d64e9d",
   "source": "Skip to content",
   "contexts": [
@@ -1613,6 +1602,13 @@
   "source": "Milesta is a personal journaling app. All content you create belongs to you and is stored locally on your device. We provide no cloud service, no account system, and no content hosting.",
   "contexts": [
    "terms.html p"
+  ]
+ },
+ {
+  "id": "076af7721636",
+  "source": "Milesta Premium",
+  "contexts": [
+   "terms.html h2"
   ]
  },
  {
