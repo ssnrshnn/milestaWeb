@@ -150,8 +150,8 @@
   ]
  },
  {
-  "id": "b003a34194a3",
-  "source": "Year posters in six styles. Example images made with sample data.",
+  "id": "7d0b5a6a19a3",
+  "source": "Year posters in six styles.",
   "contexts": [
    "index.html span.stage-note"
   ]
@@ -362,14 +362,6 @@
   ]
  },
  {
-  "id": "94792cd2f9ff",
-  "source": "Example images made with sample data.",
-  "contexts": [
-   "index.html p.caption.path-caption",
-   "index.html p.caption"
-  ]
- },
- {
   "id": "9b52abcb9053",
   "source": "Recaps",
   "contexts": [
@@ -391,13 +383,6 @@
   ]
  },
  {
-  "id": "9b26e103b7d3",
-  "source": "<0>Example year</0>made with sample data",
-  "contexts": [
-   "index.html p.example-flag"
-  ]
- },
- {
   "id": "109448d45cda",
   "source": "The year",
   "contexts": [
@@ -409,13 +394,6 @@
   "source": "<0>51</0><1>milestones</1><2>51 milestones</2>",
   "contexts": [
    "index.html p.stat-figure"
-  ]
- },
- {
-  "id": "6e1dcb00fa96",
-  "source": "<0>Milesta</0><1>Example</1>",
-  "contexts": [
-   "index.html p.stat-foot"
   ]
  },
  {
@@ -461,8 +439,8 @@
   ]
  },
  {
-  "id": "cce88f913c56",
-  "source": "Example numbers from Milesta’s sample data. Your recaps count your own milestones. Your latest monthly recap is free; every recap comes with Premium.",
+  "id": "47a3a2c207f8",
+  "source": "Your latest monthly recap is free; every recap comes with Premium.",
   "contexts": [
    "index.html p.caption.center"
   ]
@@ -561,8 +539,8 @@
   ]
  },
  {
-  "id": "b3dfa516622e",
-  "source": "Plus Glow, pink into violet: six styles in all. The Sunset examples show a quieter year without photos, where icons stand in for pictures.",
+  "id": "4bb926a21551",
+  "source": "Plus Glow, pink into violet: six styles in all.",
   "contexts": [
    "index.html p.fine"
   ]
@@ -638,8 +616,8 @@
   ]
  },
  {
-  "id": "e11a896e3d2f",
-  "source": "Sharing posters and cards comes with Premium. Example images made with sample data.",
+  "id": "8818fd95c1e4",
+  "source": "Sharing posters and cards comes with Premium.",
   "contexts": [
    "index.html p.caption.center"
   ]
@@ -1112,13 +1090,6 @@
   "source": "Start your <0>path.</0>",
   "contexts": [
    "index.html h2#finale-title.mega"
-  ]
- },
- {
-  "id": "cf18def1ca58",
-  "source": "Free to download. Your first 20 milestones are free.",
-  "contexts": [
-   "index.html p.finale-sub"
   ]
  },
  {
