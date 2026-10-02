@@ -626,19 +626,38 @@ def build_404(all_strings):
     p.write_text(src, encoding='utf-8')
 
 
+def last_changed(*paths):
+    """The day any of `paths` last changed: today while one has uncommitted
+    edits, else its newest commit. Feeds the sitemap's <lastmod>."""
+    import datetime
+    import subprocess
+    rel = [str(Path(p).relative_to(SITE)) for p in paths]
+    dirty = subprocess.run(['git', 'status', '--porcelain', '--', *rel], cwd=SITE,
+                           capture_output=True, text=True).stdout.strip()
+    if dirty:
+        return datetime.date.today().isoformat()
+    out = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', *rel], cwd=SITE,
+                         capture_output=True, text=True).stdout.strip()
+    return out or datetime.date.today().isoformat()
+
+
 def build_sitemap():
     rows = ['<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for name, slug in PAGES.items():
         for code, lang, *_ in LANGS:
+            # A translated page changes with its English source and its strings.
+            sources = [SITE / name] + ([] if code == 'en' else [I18N / 'strings' / f'{code}.json'])
             rows.append('  <url>')
             rows.append(f'    <loc>{ORIGIN}{url(code, slug)}</loc>')
+            rows.append(f'    <lastmod>{last_changed(*sources)}</lastmod>')
             rows.append(f'    <priority>{"1.0" if not slug and code == "en" else "0.8" if not slug else "0.5"}</priority>')
             for c2, l2, *_ in LANGS:
                 rows.append(f'    <xhtml:link rel="alternate" hreflang="{l2}" href="{ORIGIN}{url(c2, slug)}"/>')
             rows.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{ORIGIN}{url("en", slug)}"/>')
             rows.append('  </url>')
-    rows += ['  <url>', f'    <loc>{ORIGIN}/impressum</loc>', '    <priority>0.3</priority>', '  </url>', '</urlset>', '']
+    rows += ['  <url>', f'    <loc>{ORIGIN}/impressum</loc>', f'    <lastmod>{last_changed(SITE / "impressum.html")}</lastmod>',
+             '    <priority>0.3</priority>', '  </url>', '</urlset>', '']
     (SITE / 'sitemap.xml').write_text('\n'.join(rows), encoding='utf-8')
 
 

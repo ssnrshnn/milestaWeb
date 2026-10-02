@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://milesta.app/</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -22,6 +23,7 @@
   </url>
   <url>
     <loc>https://milesta.app/de</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -42,6 +44,7 @@
   </url>
   <url>
     <loc>https://milesta.app/es</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -62,6 +65,7 @@
   </url>
   <url>
     <loc>https://milesta.app/fr</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -82,6 +86,7 @@
   </url>
   <url>
     <loc>https://milesta.app/pt-br</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -102,6 +107,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ru</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -122,6 +128,7 @@
   </url>
   <url>
     <loc>https://milesta.app/tr</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -142,6 +149,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ar</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -162,6 +170,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ur</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -182,6 +191,7 @@
   </url>
   <url>
     <loc>https://milesta.app/hi</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -202,6 +212,7 @@
   </url>
   <url>
     <loc>https://milesta.app/bn</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -222,6 +233,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ja</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -242,6 +254,7 @@
   </url>
   <url>
     <loc>https://milesta.app/zh-hans</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -262,6 +275,7 @@
   </url>
   <url>
     <loc>https://milesta.app/id</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -282,6 +296,7 @@
   </url>
   <url>
     <loc>https://milesta.app/vi</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -302,6 +317,7 @@
   </url>
   <url>
     <loc>https://milesta.app/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -322,6 +338,7 @@
   </url>
   <url>
     <loc>https://milesta.app/de/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -342,6 +359,7 @@
   </url>
   <url>
     <loc>https://milesta.app/es/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -362,6 +380,7 @@
   </url>
   <url>
     <loc>https://milesta.app/fr/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -382,6 +401,7 @@
   </url>
   <url>
     <loc>https://milesta.app/pt-br/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -402,6 +422,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ru/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -422,6 +443,7 @@
   </url>
   <url>
     <loc>https://milesta.app/tr/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -442,6 +464,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ar/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -462,6 +485,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ur/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -482,6 +506,7 @@
   </url>
   <url>
     <loc>https://milesta.app/hi/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -502,6 +527,7 @@
   </url>
   <url>
     <loc>https://milesta.app/bn/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -522,6 +548,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ja/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -542,6 +569,7 @@
   </url>
   <url>
     <loc>https://milesta.app/zh-hans/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -562,6 +590,7 @@
   </url>
   <url>
     <loc>https://milesta.app/id/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -582,6 +611,7 @@
   </url>
   <url>
     <loc>https://milesta.app/vi/support</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -602,6 +632,7 @@
   </url>
   <url>
     <loc>https://milesta.app/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -622,6 +653,7 @@
   </url>
   <url>
     <loc>https://milesta.app/de/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -642,6 +674,7 @@
   </url>
   <url>
     <loc>https://milesta.app/es/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -662,6 +695,7 @@
   </url>
   <url>
     <loc>https://milesta.app/fr/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -682,6 +716,7 @@
   </url>
   <url>
     <loc>https://milesta.app/pt-br/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -702,6 +737,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ru/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -722,6 +758,7 @@
   </url>
   <url>
     <loc>https://milesta.app/tr/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -742,6 +779,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ar/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -762,6 +800,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ur/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -782,6 +821,7 @@
   </url>
   <url>
     <loc>https://milesta.app/hi/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -802,6 +842,7 @@
   </url>
   <url>
     <loc>https://milesta.app/bn/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -822,6 +863,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ja/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -842,6 +884,7 @@
   </url>
   <url>
     <loc>https://milesta.app/zh-hans/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -862,6 +905,7 @@
   </url>
   <url>
     <loc>https://milesta.app/id/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -882,6 +926,7 @@
   </url>
   <url>
     <loc>https://milesta.app/vi/privacy</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/privacy"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/privacy"/>
@@ -902,6 +947,7 @@
   </url>
   <url>
     <loc>https://milesta.app/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -922,6 +968,7 @@
   </url>
   <url>
     <loc>https://milesta.app/de/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -942,6 +989,7 @@
   </url>
   <url>
     <loc>https://milesta.app/es/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -962,6 +1010,7 @@
   </url>
   <url>
     <loc>https://milesta.app/fr/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -982,6 +1031,7 @@
   </url>
   <url>
     <loc>https://milesta.app/pt-br/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1002,6 +1052,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ru/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1022,6 +1073,7 @@
   </url>
   <url>
     <loc>https://milesta.app/tr/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1042,6 +1094,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ar/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1062,6 +1115,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ur/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1082,6 +1136,7 @@
   </url>
   <url>
     <loc>https://milesta.app/hi/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1102,6 +1157,7 @@
   </url>
   <url>
     <loc>https://milesta.app/bn/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1122,6 +1178,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ja/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1142,6 +1199,7 @@
   </url>
   <url>
     <loc>https://milesta.app/zh-hans/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1162,6 +1220,7 @@
   </url>
   <url>
     <loc>https://milesta.app/id/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1182,6 +1241,7 @@
   </url>
   <url>
     <loc>https://milesta.app/vi/terms</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/terms"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/terms"/>
@@ -1202,6 +1262,7 @@
   </url>
   <url>
     <loc>https://milesta.app/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1222,6 +1283,7 @@
   </url>
   <url>
     <loc>https://milesta.app/de/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1242,6 +1304,7 @@
   </url>
   <url>
     <loc>https://milesta.app/es/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1262,6 +1325,7 @@
   </url>
   <url>
     <loc>https://milesta.app/fr/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1282,6 +1346,7 @@
   </url>
   <url>
     <loc>https://milesta.app/pt-br/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1302,6 +1367,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ru/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1322,6 +1388,7 @@
   </url>
   <url>
     <loc>https://milesta.app/tr/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1342,6 +1409,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ar/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1362,6 +1430,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ur/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1382,6 +1451,7 @@
   </url>
   <url>
     <loc>https://milesta.app/hi/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1402,6 +1472,7 @@
   </url>
   <url>
     <loc>https://milesta.app/bn/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1422,6 +1493,7 @@
   </url>
   <url>
     <loc>https://milesta.app/ja/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1442,6 +1514,7 @@
   </url>
   <url>
     <loc>https://milesta.app/zh-hans/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1462,6 +1535,7 @@
   </url>
   <url>
     <loc>https://milesta.app/id/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1482,6 +1556,7 @@
   </url>
   <url>
     <loc>https://milesta.app/vi/press</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
@@ -1502,6 +1577,7 @@
   </url>
   <url>
     <loc>https://milesta.app/impressum</loc>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
