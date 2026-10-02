@@ -1327,8 +1327,8 @@
   ]
  },
  {
-  "id": "9cc22124d537",
-  "source": "Last updated: September 30, 2026",
+  "id": "f5e98bf64ba8",
+  "source": "Last updated: October 2, 2026",
   "contexts": [
    "privacy.html p.doc-updated"
   ]
@@ -1376,6 +1376,13 @@
   ]
  },
  {
+  "id": "6774eaff8bfc",
+  "source": "If you turn on “Keep in iCloud Drive” in Settings, your automatic monthly backups are saved to your own iCloud Drive, in the Milesta folder, under your Apple Account and Apple's terms. We have no access to them.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
   "id": "2cb53c743829",
   "source": "What ever leaves your device",
   "contexts": [
@@ -1404,8 +1411,15 @@
   ]
  },
  {
-  "id": "4a7d1a61a4b1",
-  "source": "Milesta never transmits anything on its own. Optional automatic backups are written to your device's local storage only.",
+  "id": "8ed3c6878761",
+  "source": "Automatic backups, if you choose to keep them in your own iCloud Drive.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "53f1aceef830",
+  "source": "Milesta never transmits anything on its own. Optional automatic backups stay on your device unless you choose iCloud Drive.",
   "contexts": [
    "privacy.html p"
   ]
