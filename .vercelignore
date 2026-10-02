@@ -1,3 +1,7 @@
 # Translation and image tooling, not part of the site
 i18n
 scripts
+
+# Notes for AI agents, not part of the site
+AGENTS.md
+CLAUDE.md
