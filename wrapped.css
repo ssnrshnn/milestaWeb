@@ -684,6 +684,10 @@ main { position: relative; z-index: 1; }
 .site-footer nav a { font-size: .93rem; font-weight: 550; color: var(--ink-2); text-decoration: none; border-radius: 6px; }
 .site-footer nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 .foot-copy { font-size: .85rem; color: var(--ink-3); }
+.foot-meta { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.foot-by { font-size: .85rem; color: var(--ink-3); }
+.foot-by a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
+.foot-by a:hover { color: var(--ink-2); text-decoration-color: currentColor; }
 
 /* ---------- Scroll reveal (JS on, motion allowed) ---------- */
 .js:not(.static) [data-reveal] {
@@ -791,7 +795,7 @@ main { position: relative; z-index: 1; }
   .plan-art { --pw: 96px; inset-inline-end: 104px; inset-inline-start: auto; bottom: -40px; }
   .plan-premium { display: flex; flex-direction: column; }
   .foot { grid-template-columns: 1fr auto; align-items: end; }
-  .foot-copy { grid-column: 1 / -1; }
+  .foot-meta { grid-column: 1 / -1; }
 }
 
 @media (min-width: 640px) and (max-width: 959px) {

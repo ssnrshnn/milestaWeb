@@ -1157,6 +1157,17 @@
   ]
  },
  {
+  "id": "f3826fc12af2",
+  "source": "Made by <0>Soner Şahin</0>",
+  "contexts": [
+   "index.html p.foot-by",
+   "support.html p.foot-by",
+   "privacy.html p.foot-by",
+   "terms.html p.foot-by",
+   "press.html p.foot-by"
+  ]
+ },
+ {
   "id": "41ff3cd20297",
   "source": "Support — Milesta",
   "contexts": [
@@ -1764,8 +1775,8 @@
   ]
  },
  {
-  "id": "b8be1830b918",
-  "source": "Soner Şahin — solo developer, Germany",
+  "id": "12957d6b2efb",
+  "source": "<0>Soner Şahin</0> — solo developer, Germany",
   "contexts": [
    "press.html td"
   ]
