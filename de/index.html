@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-itunes-app" content="app-id=6791968029">
-  <title>Milesta — Das Tagebuch für die Meilensteine deines Lebens</title>
-  <meta name="description" content="Das private Tagebuch deines Lebens für iOS — alles bleibt auf deinem Gerät. Dein Leben, Meilenstein für Meilenstein.">
+  <title>Milesta — Private Tagebuch-App fürs iPhone</title>
+  <meta name="description" content="Privates Tagebuch für iPhone &amp; iPad: Halte Meilensteine fest, sieh deine Jahre als gewundenen Weg, mit Rückblicken im Wrapped-Stil. Kein Konto, keine Werbung.">
   <link rel="canonical" href="https://milesta.app/de">
   <!-- i18n:head -->
   <link rel="alternate" hreflang="en" href="https://milesta.app/">
@@ -43,15 +43,15 @@
   <meta property="og:site_name" content="Milesta">
   <meta property="og:locale" content="de_DE">
   <meta property="og:url" content="https://milesta.app/de">
-  <meta property="og:title" content="Milesta — Das Tagebuch für die Meilensteine deines Lebens">
-  <meta property="og:description" content="Das private Tagebuch deines Lebens für iOS — alles bleibt auf deinem Gerät. Dein Leben, Meilenstein für Meilenstein.">
+  <meta property="og:title" content="Milesta — Private Tagebuch-App fürs iPhone">
+  <meta property="og:description" content="Privates Tagebuch für iPhone &amp; iPad: Halte Meilensteine fest, sieh deine Jahre als gewundenen Weg, mit Rückblicken im Wrapped-Stil. Kein Konto, keine Werbung.">
   <meta property="og:image" content="https://milesta.app/assets/og/og-de.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Milesta — Dein Leben, Meilenstein für Meilenstein.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Milesta — Das Tagebuch für die Meilensteine deines Lebens">
-  <meta name="twitter:description" content="Das private Tagebuch deines Lebens für iOS — alles bleibt auf deinem Gerät. Dein Leben, Meilenstein für Meilenstein.">
+  <meta name="twitter:title" content="Milesta — Private Tagebuch-App fürs iPhone">
+  <meta name="twitter:description" content="Privates Tagebuch für iPhone &amp; iPad: Halte Meilensteine fest, sieh deine Jahre als gewundenen Weg, mit Rückblicken im Wrapped-Stil. Kein Konto, keine Werbung.">
   <meta name="twitter:image" content="https://milesta.app/assets/og/og-de.jpg">
   <link rel="icon" href="/assets/favicon.png">
   <link rel="apple-touch-icon" href="/assets/favicon.png">
@@ -70,13 +70,35 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Milesta - Milestones Journal",
-    "operatingSystem": "iOS",
-    "applicationCategory": "LifestyleApplication",
-    "url": "https://milesta.app",
-    "installUrl": "https://apps.apple.com/app/milesta-milestones-journal/id6791968029",
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://milesta.app/#website",
+        "name": "Milesta",
+        "url": "https://milesta.app/",
+        "inLanguage": ["en", "de", "es", "fr", "pt-BR", "ru", "tr", "ar", "ur", "hi", "bn", "ja", "zh-Hans", "id", "vi"]
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://milesta.app/#app",
+        "name": "Milesta",
+        "description": "A private life journal for iPhone and iPad. Log the milestones that matter, see your years as a winding path, and get Wrapped-style monthly and yearly recaps and posters. No account, no ads.",
+        "operatingSystem": "iOS 18.0 or later, iPadOS 18.0 or later",
+        "applicationCategory": "LifestyleApplication",
+        "url": "https://milesta.app/",
+        "installUrl": "https://apps.apple.com/app/id6791968029",
+        "image": "https://milesta.app/assets/icon.png",
+        "screenshot": [
+          "https://milesta.app/assets/wrapped/shot-wrapped-dark.webp",
+          "https://milesta.app/assets/wrapped/shot-insights-dark.webp",
+          "https://milesta.app/assets/wrapped/poster-yearA-2025-aurora.webp"
+        ],
+        "author": {"@type": "Person", "name": "Soner Sahin"},
+        "inLanguage": ["en", "de", "es", "fr", "pt-BR", "ru", "tr", "ar", "ur", "hi", "bn", "ja", "zh-Hans", "id", "vi"],
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "isPartOf": {"@id": "https://milesta.app/#website"}
+      }
+    ]
   }
   </script>
   <script>
@@ -151,7 +173,7 @@
             </h1>
             <p class="hero-lede intro" style="--d:320ms">Ein privates Tagebuch für dein Leben. Deine größten Momente reihen sich auf einem gewundenen Weg aneinander, und jeder Monat, jedes Halbjahr und jedes Jahr kommt als Rückblick im Wrapped-Stil zurück, den du gern teilen wirst.</p>
             <div class="cta-row intro" style="--d:400ms">
-              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">
+              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/id6791968029">
                 <img src="/assets/badges/app-store-de.svg" alt="Laden im App Store" width="162" height="54">
               </a>
               <a class="btn-ghost" href="#year">Beispieljahr ansehen<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 4v11m0 0-4.5-4.5M10 15l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -159,7 +181,7 @@
             </div>
             <ul class="facts intro" style="--d:460ms">
               <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>Kein Konto</li>
-              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>Keine Cloud</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>Sperre mit Face ID</li>
               <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>Keine Werbung</li>
             </ul>
           </div>
@@ -474,7 +496,7 @@
               <rect class="scan" x="14" y="46" width="68" height="3" rx="1.5"/>
             </svg>
             <h3>Privat von Grund auf</h3>
-            <p>Kein Konto. Keine Cloud. Keine Werbung. Deine Meilensteine bleiben auf deinem Telefon, und nichts verlässt es, außer du teilst es. Sperre Milesta mit Face ID; auch Backups bleiben auf deinem Gerät.</p>
+            <p>Kein Konto. Keine Werbung. Deine Meilensteine bleiben auf deinem Telefon, und nichts verlässt es, außer du teilst es oder machst ein Backup. Sperre Milesta mit Face ID.</p>
           </article>
 
           <article class="tile t-widget" data-reveal style="--d:80ms">
@@ -549,10 +571,10 @@
       <div class="container finale-inner">
         <img class="finale-icon" src="/assets/icon-256.webp" width="104" height="104" alt="" loading="lazy" decoding="async" data-reveal>
         <h2 id="finale-title" class="mega" data-reveal style="--d:60ms">Dein <span class="grad-text">Weg</span> beginnt.</h2>
-        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029" data-reveal style="--d:180ms">
+        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/id6791968029" data-reveal style="--d:180ms">
           <img src="/assets/badges/app-store-de.svg" alt="Laden im App Store" width="179" height="60" loading="lazy">
         </a>
-        <p class="finale-facts" data-reveal style="--d:240ms">Kein Konto · Keine Cloud · Keine Werbung · 15 Sprachen</p>
+        <p class="finale-facts" data-reveal style="--d:240ms">Kein Konto · Keine Werbung · Sperre mit Face ID · 15 Sprachen</p>
       </div>
     </section>
     </main>
@@ -573,7 +595,7 @@
             <li><a href="/de/terms">Nutzungsbedingungen</a></li>
             <li><a href="/impressum">Impressum</a></li>
             <li><a href="/de/press">Presse</a></li>
-            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+            <li><a href="https://apps.apple.com/app/id6791968029">App Store</a></li>
           </ul>
         </nav>
         <p class="foot-copy">© <span data-year>2026</span> Milesta. Für iPhone &amp; iPad.</p>

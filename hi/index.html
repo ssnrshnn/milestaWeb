@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-itunes-app" content="app-id=6791968029">
-  <title>Milesta — मील के पत्थर और ज़िंदगी की डायरी</title>
-  <meta name="description" content="iOS के लिए एक निजी डायरी, जिसमें सब कुछ आपके डिवाइस पर ही रहता है। आपकी ज़िंदगी, एक-एक मील का पत्थर।">
+  <title>Milesta — iPhone के लिए ज़िंदगी की निजी डायरी ऐप</title>
+  <meta name="description" content="iPhone और iPad के लिए ज़िंदगी की निजी डायरी: अहम मील के पत्थर दर्ज करें, अपने साल घुमावदार पथ की तरह देखें और Wrapped अंदाज़ के सार पाएँ। न अकाउंट, न विज्ञापन।">
   <link rel="canonical" href="https://milesta.app/hi">
   <!-- i18n:head -->
   <link rel="alternate" hreflang="en" href="https://milesta.app/">
@@ -43,15 +43,15 @@
   <meta property="og:site_name" content="Milesta">
   <meta property="og:locale" content="hi_IN">
   <meta property="og:url" content="https://milesta.app/hi">
-  <meta property="og:title" content="Milesta — मील के पत्थर और ज़िंदगी की डायरी">
-  <meta property="og:description" content="iOS के लिए एक निजी डायरी, जिसमें सब कुछ आपके डिवाइस पर ही रहता है। आपकी ज़िंदगी, एक-एक मील का पत्थर।">
+  <meta property="og:title" content="Milesta — iPhone के लिए ज़िंदगी की निजी डायरी ऐप">
+  <meta property="og:description" content="iPhone और iPad के लिए ज़िंदगी की निजी डायरी: अहम मील के पत्थर दर्ज करें, अपने साल घुमावदार पथ की तरह देखें और Wrapped अंदाज़ के सार पाएँ। न अकाउंट, न विज्ञापन।">
   <meta property="og:image" content="https://milesta.app/assets/og/og-hi.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Milesta — आपकी ज़िंदगी, एक-एक मील का पत्थर।">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Milesta — मील के पत्थर और ज़िंदगी की डायरी">
-  <meta name="twitter:description" content="iOS के लिए एक निजी डायरी, जिसमें सब कुछ आपके डिवाइस पर ही रहता है। आपकी ज़िंदगी, एक-एक मील का पत्थर।">
+  <meta name="twitter:title" content="Milesta — iPhone के लिए ज़िंदगी की निजी डायरी ऐप">
+  <meta name="twitter:description" content="iPhone और iPad के लिए ज़िंदगी की निजी डायरी: अहम मील के पत्थर दर्ज करें, अपने साल घुमावदार पथ की तरह देखें और Wrapped अंदाज़ के सार पाएँ। न अकाउंट, न विज्ञापन।">
   <meta name="twitter:image" content="https://milesta.app/assets/og/og-hi.jpg">
   <link rel="icon" href="/assets/favicon.png">
   <link rel="apple-touch-icon" href="/assets/favicon.png">
@@ -70,13 +70,35 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Milesta - Milestones Journal",
-    "operatingSystem": "iOS",
-    "applicationCategory": "LifestyleApplication",
-    "url": "https://milesta.app",
-    "installUrl": "https://apps.apple.com/app/milesta-milestones-journal/id6791968029",
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://milesta.app/#website",
+        "name": "Milesta",
+        "url": "https://milesta.app/",
+        "inLanguage": ["en", "de", "es", "fr", "pt-BR", "ru", "tr", "ar", "ur", "hi", "bn", "ja", "zh-Hans", "id", "vi"]
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://milesta.app/#app",
+        "name": "Milesta",
+        "description": "A private life journal for iPhone and iPad. Log the milestones that matter, see your years as a winding path, and get Wrapped-style monthly and yearly recaps and posters. No account, no ads.",
+        "operatingSystem": "iOS 18.0 or later, iPadOS 18.0 or later",
+        "applicationCategory": "LifestyleApplication",
+        "url": "https://milesta.app/",
+        "installUrl": "https://apps.apple.com/app/id6791968029",
+        "image": "https://milesta.app/assets/icon.png",
+        "screenshot": [
+          "https://milesta.app/assets/wrapped/shot-wrapped-dark.webp",
+          "https://milesta.app/assets/wrapped/shot-insights-dark.webp",
+          "https://milesta.app/assets/wrapped/poster-yearA-2025-aurora.webp"
+        ],
+        "author": {"@type": "Person", "name": "Soner Sahin"},
+        "inLanguage": ["en", "de", "es", "fr", "pt-BR", "ru", "tr", "ar", "ur", "hi", "bn", "ja", "zh-Hans", "id", "vi"],
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "isPartOf": {"@id": "https://milesta.app/#website"}
+      }
+    ]
   }
   </script>
   <script>
@@ -151,7 +173,7 @@
             </h1>
             <p class="hero-lede intro" style="--d:320ms">आपकी ज़िंदगी की निजी डायरी। आपके सबसे बड़े पल एक घुमावदार पथ पर एक-एक करके सजते जाते हैं, और हर महीना, हर छमाही और हर साल Wrapped अंदाज़ के ऐसे सार के रूप में लौटता है, जिसे आप ज़रूर साझा करना चाहेंगे।</p>
             <div class="cta-row intro" style="--d:400ms">
-              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">
+              <a class="store-badge" id="appstore-badge" href="https://apps.apple.com/app/id6791968029">
                 <img src="/assets/app-store-badge.svg" alt="App Store से डाउनलोड करें" width="162" height="54">
               </a>
               <a class="btn-ghost" href="#year">एक साल का उदाहरण देखें<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 4v11m0 0-4.5-4.5M10 15l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -159,7 +181,7 @@
             </div>
             <ul class="facts intro" style="--d:460ms">
               <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>कोई अकाउंट नहीं</li>
-              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>कोई क्लाउड नहीं</li>
+              <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>Face ID लॉक</li>
               <li><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.5l3.2 3.2L15 6.8"/></svg>कोई विज्ञापन नहीं</li>
             </ul>
           </div>
@@ -474,7 +496,7 @@
               <rect class="scan" x="14" y="46" width="68" height="3" rx="1.5"/>
             </svg>
             <h3>डिज़ाइन से ही निजी</h3>
-            <p>कोई अकाउंट नहीं। कोई क्लाउड नहीं। कोई विज्ञापन नहीं। आपके मील के पत्थर आपके फ़ोन पर रहते हैं, और जब तक आप ख़ुद साझा न करें, कुछ भी बाहर नहीं जाता। Milesta को Face ID से लॉक करें; बैकअप भी आपके डिवाइस पर ही रहते हैं।</p>
+            <p>कोई अकाउंट नहीं। कोई विज्ञापन नहीं। आपके मील के पत्थर आपके फ़ोन पर रहते हैं, और जब तक आप ख़ुद साझा न करें या बैकअप न लें, कुछ भी बाहर नहीं जाता। Milesta को Face ID से लॉक करें।</p>
           </article>
 
           <article class="tile t-widget" data-reveal style="--d:80ms">
@@ -549,10 +571,10 @@
       <div class="container finale-inner">
         <img class="finale-icon" src="/assets/icon-256.webp" width="104" height="104" alt="" loading="lazy" decoding="async" data-reveal>
         <h2 id="finale-title" class="mega" data-reveal style="--d:60ms">चल पड़ें अपने <span class="grad-text">पथ पर।</span></h2>
-        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029" data-reveal style="--d:180ms">
+        <a class="store-badge store-badge-lg" id="appstore-badge-cta" href="https://apps.apple.com/app/id6791968029" data-reveal style="--d:180ms">
           <img src="/assets/app-store-badge.svg" alt="App Store से डाउनलोड करें" width="180" height="60" loading="lazy">
         </a>
-        <p class="finale-facts" data-reveal style="--d:240ms">कोई अकाउंट नहीं · कोई क्लाउड नहीं · कोई विज्ञापन नहीं · 15 भाषाएँ</p>
+        <p class="finale-facts" data-reveal style="--d:240ms">कोई अकाउंट नहीं · कोई विज्ञापन नहीं · Face ID लॉक · 15 भाषाएँ</p>
       </div>
     </section>
     </main>
@@ -573,7 +595,7 @@
             <li><a href="/hi/terms">शर्तें</a></li>
             <li><a href="/impressum">Impressum</a></li>
             <li><a href="/hi/press">प्रेस</a></li>
-            <li><a href="https://apps.apple.com/app/milesta-milestones-journal/id6791968029">App Store</a></li>
+            <li><a href="https://apps.apple.com/app/id6791968029">App Store</a></li>
           </ul>
         </nav>
         <p class="foot-copy">© <span data-year>2026</span> Milesta। iPhone और iPad के लिए।</p>

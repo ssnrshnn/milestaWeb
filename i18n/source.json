@@ -1,7 +1,7 @@
 [
  {
-  "id": "627424bf2225",
-  "source": "Milesta — Milestones & Life Journal",
+  "id": "53edaeccab5d",
+  "source": "Milesta — Private Life Journal & Diary App for iPhone",
   "contexts": [
    "index.html title",
    "index.html meta og:title",
@@ -9,8 +9,8 @@
   ]
  },
  {
-  "id": "c0c7dc85321c",
-  "source": "A private, local-first life journal for iOS. Your life, one milestone at a time.",
+  "id": "2288a3a34f05",
+  "source": "A private life journal for iPhone and iPad. Log the milestones that matter, see your years as a winding path and get Wrapped-style recaps. No account, no ads.",
   "contexts": [
    "index.html meta description",
    "index.html meta og:description",
@@ -129,8 +129,8 @@
   ]
  },
  {
-  "id": "9956f75fd586",
-  "source": "No cloud",
+  "id": "6f40cde8cca7",
+  "source": "Face ID lock",
   "contexts": [
    "index.html li"
   ]
@@ -882,8 +882,8 @@
   ]
  },
  {
-  "id": "54003a176bcb",
-  "source": "No account. No cloud. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it. Lock Milesta with Face ID; backups stay on your device too.",
+  "id": "d614c60e364d",
+  "source": "No account. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it or back it up. Lock Milesta with Face ID.",
   "contexts": [
    "index.html p"
   ]
@@ -1093,8 +1093,8 @@
   ]
  },
  {
-  "id": "299950c5566a",
-  "source": "No account · No cloud · No ads · 15 languages",
+  "id": "ea90b541150f",
+  "source": "No account · No ads · Face ID lock · 15 languages",
   "contexts": [
    "index.html p.finale-facts"
   ]
@@ -1210,8 +1210,8 @@
   ]
  },
  {
-  "id": "57fcdc6a9e07",
-  "source": "Only on your device. Milesta has no accounts and no cloud. That also means: if you delete the app, your journal is gone with it — export a backup first.",
+  "id": "e10865ae591f",
+  "source": "Only on your device — Milesta has no account and no server of its own. That also means: if you delete the app, your journal goes with it, so keep a backup: export one any time, or turn on automatic monthly backups in Settings.",
   "contexts": [
    "support.html p"
   ]
@@ -1303,8 +1303,8 @@
   ]
  },
  {
-  "id": "643576c68958",
-  "source": "How Milesta handles your data: no accounts, no cloud, no ads. Your entries stay on your iPhone, and anonymous usage statistics are collected only if you opt in.",
+  "id": "cd2e343baa29",
+  "source": "How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in and anonymous.",
   "contexts": [
    "privacy.html meta description",
    "privacy.html meta og:description",
@@ -1729,8 +1729,8 @@
   ]
  },
  {
-  "id": "e1716fc53f17",
-  "source": "Milesta turns your life's milestones into a beautiful winding path you scroll through — with a cinematic story replay that's free for everyone and Wrapped-style recap cards. Everything stays on your device: no accounts, no cloud.",
+  "id": "6f0ccde7077a",
+  "source": "Milesta turns your life's milestones into a beautiful winding path you scroll through — with a cinematic story replay that's free for everyone and Wrapped-style recap cards. Everything stays on your device: no account, no ads.",
   "contexts": [
    "press.html strong"
   ]
@@ -1820,8 +1820,8 @@
   ]
  },
  {
-  "id": "a474130b774b",
-  "source": "Local-first: no accounts, no cloud, no ads — journal entries never leave the device. Face ID lock. Local backups. Anonymous usage statistics are opt-in and off by default; the App Store privacy label reflects that as \"Analytics and Purchases, not linked to you.\"",
+  "id": "dcd35e863a6b",
+  "source": "Local-first: no account, no ads, no server of our own — journal entries stay on the device unless you share them or choose to back them up. Face ID lock. Backups you control. Anonymous usage statistics are opt-in and off by default; the App Store privacy label reflects that as \"Analytics and Purchases, not linked to you.\"",
   "contexts": [
    "press.html td"
   ]
@@ -1855,8 +1855,8 @@
   ]
  },
  {
-  "id": "dfa8f91a811a",
-  "source": "Milesta is a private life journal for people who quit journaling: instead of daily entries, you log the moments that actually matter — a new job, a move, a first marathon — and Milesta renders them as a winding path you scroll through like a hiking trail of your own life. Monthly and yearly recaps become Wrapped-style cards. Everything stays on your iPhone: no accounts, no cloud, no ads.",
+  "id": "f307bfb05728",
+  "source": "Milesta is a private life journal for people who quit journaling: instead of daily entries, you log the moments that actually matter — a new job, a move, a first marathon — and Milesta renders them as a winding path you scroll through like a hiking trail of your own life. Monthly and yearly recaps become Wrapped-style cards. Everything stays on your iPhone: no account, no ads.",
   "contexts": [
    "press.html p"
   ]
@@ -1876,8 +1876,8 @@
   ]
  },
  {
-  "id": "21611089f6da",
-  "source": "Under the hood, Milesta takes the opposite bet of the big journaling platforms: it is local-first by design. There is no account to create and no cloud to sync to — your entries never leave the device. They are stored locally, protected with Face ID, and backed up with one-tap portable exports that cost nothing. The only data that ever leaves the phone is anonymous usage statistics, and only if you opt in. The app ships fully localized in 15 languages — including right-to-left Arabic and Urdu — built end-to-end by one developer in Germany.",
+  "id": "a1b0c3a687a7",
+  "source": "Under the hood, Milesta takes the opposite bet of the big journaling platforms: it is local-first by design. There is no account to create and no server to sync with — your entries live on the device. They are stored locally, protected with Face ID, and backed up however you choose: a one-tap portable export or automatic monthly backups, none of it behind a paywall. Nothing leaves the phone unless you share it or back it up, and anonymous usage statistics are sent only if you opt in. The app ships fully localized in 15 languages — including right-to-left Arabic and Urdu — built end-to-end by one developer in Germany.",
   "contexts": [
    "press.html p"
   ]
@@ -1911,8 +1911,8 @@
   ]
  },
  {
-  "id": "b9057a4fda16",
-  "source": "<0>Genuinely private</0> — no accounts, no cloud, no ads; entries never leave the device, and analytics are opt-in.",
+  "id": "333677cdb300",
+  "source": "<0>Genuinely private</0> — no account, no ads, no server of our own; entries leave the device only when you share or back them up, and analytics are opt-in.",
   "contexts": [
    "press.html li"
   ]
