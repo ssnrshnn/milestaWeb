@@ -210,7 +210,6 @@
  "7378b6b06f47": "Bu koşullar, Milesta iOS uygulaması (“uygulama”) için geçerlidir. Uygulamayı kullanarak bu koşulları kabul etmiş olursun. Buna ek olarak Apple'ın <0>Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi</0> de geçerlidir.",
  "188291b78dfc": "Hizmet",
  "a5769f05e057": "Milesta kişisel bir günlük uygulamasıdır. Oluşturduğun tüm içerik sana aittir ve cihazında yerel olarak saklanır. Bulut hizmeti, hesap sistemi veya içerik barındırma hizmeti sunmuyoruz.",
- "5f4178c859ad": "Premium, isteğe bağlı ve otomatik olarak yenilenen bir aboneliktir: aylık (1,99 USD) veya yıllık (19,99 USD); yerel fiyatlar farklılık gösterebilir ve satın almadan önce App Store'da gösterilir.",
  "2d19844b62b8": "Ödeme, satın alma onaylandığında Apple ID hesabından tahsil edilir.",
  "6f8c67473871": "Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Aboneliğini istediğin zaman Apple ID abonelik ayarlarından yönetebilir veya iptal edebilirsin.",
  "eeb5b758c2d9": "Ücretsiz plan özellikleri abonelik olmadan da kullanılabilir; verilerin asla rehin tutulmaz — dışa aktarma her planda çalışır.",
@@ -287,5 +286,6 @@
  "7d0b5a6a19a3": "Altı stilde yıl posterleri.",
  "47a3a2c207f8": "En yeni aylık özetin ücretsiz; tüm özetler Premium ile gelir.",
  "4bb926a21551": "Bir de pembeden mora uzanan Işıltı var: toplamda altı stil.",
- "8818fd95c1e4": "Poster ve kart paylaşımı Premium ile gelir."
+ "8818fd95c1e4": "Poster ve kart paylaşımı Premium ile gelir.",
+ "ff00a7974c60": "Premium, isteğe bağlı ve otomatik olarak yenilenen bir aboneliktir: aylık veya yıllık; yerel fiyatlar farklılık gösterebilir ve satın almadan önce App Store'da gösterilir."
 }

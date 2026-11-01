@@ -210,7 +210,6 @@
  "7378b6b06f47": "Estos términos se aplican a la aplicación Milesta para iOS («la app»). Al usar la app, los aceptas. Además, se aplica el <0>Contrato de licencia de usuario final de aplicaciones con licencia</0> de Apple.",
  "188291b78dfc": "El servicio",
  "a5769f05e057": "Milesta es una app de diario personal. Todo el contenido que creas te pertenece y se guarda localmente en tu dispositivo. No ofrecemos ningún servicio en la nube, ningún sistema de cuentas ni alojamiento de contenido.",
- "5f4178c859ad": "Premium es una suscripción opcional de renovación automática: mensual (1,99 USD) o anual (19,99 USD); los precios locales pueden variar y se muestran en el App Store antes de la compra.",
  "2d19844b62b8": "El pago se carga a tu cuenta de Apple ID al confirmar la compra.",
  "6f8c67473871": "La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes de que termine el periodo en curso. Puedes gestionarla o cancelarla en cualquier momento en los ajustes de suscripciones de tu Apple ID.",
  "eeb5b758c2d9": "Las funciones del plan gratuito siguen disponibles sin suscripción; tus datos nunca quedan secuestrados: la exportación funciona en todos los planes.",
@@ -287,5 +286,6 @@
  "7d0b5a6a19a3": "Pósteres del año en seis estilos.",
  "47a3a2c207f8": "Tu resumen mensual más reciente es gratis; todos los resúmenes, con Premium.",
  "4bb926a21551": "Y además Brillo, del rosa al violeta: seis estilos en total.",
- "8818fd95c1e4": "Compartir pósteres y tarjetas es una función Premium."
+ "8818fd95c1e4": "Compartir pósteres y tarjetas es una función Premium.",
+ "ff00a7974c60": "Premium es una suscripción opcional de renovación automática: mensual o anual; los precios locales pueden variar y se muestran en el App Store antes de la compra."
 }
