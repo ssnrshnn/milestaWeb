@@ -1879,8 +1879,8 @@
   ]
  },
  {
-  "id": "ba11fee000e8",
-  "source": "Download press kit (.zip, 28 MB)",
+  "id": "81aae6945e19",
+  "source": "Download press kit (.zip, 36 MB)",
   "contexts": [
    "press.html a.btn-grad"
   ]
@@ -2190,6 +2190,48 @@
  {
   "id": "f68e95782270",
   "source": "Recap on iPad",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "fbd8e57675bf",
+  "source": "The winding milestone path on Android",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "23da4665d3d8",
+  "source": "Story replay on Android",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "cd9b79fa7831",
+  "source": "Play your year on Android",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "f14540c94a10",
+  "source": "Insights on Android",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "02d723d18ad4",
+  "source": "The Memory Map design on Android",
+  "contexts": [
+   "press.html img @alt"
+  ]
+ },
+ {
+  "id": "e5d660b76b51",
+  "source": "Milestone path on an Android tablet",
   "contexts": [
    "press.html img @alt"
   ]
