@@ -89,6 +89,14 @@ python3 i18n/build.py build     # writes /<code>/…, 404 texts, sitemap
   `url: https://ssnrshnn.com`.
 - **App Store links.** Always use `https://apps.apple.com/app/id6791968029`
   and the official badge `assets/app-store-badge.svg`.
+- **Google Play** (Android, live since 2026-11-08): link
+  `https://play.google.com/store/apps/details?id=com.ssnrshnn.milesta`, with Google's official badge
+  beside Apple's (hero, finale, Support): `assets/google-play-badge.png` (English) and
+  `assets/badges/google-play-<code>.png`, Google's own PNGs (`<lang>_badge_web_generic.png` from
+  play.google.com/intl/en_us/badges) with only their transparent padding trimmed; never redrawn.
+  `i18n/build.py` swaps in the page's language and sizes it from the PNG, as it does Apple's. Its `alt`
+  is the badge's own words in that language (string "Get it on Google Play").
+- **Platforms in copy:** "For iPhone, iPad & Android" (hero, footers); Android 8.0 or later.
 - **Developer credit.** Every footer has a localized "Made by Soner Sahin"
   linking to https://ssnrshnn.com (`rel="author"`). The press factsheet links
   there too. Keep it quiet; the owner didn't want it prominent.
