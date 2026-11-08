@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-itunes-app" content="app-id=6791968029">
   <title>Privacy Policy — Milesta</title>
-  <meta name="description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in and anonymous.">
+  <meta name="description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in.">
   <link rel="canonical" href="https://milesta.app/privacy">
   <!-- i18n:head -->
   <link rel="alternate" hreflang="en" href="https://milesta.app/privacy">
@@ -65,14 +65,14 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://milesta.app/privacy">
   <meta property="og:title" content="Privacy Policy — Milesta">
-  <meta property="og:description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in and anonymous.">
+  <meta property="og:description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in.">
   <meta property="og:image" content="https://milesta.app/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Milesta — Your life, one milestone at a time.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Privacy Policy — Milesta">
-  <meta name="twitter:description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in and anonymous.">
+  <meta name="twitter:description" content="How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in.">
   <meta name="twitter:image" content="https://milesta.app/assets/og-image.png">
   <link rel="icon" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/favicon.png">
@@ -153,42 +153,62 @@
         <header class="doc-hero">
           <p class="kicker">Legal</p>
           <h1 class="doc-title">Privacy <span class="grad-text">Policy</span></h1>
-          <p class="doc-updated">Last updated: October 2, 2026</p>
+          <p class="doc-updated">Last updated: November 8, 2026</p>
         </header>
         <article class="doc">
-          <p>Milesta is a private, local-first life journal for iOS.</p>
+          <p>Milesta is a private, local-first life journal for iPhone, iPad, Mac, and Android.</p>
 
           <h2>What we collect</h2>
-          <p>Nothing, by default. Milesta has no accounts, no tracking, and no servers operated by us.</p>
-          <p>If — and only if — you opt in (during onboarding or in Settings), Milesta sends <strong>anonymous usage statistics</strong> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, links, or any identifier tied to you, and you can switch them off at any time in Settings. See <a href="https://posthog.com/privacy" rel="noopener">PostHog's privacy policy</a>.</p>
+          <p>Milesta has no accounts, no tracking, and no servers operated by us. At launch it checks with RevenueCat whether you have Premium, using a random identifier the app creates (see Purchases, and On Android); on Android, Google Play's billing component also sends Google technical logs of that check. Your milestones, photos, notes, places, and links are never sent by the app on its own.</p>
+          <p>If — and only if — you opt in (during onboarding or in Settings), Milesta sends <strong>usage statistics</strong> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, or links, and no identifier except a random one created on your device; you can switch them off at any time in Settings. See <a href="https://posthog.com/privacy" rel="noopener">PostHog's privacy policy</a>.</p>
 
           <h2>Where your data lives</h2>
-          <p>Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data.</p>
+          <p>Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data on your device; a copy in a backup — one you made, or your phone's own backup to iCloud or your Google Account — stays until you delete it there.</p>
           <p>If you turn on “Keep in iCloud Drive” in Settings, your automatic monthly backups are saved to your own iCloud Drive, in the Milesta folder, under your Apple Account and Apple's terms. We have no access to them.</p>
 
           <h2>What ever leaves your device</h2>
-          <p>Only content you explicitly share yourself:</p>
+          <p>Besides the Premium check (with, on Android, its billing logs) and, if you opt in, usage statistics, only what you share, save, or look up yourself:</p>
           <ul>
           <li>Recap images, posters, or text summaries you send through the iOS share sheet.</li>
           <li>Backup files you export through the Files app.</li>
           <li>Automatic backups, if you choose to keep them in your own iCloud Drive.</li>
+          <li>A position, once, when you tap the current-location button or pick a Journaling Suggestions moment that has one, to name the place (see Location).</li>
           </ul>
-          <p>Milesta never transmits anything on its own. Optional automatic backups stay on your device unless you choose iCloud Drive.</p>
+          <p>Optional automatic backups stay on your device unless you choose iCloud Drive or, on Android, a folder elsewhere.</p>
 
           <h2>Location</h2>
-          <p>Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission and Milesta performs a single lookup to turn your position into a short place name (like "Berlin, Germany"). Only that text is saved, on your device. Milesta never tracks, stores, or transmits coordinates, and never accesses location in the background.</p>
+          <p>Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission, and your position is sent once to Apple's geocoding service to turn it into a short place name (like "Berlin, Germany"). On iPhone, picking a moment from Journaling Suggestions that has a location names its place the same way: its position is sent once to Apple's geocoding service. Only the name is saved, on your device. Milesta itself never tracks or stores coordinates, and never accesses location in the background. On Android, see On Android.</p>
 
           <h2>Face ID</h2>
           <p>If you enable App Lock, Face ID is evaluated entirely by iOS on your device. Milesta only receives a yes/no result and never accesses biometric data.</p>
 
           <h2>Purchases</h2>
-          <p>Subscriptions are processed by Apple. If enabled, receipt validation is handled by RevenueCat using an anonymous identifier; no personal information or journal content is ever involved. See <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's privacy policy</a>.</p>
+          <p>On iPhone, iPad, and Mac, subscriptions are processed by Apple; on Android, see On Android. Receipt validation is handled by RevenueCat using a random identifier the app creates; your name, email address, and journal are never involved. See <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's privacy policy</a>.</p>
 
           <h2>Notifications</h2>
           <p>Anniversary reminders, recap announcements, and encouragement notes are scheduled locally on your device. No push servers are used.</p>
 
+          <h2 id="android">On Android</h2>
+          <p>Milesta for Android keeps the same promises. What differs:</p>
+          <ul>
+          <li><strong>Purchases.</strong> Milesta Premium is sold through Google Play's billing system and charged to your Google Account; Google processes the payment under <a href="https://policies.google.com/privacy" rel="noopener">its own privacy policy</a>. At launch, Milesta asks RevenueCat whether you have Premium, using a random identifier the app creates, the purchase token Google Play issues if you have bought something, and technical details such as your phone model, Android version, and language — never your name, email address, or journal. Google Play's billing component also sends Google technical logs of its own billing calls, such as whether they succeeded. To have RevenueCat's record of your purchases deleted, email <a href="mailto:info@milesta.app">info@milesta.app</a> with your Google Play order number (it starts with "GPA.").</li>
+          <li><strong>Usage statistics.</strong> The same opt-in as above, off until you say yes during onboarding or in Settings → Privacy. Each event names a feature that was used and carries the app version, your phone's make and model, the Android version, language, time zone, and a random identifier created on your phone when you opt in. Events are never linked to your journal and contain nothing that names you — never your milestones, photos, places, or links. PostHog discards your IP address and does not look up where it is. Switch statistics off and nothing more is sent.</li>
+          <li><strong>Monthly backups.</strong> If you turn them on, Milesta saves a backup file each month into a folder you choose — on your phone, on a memory card, or in a cloud storage app that offers folders — under that provider's terms. We have no access to it. Export Backup and shared images go to the app you pick in Android's share sheet.</li>
+          <li><strong>Android's own backup.</strong> If your phone backs up to your Google Account, Android includes your milestones and settings — never your photos — only when that backup is end-to-end encrypted with your screen lock, so neither Google nor we can read it; without a screen lock, Milesta is left out. Moving to a new phone with Android's transfer tool copies everything, photos included, directly between your phones. Both apply from Android 9; on Android 8, Milesta is left out of both.</li>
+          <li><strong>Location.</strong> Android asks for your approximate location only. To name the place, your position is sent once to your phone's geocoding service (on most phones, Google's); Milesta keeps only the name, never the coordinates.</li>
+          </ul>
+
           <h2>Your rights (GDPR)</h2>
-          <p>Because Milesta stores no personal data on any server, there is nothing for us to access, correct, export, or erase on your behalf — your data is exclusively in your hands, on your device. For any privacy question, contact us using the details in the <a href="impressum.html">Impressum</a>.</p>
+          <p>Soner Sahin is responsible for the processing described here (contact: <a href="mailto:info@milesta.app">info@milesta.app</a>; details in the <a href="impressum.html">Impressum</a>). Your journal — milestones, photos, notes, places, and links — stays on your device and in the backups you choose to make; we never receive it. What reaches a server, why, and on what legal basis:</p>
+          <ul>
+          <li><strong>Premium check and purchases — RevenueCat</strong> (RevenueCat, Inc., USA), our processor. It receives a random identifier the app creates, your purchase records from the App Store or Google Play, and technical details such as your device model, system version, and language, to provide the subscription you bought (Art. 6(1)(b) GDPR) and, before any purchase, in our legitimate interest in recognising one, for example after a reinstall (Art. 6(1)(f)). Transfers to the USA rely on the EU Standard Contractual Clauses in RevenueCat's data processing agreement. RevenueCat keeps these records for as long as we use its service; we delete yours earlier when you ask.</li>
+          <li><strong>Usage statistics — PostHog</strong> (PostHog Inc., USA), our processor, only with your consent (Art. 6(1)(a)), which you can withdraw at any time in Settings. Events are stored in PostHog's EU cloud; where PostHog or its sub-processors access them from outside the EU, the EU–US Data Privacy Framework, in which PostHog takes part, and the EU Standard Contractual Clauses apply. Events are kept for up to seven years, PostHog's retention on our plan, and then deleted.</li>
+          <li><strong>Place names.</strong> When you tap the current-location button, or on iPhone pick a Journaling Suggestions moment that has a location, that position is sent once to your device's geocoding service (Apple's on iPhone, iPad, and Mac; on most Android phones, Google's) to name the place you asked for (Art. 6(1)(b)). Only the name is kept, on your device.</li>
+          <li><strong>Apple and Google</strong> process payments, store accounts, place-name lookups, the backups they hold for you and, on Android, the logs of Google Play's billing component as controllers in their own right, under their own privacy policies.</li>
+          </ul>
+          <p>Storing the random identifier for the Premium check on your device is strictly necessary for the app you asked for (§ 25(2) no. 2 TDDDG); the statistics' identifier is stored only with your consent (§ 25(1) TDDDG).</p>
+          <p>You don't have to provide any of this. Without the Premium check, Milesta can't recognise a subscription; without your consent, no statistics are sent; without the lookup, you type the place yourself. Milesta makes no automated decisions about you and builds no profile.</p>
+          <p>You have the right of access, rectification, erasure, restriction of processing, data portability, and to object to processing based on legitimate interest, and you can withdraw consent at any time with effect for the future. Write to <a href="mailto:info@milesta.app">info@milesta.app</a>; for purchase records, include your order number from the store's receipt. Usage statistics carry only a random identifier that we cannot link to you, so we cannot find yours for a request (Art. 11 GDPR); switching them off stops them. You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live or work.</p>
 
           <h2>This website</h2>
           <p>milesta.app uses PostHog, hosted in the European Union, in <em>cookieless mode</em> for aggregate visit statistics: no cookies, no local storage, no cross-site tracking, and IP addresses are discarded at ingestion. Page performance metrics are collected anonymously via Vercel Speed Insights. Neither can identify you. If you pick a language or pause the animations, your browser remembers that choice on your device; it is never sent to us.</p>

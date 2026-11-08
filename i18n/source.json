@@ -1314,8 +1314,8 @@
   ]
  },
  {
-  "id": "cd2e343baa29",
-  "source": "How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in and anonymous.",
+  "id": "abba9ca96539",
+  "source": "How Milesta handles your data: no account, no ads, no server of our own. Your journal stays on your device, and usage statistics are opt-in.",
   "contexts": [
    "privacy.html meta description",
    "privacy.html meta og:description",
@@ -1338,15 +1338,15 @@
   ]
  },
  {
-  "id": "f5e98bf64ba8",
-  "source": "Last updated: October 2, 2026",
+  "id": "51bbf34bee22",
+  "source": "Last updated: November 8, 2026",
   "contexts": [
    "privacy.html p.doc-updated"
   ]
  },
  {
-  "id": "bb1a48a8a6f4",
-  "source": "Milesta is a private, local-first life journal for iOS.",
+  "id": "5315f88f687f",
+  "source": "Milesta is a private, local-first life journal for iPhone, iPad, Mac, and Android.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1359,15 +1359,15 @@
   ]
  },
  {
-  "id": "45ee7da9c718",
-  "source": "Nothing, by default. Milesta has no accounts, no tracking, and no servers operated by us.",
+  "id": "ce7d975fc2bf",
+  "source": "Milesta has no accounts, no tracking, and no servers operated by us. At launch it checks with RevenueCat whether you have Premium, using a random identifier the app creates (see Purchases, and On Android); on Android, Google Play's billing component also sends Google technical logs of that check. Your milestones, photos, notes, places, and links are never sent by the app on its own.",
   "contexts": [
    "privacy.html p"
   ]
  },
  {
-  "id": "7ce63957ea38",
-  "source": "If — and only if — you opt in (during onboarding or in Settings), Milesta sends <0>anonymous usage statistics</0> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, links, or any identifier tied to you, and you can switch them off at any time in Settings. See <1>PostHog's privacy policy</1>.",
+  "id": "7a73bdd7a156",
+  "source": "If — and only if — you opt in (during onboarding or in Settings), Milesta sends <0>usage statistics</0> to PostHog, hosted in the European Union: which features are used and how often. These events never contain your milestone texts, notes, photos, places, or links, and no identifier except a random one created on your device; you can switch them off at any time in Settings. See <1>PostHog's privacy policy</1>.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1380,8 +1380,8 @@
   ]
  },
  {
-  "id": "dd705d939307",
-  "source": "Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data.",
+  "id": "194fee902f6a",
+  "source": "Every milestone, photo, note, link, and category you create is stored only on your device, in the app's local database. Deleting the app deletes the data on your device; a copy in a backup — one you made, or your phone's own backup to iCloud or your Google Account — stays until you delete it there.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1401,8 +1401,8 @@
   ]
  },
  {
-  "id": "143a4870ea2b",
-  "source": "Only content you explicitly share yourself:",
+  "id": "f4c303e39b07",
+  "source": "Besides the Premium check (with, on Android, its billing logs) and, if you opt in, usage statistics, only what you share, save, or look up yourself:",
   "contexts": [
    "privacy.html p"
   ]
@@ -1429,8 +1429,15 @@
   ]
  },
  {
-  "id": "53f1aceef830",
-  "source": "Milesta never transmits anything on its own. Optional automatic backups stay on your device unless you choose iCloud Drive.",
+  "id": "34c366b3cb28",
+  "source": "A position, once, when you tap the current-location button or pick a Journaling Suggestions moment that has one, to name the place (see Location).",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "34fd7fc0ab08",
+  "source": "Optional automatic backups stay on your device unless you choose iCloud Drive or, on Android, a folder elsewhere.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1443,8 +1450,8 @@
   ]
  },
  {
-  "id": "c771b232268c",
-  "source": "Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission and Milesta performs a single lookup to turn your position into a short place name (like \"Berlin, Germany\"). Only that text is saved, on your device. Milesta never tracks, stores, or transmits coordinates, and never accesses location in the background.",
+  "id": "f2f69f3b704e",
+  "source": "Adding a place to a milestone is optional. If you tap the current-location button, iOS asks for permission, and your position is sent once to Apple's geocoding service to turn it into a short place name (like \"Berlin, Germany\"). On iPhone, picking a moment from Journaling Suggestions that has a location names its place the same way: its position is sent once to Apple's geocoding service. Only the name is saved, on your device. Milesta itself never tracks or stores coordinates, and never accesses location in the background. On Android, see On Android.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1471,8 +1478,8 @@
   ]
  },
  {
-  "id": "d16b5ed245e4",
-  "source": "Subscriptions are processed by Apple. If enabled, receipt validation is handled by RevenueCat using an anonymous identifier; no personal information or journal content is ever involved. See <0>RevenueCat's privacy policy</0>.",
+  "id": "28c12ba10127",
+  "source": "On iPhone, iPad, and Mac, subscriptions are processed by Apple; on Android, see On Android. Receipt validation is handled by RevenueCat using a random identifier the app creates; your name, email address, and journal are never involved. See <0>RevenueCat's privacy policy</0>.",
   "contexts": [
    "privacy.html p"
   ]
@@ -1492,6 +1499,55 @@
   ]
  },
  {
+  "id": "a6d7796e5019",
+  "source": "On Android",
+  "contexts": [
+   "privacy.html h2#android"
+  ]
+ },
+ {
+  "id": "b2efeb62f419",
+  "source": "Milesta for Android keeps the same promises. What differs:",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "b27fd82dad72",
+  "source": "<0>Purchases.</0> Milesta Premium is sold through Google Play's billing system and charged to your Google Account; Google processes the payment under <1>its own privacy policy</1>. At launch, Milesta asks RevenueCat whether you have Premium, using a random identifier the app creates, the purchase token Google Play issues if you have bought something, and technical details such as your phone model, Android version, and language — never your name, email address, or journal. Google Play's billing component also sends Google technical logs of its own billing calls, such as whether they succeeded. To have RevenueCat's record of your purchases deleted, email <2>info@milesta.app</2> with your Google Play order number (it starts with \"GPA.\").",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "45164cca998a",
+  "source": "<0>Usage statistics.</0> The same opt-in as above, off until you say yes during onboarding or in Settings → Privacy. Each event names a feature that was used and carries the app version, your phone's make and model, the Android version, language, time zone, and a random identifier created on your phone when you opt in. Events are never linked to your journal and contain nothing that names you — never your milestones, photos, places, or links. PostHog discards your IP address and does not look up where it is. Switch statistics off and nothing more is sent.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "9dbe3b1f75a8",
+  "source": "<0>Monthly backups.</0> If you turn them on, Milesta saves a backup file each month into a folder you choose — on your phone, on a memory card, or in a cloud storage app that offers folders — under that provider's terms. We have no access to it. Export Backup and shared images go to the app you pick in Android's share sheet.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "41af4d3577f6",
+  "source": "<0>Android's own backup.</0> If your phone backs up to your Google Account, Android includes your milestones and settings — never your photos — only when that backup is end-to-end encrypted with your screen lock, so neither Google nor we can read it; without a screen lock, Milesta is left out. Moving to a new phone with Android's transfer tool copies everything, photos included, directly between your phones. Both apply from Android 9; on Android 8, Milesta is left out of both.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "42baf45077a6",
+  "source": "<0>Location.</0> Android asks for your approximate location only. To name the place, your position is sent once to your phone's geocoding service (on most phones, Google's); Milesta keeps only the name, never the coordinates.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
   "id": "3a22458b6390",
   "source": "Your rights (GDPR)",
   "contexts": [
@@ -1499,8 +1555,57 @@
   ]
  },
  {
-  "id": "77b82cdd5902",
-  "source": "Because Milesta stores no personal data on any server, there is nothing for us to access, correct, export, or erase on your behalf — your data is exclusively in your hands, on your device. For any privacy question, contact us using the details in the <0>Impressum</0>.",
+  "id": "66dc649a963f",
+  "source": "Soner Sahin is responsible for the processing described here (contact: <0>info@milesta.app</0>; details in the <1>Impressum</1>). Your journal — milestones, photos, notes, places, and links — stays on your device and in the backups you choose to make; we never receive it. What reaches a server, why, and on what legal basis:",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "34ca9a033b6b",
+  "source": "<0>Premium check and purchases — RevenueCat</0> (RevenueCat, Inc., USA), our processor. It receives a random identifier the app creates, your purchase records from the App Store or Google Play, and technical details such as your device model, system version, and language, to provide the subscription you bought (Art. 6(1)(b) GDPR) and, before any purchase, in our legitimate interest in recognising one, for example after a reinstall (Art. 6(1)(f)). Transfers to the USA rely on the EU Standard Contractual Clauses in RevenueCat's data processing agreement. RevenueCat keeps these records for as long as we use its service; we delete yours earlier when you ask.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "03901b688639",
+  "source": "<0>Usage statistics — PostHog</0> (PostHog Inc., USA), our processor, only with your consent (Art. 6(1)(a)), which you can withdraw at any time in Settings. Events are stored in PostHog's EU cloud; where PostHog or its sub-processors access them from outside the EU, the EU–US Data Privacy Framework, in which PostHog takes part, and the EU Standard Contractual Clauses apply. Events are kept for up to seven years, PostHog's retention on our plan, and then deleted.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "82479f37419a",
+  "source": "<0>Place names.</0> When you tap the current-location button, or on iPhone pick a Journaling Suggestions moment that has a location, that position is sent once to your device's geocoding service (Apple's on iPhone, iPad, and Mac; on most Android phones, Google's) to name the place you asked for (Art. 6(1)(b)). Only the name is kept, on your device.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "1c2bd1014aaa",
+  "source": "<0>Apple and Google</0> process payments, store accounts, place-name lookups, the backups they hold for you and, on Android, the logs of Google Play's billing component as controllers in their own right, under their own privacy policies.",
+  "contexts": [
+   "privacy.html li"
+  ]
+ },
+ {
+  "id": "7325595c3d66",
+  "source": "Storing the random identifier for the Premium check on your device is strictly necessary for the app you asked for (§ 25(2) no. 2 TDDDG); the statistics' identifier is stored only with your consent (§ 25(1) TDDDG).",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "be577886cfdf",
+  "source": "You don't have to provide any of this. Without the Premium check, Milesta can't recognise a subscription; without your consent, no statistics are sent; without the lookup, you type the place yourself. Milesta makes no automated decisions about you and builds no profile.",
+  "contexts": [
+   "privacy.html p"
+  ]
+ },
+ {
+  "id": "75541cdd45e9",
+  "source": "You have the right of access, rectification, erasure, restriction of processing, data portability, and to object to processing based on legitimate interest, and you can withdraw consent at any time with effect for the future. Write to <0>info@milesta.app</0>; for purchase records, include your order number from the store's receipt. Usage statistics carry only a random identifier that we cannot link to you, so we cannot find yours for a request (Art. 11 GDPR); switching them off stops them. You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live or work.",
   "contexts": [
    "privacy.html p"
   ]
