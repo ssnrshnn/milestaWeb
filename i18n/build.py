@@ -21,6 +21,7 @@ import hashlib
 import html
 import json
 import re
+import struct
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -544,6 +545,16 @@ def build_page(name, code, strings, errors):
             h = re.search(r'height="(\d+)"', tag)
             return re.sub(r'width="\d+"', f'width="{round(int(h.group(1)) * ratio)}"', tag) if h else tag
         out = re.sub(r'<img src="/assets/app-store-badge\.svg"[^>]*>', fix_badge, out)
+    # Google's badge in the page's language (Google makes one for every language here; its PNG, padding trimmed), sized
+    # the same way, from the PNG's own width and height
+    play = SITE / 'assets' / 'badges' / f'google-play-{code}.png'
+    if play.exists():
+        w, h = struct.unpack('>II', play.read_bytes()[16:24])
+        def fix_play(t):
+            tag = t.group(0).replace('/assets/google-play-badge.png', f'/assets/badges/google-play-{code}.png')
+            hh = re.search(r'height="(\d+)"', tag)
+            return re.sub(r'width="\d+"', f'width="{round(int(hh.group(1)) * w / h)}"', tag) if hh else tag
+        out = re.sub(r'<img src="/assets/google-play-badge\.png"[^>]*>', fix_play, out)
     canon = f'{ORIGIN}{url(code, slug)}'
     out = re.sub(r'(<link rel="canonical" href=")[^"]*(")', r'\g<1>' + canon + r'\2', out)
     out = re.sub(r'(<meta property="og:url" content=")[^"]*(")', r'\g<1>' + canon + r'\2', out)

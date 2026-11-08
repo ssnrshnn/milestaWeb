@@ -1,7 +1,7 @@
 [
  {
-  "id": "53edaeccab5d",
-  "source": "Milesta — Private Life Journal & Diary App for iPhone",
+  "id": "c368c3fe78c7",
+  "source": "Milesta — Private Life Journal & Diary App for iPhone & Android",
   "contexts": [
    "index.html title",
    "index.html meta og:title",
@@ -9,8 +9,8 @@
   ]
  },
  {
-  "id": "2288a3a34f05",
-  "source": "A private life journal for iPhone and iPad. Log the milestones that matter, see your years as a winding path and get Wrapped-style recaps. No account, no ads.",
+  "id": "26d238b8eff2",
+  "source": "A private life journal for iPhone, iPad and Android. Log the milestones that matter, see your years as a winding path and get Wrapped-style recaps. No account, no ads.",
   "contexts": [
    "index.html meta description",
    "index.html meta og:description",
@@ -86,8 +86,8 @@
   ]
  },
  {
-  "id": "cf60c5ebf680",
-  "source": "For iPhone & iPad",
+  "id": "1c542137b87d",
+  "source": "For iPhone, iPad & Android",
   "contexts": [
    "index.html p.eyebrow-pill.intro"
   ]
@@ -109,6 +109,14 @@
  {
   "id": "a9096aaab40f",
   "source": "Download on the App Store",
+  "contexts": [
+   "index.html img @alt",
+   "support.html img @alt"
+  ]
+ },
+ {
+  "id": "e240e8bcf213",
+  "source": "Get it on Google Play",
   "contexts": [
    "index.html img @alt",
    "support.html img @alt"
@@ -306,8 +314,8 @@
   ]
  },
  {
-  "id": "5b64151058a5",
-  "source": "Every milestone becomes a waypoint on your path, on iPhone and iPad, in light or dark.",
+  "id": "83c2c6138704",
+  "source": "Every milestone becomes a waypoint on your path, on iPhone, iPad and Android, in light or dark.",
   "contexts": [
    "index.html p"
   ]
@@ -882,8 +890,8 @@
   ]
  },
  {
-  "id": "d614c60e364d",
-  "source": "No account. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it or back it up. Lock Milesta with Face ID.",
+  "id": "c1ae9585f56a",
+  "source": "No account. No ads. Your milestones stay on your phone, and nothing leaves it unless you share it or back it up. Lock Milesta with Face ID or your fingerprint.",
   "contexts": [
    "index.html p"
   ]
@@ -1093,8 +1101,8 @@
   ]
  },
  {
-  "id": "ea90b541150f",
-  "source": "No account · No ads · Face ID lock · 15 languages",
+  "id": "222a0af6d196",
+  "source": "No account · No ads · App Lock · 15 languages",
   "contexts": [
    "index.html p.finale-facts"
   ]
@@ -1146,8 +1154,20 @@
   ]
  },
  {
-  "id": "52d7eca9b4cb",
-  "source": "© <0>2026</0> Milesta. For iPhone & iPad.",
+  "id": "da68b612ec36",
+  "source": "Google Play",
+  "contexts": [
+   "index.html a",
+   "support.html a",
+   "privacy.html a",
+   "terms.html a",
+   "press.html th",
+   "press.html a"
+  ]
+ },
+ {
+  "id": "546fdf6e6e50",
+  "source": "© <0>2026</0> Milesta. For iPhone, iPad & Android.",
   "contexts": [
    "index.html p.foot-copy",
    "support.html p.foot-copy",
@@ -1177,8 +1197,8 @@
   ]
  },
  {
-  "id": "fe2eb81ae56f",
-  "source": "Help with Milesta: backups and restoring data, Premium subscriptions, languages, Face ID lock — and how to reach the developer directly.",
+  "id": "ec86a27ac5ad",
+  "source": "Help with Milesta: backups and restoring data, Premium subscriptions, languages, App Lock — and how to reach the developer directly.",
   "contexts": [
    "support.html meta description",
    "support.html meta og:description",
@@ -1235,22 +1255,22 @@
   ]
  },
  {
-  "id": "4058b994e729",
-  "source": "Settings → Data → <0>Export Backup</0> creates a single file containing every milestone, photo, and category. You can also enable <1>Automatic monthly backup</1>; copies are kept in the Files app under On My iPhone → Milesta.",
+  "id": "c8839b18977b",
+  "source": "Settings → Data → <0>Export Backup</0> creates a single file containing every milestone, photo, and category. You can also enable <1>Automatic monthly backup</1>: on iPhone, copies are kept in the Files app under On My iPhone → Milesta; on Android, in a folder you choose.",
   "contexts": [
    "support.html p"
   ]
  },
  {
-  "id": "c4a237c2f45a",
-  "source": "How do I move to a new iPhone?",
+  "id": "043fcca57d03",
+  "source": "How do I move to a new phone?",
   "contexts": [
    "support.html h3"
   ]
  },
  {
-  "id": "e8fddfda0ae7",
-  "source": "Export a backup on the old device, send the file to the new one (AirDrop or Files), install Milesta, then Settings → Data → <0>Import Backup</0>.",
+  "id": "fe8acdddbc1a",
+  "source": "Export a backup on the old phone, send the file to the new one (AirDrop, Files, Google Drive or email), install Milesta, then Settings → Data → <0>Import Backup</0>. Backups work between iPhone, iPad and Android.",
   "contexts": [
    "support.html p"
   ]
@@ -1277,8 +1297,8 @@
   ]
  },
  {
-  "id": "6b6adf7fd51a",
-  "source": "Subscriptions are managed by Apple: Settings → your Apple ID → Subscriptions → Milesta → Cancel. Your milestones remain fully accessible on the free tier.",
+  "id": "932f723f1358",
+  "source": "On iPhone and iPad, subscriptions are managed by Apple: Settings → your Apple ID → Subscriptions → Milesta → Cancel. On Android, by Google Play: Play Store → your profile → Payments & subscriptions → Subscriptions → Milesta → Cancel, or in Milesta under Settings → Membership → Manage Subscription. Your milestones remain fully accessible on the free tier.",
   "contexts": [
    "support.html p"
   ]
@@ -1836,8 +1856,8 @@
   ]
  },
  {
-  "id": "83f2516a08ca",
-  "source": "Press kit for Milesta, the private, local-first life journal for iOS: facts, screenshots, app icon, and contact.",
+  "id": "aae36541997b",
+  "source": "Press kit for Milesta, the private, local-first life journal for iPhone, iPad and Android: facts, screenshots, app icon, and contact.",
   "contexts": [
    "press.html meta description",
    "press.html meta og:description",
@@ -1930,8 +1950,8 @@
   ]
  },
  {
-  "id": "5dc7b2dbe9d0",
-  "source": "July 29, 2026",
+  "id": "5da31d2965d5",
+  "source": "July 29, 2026 (App Store) · November 8, 2026 (Google Play)",
   "contexts": [
    "press.html td"
   ]
@@ -1944,8 +1964,8 @@
   ]
  },
  {
-  "id": "92a80d3ca4f0",
-  "source": "iPhone & iPad, iOS 18 or later",
+  "id": "def3f4c13b21",
+  "source": "iPhone & iPad (iOS 18 or later); Android phones, tablets and foldables (Android 8 or later)",
   "contexts": [
    "press.html td"
   ]
@@ -1972,8 +1992,8 @@
   ]
  },
  {
-  "id": "dcd35e863a6b",
-  "source": "Local-first: no account, no ads, no server of our own — journal entries stay on the device unless you share them or choose to back them up. Face ID lock. Backups you control. Anonymous usage statistics are opt-in and off by default; the App Store privacy label reflects that as \"Analytics and Purchases, not linked to you.\"",
+  "id": "c41074e6f17a",
+  "source": "Local-first: no account, no ads, no server of our own — journal entries stay on the device unless you share them or choose to back them up. Face ID or fingerprint lock. Backups you control. Usage statistics are opt-in and off by default; the App Store privacy label reflects that as \"Analytics and Purchases, not linked to you.\"",
   "contexts": [
    "press.html td"
   ]
@@ -1981,6 +2001,13 @@
  {
   "id": "7a74f5b15f8e",
   "source": "apps.apple.com/app/id6791968029",
+  "contexts": [
+   "press.html a"
+  ]
+ },
+ {
+  "id": "7f530e375724",
+  "source": "Milesta on Google Play",
   "contexts": [
    "press.html a"
   ]
@@ -2007,8 +2034,8 @@
   ]
  },
  {
-  "id": "f307bfb05728",
-  "source": "Milesta is a private life journal for people who quit journaling: instead of daily entries, you log the moments that actually matter — a new job, a move, a first marathon — and Milesta renders them as a winding path you scroll through like a hiking trail of your own life. Monthly and yearly recaps become Wrapped-style cards. Everything stays on your iPhone: no account, no ads.",
+  "id": "239df154fc5a",
+  "source": "Milesta is a private life journal for people who quit journaling: instead of daily entries, you log the moments that actually matter — a new job, a move, a first marathon — and Milesta renders them as a winding path you scroll through like a hiking trail of your own life. Monthly and yearly recaps become Wrapped-style cards. Everything stays on your phone: no account, no ads.",
   "contexts": [
    "press.html p"
   ]

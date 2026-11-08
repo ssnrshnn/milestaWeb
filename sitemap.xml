@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://milesta.app/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de"/>
@@ -317,7 +317,7 @@
   </url>
   <url>
     <loc>https://milesta.app/support</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/support"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/support"/>
@@ -1262,7 +1262,7 @@
   </url>
   <url>
     <loc>https://milesta.app/press</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://milesta.app/press"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://milesta.app/de/press"/>
