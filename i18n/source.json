@@ -1341,7 +1341,8 @@
   "id": "51bbf34bee22",
   "source": "Last updated: November 8, 2026",
   "contexts": [
-   "privacy.html p.doc-updated"
+   "privacy.html p.doc-updated",
+   "terms.html p.doc-updated"
   ]
  },
  {
@@ -1648,8 +1649,8 @@
   ]
  },
  {
-  "id": "825cc2776acb",
-  "source": "The terms of use for Milesta, the private, local-first life journal for iOS: your content, subscriptions, and what you can expect from the app.",
+  "id": "4d6fcb58ae7b",
+  "source": "The terms of use for Milesta, the private, local-first life journal for iPhone, iPad, Mac, and Android: your content, subscriptions, and what you can expect from the app.",
   "contexts": [
    "terms.html meta description",
    "terms.html meta og:description",
@@ -1664,15 +1665,8 @@
   ]
  },
  {
-  "id": "e86dda17a349",
-  "source": "Last updated: July 17, 2026",
-  "contexts": [
-   "terms.html p.doc-updated"
-  ]
- },
- {
-  "id": "7378b6b06f47",
-  "source": "These terms apply to the Milesta iOS application (\"the app\"). By using the app you agree to them. In addition, Apple's <0>Licensed Application End User License Agreement</0> applies.",
+  "id": "6708d3d5702d",
+  "source": "These terms apply to the Milesta app for iPhone, iPad, Mac, and Android (\"the app\"). By using the app you agree to them. On iPhone, iPad, and Mac, Apple's <0>Licensed Application End User License Agreement</0> applies in addition. On Android, Apple's agreement does not apply: you may use the app under these terms and the licence that apps on Google Play come with, and your use of Google Play itself is governed by the <1>Google Play Terms of Service</1>.",
   "contexts": [
    "terms.html p"
   ]
@@ -1692,8 +1686,8 @@
   ]
  },
  {
-  "id": "076af7721636",
-  "source": "Milesta Premium",
+  "id": "729680d647d4",
+  "source": "Milesta Premium on iPhone, iPad, and Mac",
   "contexts": [
    "terms.html h2"
   ]
@@ -1722,6 +1716,48 @@
  {
   "id": "eeb5b758c2d9",
   "source": "Free-tier features remain available without a subscription; your data is never held hostage — export works on every tier.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "899adb046aaa",
+  "source": "Milesta Premium on Android",
+  "contexts": [
+   "terms.html h2"
+  ]
+ },
+ {
+  "id": "0ff176e9f306",
+  "source": "On Android, Premium is an optional auto-renewing subscription, monthly or yearly, sold through Google Play. The price, in your local currency, is shown in Google Play before you buy. Where a free trial is offered (7 days for new subscribers), you are charged when it ends unless you cancel before then.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "c49edf51f5e8",
+  "source": "Payment is charged to the payment method of your Google Account when you confirm the purchase, or when the free trial ends.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "733faf21a5fe",
+  "source": "The subscription renews automatically at the end of each period unless you cancel it before then. Manage or cancel it anytime in Google Play under Payments & subscriptions → Subscriptions, or in the app under Settings → Membership → Manage Subscription. Uninstalling the app does not cancel it. After you cancel, Premium stays until the end of the period you have paid for.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "79e20799bcec",
+  "source": "Refunds follow <0>Google Play's refund policies</0>. Request one through Google Play, or write to <1>info@milesta.app</1>.",
+  "contexts": [
+   "terms.html li"
+  ]
+ },
+ {
+  "id": "3cf6ba03bc8c",
+  "source": "A subscription bought on Google Play does not carry over to the App Store, and one bought on the App Store does not carry over to Android.",
   "contexts": [
    "terms.html li"
   ]
